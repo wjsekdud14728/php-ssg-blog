@@ -138,13 +138,13 @@
   }
 
   /* 바디컨텐트 시작 */
-.body-contnet{
+.body-content{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-.body-content main{
+.body-content> main{
   flex-grow: 1;
 }
   /* 바디컨텐트 끝 */
@@ -298,8 +298,10 @@
   .bottom-bar{
       background-color: var(--top-bar__background-color);
       color: var(--top-bar__color);
-      padding-top: 50px;
-      justify-content: space-between;
+  }
+
+  .bottom-bar>.con{
+    padding: 20px 0;
   }
 
 .bottom-bar__info{
