@@ -16,6 +16,23 @@
 <!-- 폰트어썸 불러오기 -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
+<!-- 토스트 UI 시작 -->
+<!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/default.min.css">
+
+<!-- 토스트 UI 에디터, 자바스크립트 코어 -->
+<script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
+
+<!-- 코드 미러 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css" />
+<!-- 토스트 UI 에디터, CSS 코어 -->
+<link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
+
+<!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
+<script src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js"></script>
+<!-- 토스트 UI 끝 -->
+
 
 <link rel="stylesheet" href="index.css">
 
@@ -113,17 +130,59 @@
 
 </aside>
 <!-- 모바일 사이드 바 끝 -->
-<main class="con">
-  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, itaque temporibus! Repellendus dolorum ipsam placeat mollitia saepe non hic aut? Repellendus harum qui odit modi totam. Obcaecati quibusdam sapiente nisi!
-  Perspiciatis modi facere provident, ab alias dicta ducimus expedita quidem eveniet amet magni iste iure dolore blanditiis temporibus laborum. Alias nobis earum, a dicta id illo quidem facilis veritatis quibusdam.
-  Doloremque, amet? Numquam ducimus non, mollitia consequuntur reiciendis porro delectus repellendus sint! Neque delectus placeat eum, dolore tempore sequi debitis eius veritatis eos esse labore earum natus perferendis sed modi.
-  Quasi reiciendis iusto mollitia. Modi similique natus deleniti quo dolorum voluptatum sit nihil cum, soluta eius quam vitae pariatur. Perferendis minima modi libero soluta atque? Maxime error rerum quia dignissimos.
-  Aliquid obcaecati ea voluptatem minus cupiditate minima nesciunt odit, vitae libero eaque corporis? Similique quibusdam iusto doloribus hic sit, vel voluptas quo fugiat corporis veritatis nobis consectetur, porro aut ipsa!
-  Ipsum numquam facilis, iusto, harum minus et debitis sit est error dignissimos officiis! Natus nisi provident, cupiditate architecto voluptate consequuntur obcaecati dolorem inventore, iure deleniti illo, veritatis aspernatur tenetur quidem.
-  Quaerat illo ad corrupti asperiores, natus at quidem alias perspiciatis sunt assumenda amet quo quas a, expedita voluptas autem sit repellat voluptate excepturi quisquam itaque aut! Minus voluptas assumenda distinctio!
-  Aut id ipsa omnis qui. Sequi minus officiis quam, ipsum dolorem esse praesentium pariatur, tenetur provident soluta commodi quod deserunt molestiae consequuntur minima necessitatibus ut totam? Ducimus impedit itaque tempore!
-  Consectetur ducimus quos nisi praesentium magni delectus exercitationem ad sequi perferendis obcaecati maiores in debitis numquam laboriosam eum, sint excepturi labore sapiente quae, ullam eos maxime fuga vero? Pariatur, officiis.
-  Neque cupiditate nesciunt explicabo tempora tenetur non itaque quisquam vero dolor accusantium! Animi, fuga maxime eaque ea adipisci accusamus provident iusto unde cupiditate distinctio velit quas iste amet tempora laborum!
+<main>
+
+  <section class="section-latest-articles con-min-width">
+    <div class="con">
+      <div class="article-list-box">
+        <ul>
+          <li>
+            <h1>자바스크립트 사용법</h1>
+            <div>2020-01-12 12:12:14</div>
+            <div>
+              <script type="text/x-template">
+                # 자바스크립트 사용법
+```html
+<<!--REPLACE:script-->>
+var a = 10;
+</<!--REPLACE:script-->>
+<div class="a"></div>
+```
+              </script>
+              <div class="toast-ui-viewer"></div>
+            </div>
+          </li>
+          <li>
+            <h1>코드팬 사용법</h1>
+            <div>2020-01-12 12:12:14</div>
+            <div>
+              <script type="text/x-template">
+                # 코드팬 사용법
+```codepen
+https://codepen.io/wjsekdud789/embed/Exgdagw?height=265&theme-id=light&default-tab=html,result
+```
+              </script>
+              <div class="toast-ui-viewer"></div>
+            </div>
+          </li>
+          <li>
+            <h1>유튜브 사용법</h1>
+            <div>2020-01-12 12:12:14</div>
+            <div>
+              <script type="text/x-template">
+                # 유튜브 사용법
+```youtube
+r8czeYIyJ1k
+```
+              </script>
+              <div class="toast-ui-viewer"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <!-- 바텀 바 시작 -->
