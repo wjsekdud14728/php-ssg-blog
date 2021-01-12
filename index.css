@@ -136,6 +136,18 @@
   .con {
     max-width: var(--site-width);
   }
+
+  /* 바디컨텐트 시작 */
+.body-contnet{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.body-content main{
+  flex-grow: 1;
+}
+  /* 바디컨텐트 끝 */
   
   /* 로고 시작 */
   .logo {
