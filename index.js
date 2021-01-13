@@ -1,4 +1,21 @@
 console.clear();
+// 커서설정
+const $cursor = $('.cursor');
+const $cursorSahdow = $('.cursor-shadow');
+
+$(window).mousemove(function(e) {
+  $cursor.css({
+    top:e.clientY,
+    left:e.clientX
+  });
+  
+  $cursorSahdow.css({
+    top:e.clientY,
+    left:e.clientX
+  });
+});
+
+// 모바일 바
 function MobileTopBar__init() {
   $('.mobile-top-bar__btn-toggle-side-bar').click(function() {
     let $this = $(this);
