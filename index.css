@@ -179,6 +179,12 @@
   flex-grow: 1;
 }
   /* 바디컨텐트 끝 */
+
+  /* 섹션 타이틀 시작 */
+.section-title {
+  padding:0 10px;
+}
+/* 섹션 타이틀 끝 */
   
   /* 로고 시작 */
   .logo {
@@ -339,6 +345,26 @@
     margin-left: 20px;
   }
 
+  /* 바텀바 끝 */
+
+  /* 게시물 리스트 박스 시작 */
+.article-list-box {
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:30px;
+}
+
+.article-list-box > ul > li {
+  border-top:2px dotted black;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.article-list-box__reg-date::before {
+  content:"작성 : ";
+}
+/* 게시물 리스트 박스 끝 */
+
   /* 플러그인 시작 */
   .toast-ui-youtube-plugin-wrap {
     max-width:500px;
@@ -364,5 +390,14 @@
   .toast-ui-codepen-plugin-wrap > iframe {
     width:100%;
   }
+
+
+
+  /* 기존의 코드 블록에 걸려있는 여백과 배경색 제거 */
+.toast-ui-viewer .tui-editor-contents pre {
+  margin:0;
+  padding:0;
+  background-color:transparent;
+}
   /* 플러그인 끝 */
   /* 커스텀 끝 */
