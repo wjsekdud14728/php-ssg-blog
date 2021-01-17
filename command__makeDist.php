@@ -5,9 +5,15 @@ $originFiles = [
     "about.ssghtml.php",
 ];
 
-foreach ( $originFiles as $originFile) {
-    $distFileName= str_replace(".ssghtml.php", '.html', $originFile);
+foreach ( $originFiles as $index => $originFile) {
+    $distFileName = str_replace(".ssghtml.php", ".html", $originFile);
     $command = "c:\\xampp\\php\\php.exe {$originFile} > {$distFileName}";
-    echo $command;
-    exit;
+    shell_exec($command);
+
+    $newSource = file_get_contents($distFileName);
+    $newSource = str_replace(".ssghtml.php", ".html", $newSource);
+
+    file_put_contents($distFileName, $newSource);
+
+    echo "{$index} : {$distFileName} 생성됨\n";
 }
