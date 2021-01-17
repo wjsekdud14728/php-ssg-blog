@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>디자이너 DA0</title>
+  <title><?= echo $siteTile ?></title>
 </head>
 
 <body>
