@@ -139,6 +139,22 @@ a {
     max-width: var(--site-width);
 }
 
+/* 바디 콘텐트 시작 */
+.body-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.body-content > *{
+
+}
+
+.body-content>main{
+    flex-grow: 1;
+}
+/* 바디 콘텐트 끝 */
+
 /* 로고 시작 */
 .logo {
     display: flex;
@@ -279,4 +295,15 @@ a {
 }
 
 /* 모바일 사이드바 끝 */
+
+/* 하단바 시작 */
+.bottom-bar{
+    background-color: black;
+    color: white;
+}
+
+.bottom-bar>.con{
+    padding: 10px 0;
+}
+/* 하단바 끝 */
 /* 커스텀 끝 */

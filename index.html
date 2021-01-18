@@ -5,107 +5,128 @@
     <meta charset="UTF-8">
     <title>Document</title>
 
-        <!-- 반응형 필수 -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 반응형 필수 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- 폰트어썸 적용 -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    
-        <!-- 제이쿼리 -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- 폰트어썸 적용 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-        <link rel="stylesheet" href="common.css">
-        <script src="common.js" defer></script>
+    <!-- 제이쿼리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <link rel="stylesheet" href="index.css">
-        <script src="index.js" defer></script>
+    <link rel="stylesheet" href="common.css">
+    <script src="common.js" defer></script>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
 </head>
 
 <body>
-    <!-- 탑바시작 -->
-    <header class="top-bar con-min-width visible-md-up">
-        <div class="con height-100p flex flex-jc-sb">
-            <a href="#" class="logo">
-                <span><i class="fas fa-pen-nib"></i></span>
-                <span>DESIGNER DA0</span>
-            </a>
-            <nav class="top-bar__menu-box-1 height-100p">
-                <ul class="flex height-100p">
-                    <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+    <div class="body-content">
+        <!-- 탑바시작 -->
+        <header class="top-bar con-min-width visible-md-up">
+            <div class="con height-100p flex flex-jc-sb">
+                <a href="#" class="logo">
+                    <span><i class="fas fa-pen-nib"></i></span>
+                    <span>DESIGNER DA0</span>
+                </a>
+                <nav class="top-bar__menu-box-1 height-100p">
+                    <ul class="flex height-100p">
+                        <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                                <span><i class="fas fa-home"></i></span>
+                                <span>HOME</span>
+                            </a>
+                        </li>
+                        <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                                <span><i class="far fa-address-card"></i></span>
+                                <span>ABOUT</span>
+                            </a>
+                        </li>
+                        <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                                <span><i class="fas fa-list-alt"></i></span>
+                                <span>PORTFOLIO</span>
+                            </a>
+                        </li>
+                        <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                                <span><i class="far fa-newspaper"></i></span>
+                                <span>NOTICE</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- 탑바끝 -->
+
+        <!-- 모바일탑바 시작 -->
+        <header class="mobile-top-bar con-min-widdth visible-sm-down flex">
+            <div class="flex flex-1-0-0">
+                <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div>
+                <a href="#" class="logo height-100p">
+                    <span><i class="fas fa-pen-nib"></i></span>
+                    <span>DESIGNER DA0</span>
+                </a>
+            </div>
+            <div class="flex-1-0-0"></div>
+        </header>
+        <!-- 모바일탑바 끝 -->
+
+        <!-- 모바일 사이드바 시작 -->
+        <aside class="mobile-side-bar visible-sm-down">
+
+            <nav class="mobile-side-bar__menu-box-1">
+                <ul>
+                    <li><a href="#" class="block">
                             <span><i class="fas fa-home"></i></span>
                             <span>HOME</span>
                         </a>
                     </li>
-                    <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                    <li><a href="#" class="block">
                             <span><i class="far fa-address-card"></i></span>
                             <span>ABOUT</span>
                         </a>
                     </li>
-                    <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                    <li><a href="#" class="block">
                             <span><i class="fas fa-list-alt"></i></span>
                             <span>PORTFOLIO</span>
                         </a>
                     </li>
-                    <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                    <li><a href="#" class="block">
                             <span><i class="far fa-newspaper"></i></span>
                             <span>NOTICE</span>
                         </a>
                     </li>
                 </ul>
             </nav>
-        </div>
-    </header>
-    <!-- 탑바끝 -->
 
-    <!-- 모바일탑바 시작 -->
-    <header class="mobile-top-bar con-min-widdth visible-sm-down flex">
-        <div class="flex flex-1-0-0">
-            <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c">
-                <div></div>
-                <div></div>
-                <div></div>
+        </aside>
+        <!-- 모바일 사이드바 끝 -->
+
+        <hr>
+        <main class="con">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit deserunt molestias provident eligendi
+            dolore facere, blanditiis assumenda quod ad, explicabo omnis id dicta cum eaque voluptas fuga dolores modi
+            nisi! lorem*100
+        </main>
+        <hr>
+
+        <!-- 하단바 시작 -->
+        <footer class="bottom-bar con-min-width">
+            <div class="con flex flex-jc-c">
+                <a href="#" class="logo">
+                    <span><i class="fas fa-pen-nib"></i></span>
+                    <span>DESIGNER DA0</span>
+                </a>
             </div>
-        </div>
-        <div>
-            <a href="#" class="logo height-100p">
-                <span><i class="fas fa-pen-nib"></i></span>
-                <span>DESIGNER DA0</span>
-            </a>
-        </div>
-        <div class="flex-1-0-0"></div>
-    </header>
-    <!-- 모바일탑바 끝 -->
-
-    <!-- 모바일 사이드바 시작 -->
-    <aside class="mobile-side-bar visible-sm-down">
-
-        <nav class="mobile-side-bar__menu-box-1">
-            <ul>
-                <li><a href="#" class="block">
-                        <span><i class="fas fa-home"></i></span>
-                        <span>HOME</span>
-                    </a>
-                </li>
-                <li><a href="#" class="block">
-                        <span><i class="far fa-address-card"></i></span>
-                        <span>ABOUT</span>
-                    </a>
-                </li>
-                <li><a href="#" class="block">
-                        <span><i class="fas fa-list-alt"></i></span>
-                        <span>PORTFOLIO</span>
-                    </a>
-                </li>
-                <li><a href="#" class="block">
-                        <span><i class="far fa-newspaper"></i></span>
-                        <span>NOTICE</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-    </aside>
-    <!-- 모바일 사이드바 끝 -->
+        </footer>
+        <!-- 하단바 끝 -->
+    </div>
 </body>
 
 </html>
