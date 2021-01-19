@@ -215,6 +215,15 @@ a {
     background-color: black;
     color: white;
     height: var(--mobile-top-bar__height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body{
+    padding-top: var(--mobile-top-bar__height);
 }
 
 :root {
@@ -277,6 +286,7 @@ a {
     display: flex;
     align-items: center;
     padding-bottom: var(--mobile-top-bar__height);
+    z-index: 1000;
 }
 
 .mobile-side-bar.active {
