@@ -335,6 +335,21 @@ a {
 .article-list-box__reg-date::before{
     content: "작성 : ";
 }
+
+.article-list-box__writer{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.article-list-box__writer > span:last-child{
+    width: 70px;
+    height: 70px;
+    background-color: coral;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 10px;
+}
 /* 게시물 리스트 박스 끝 */
 
 /* 토스트 UI 에디터 시작 */
@@ -374,6 +389,8 @@ a {
 /* 아바타 시작 */
 .svgs {
     width: 0;
+    height: 0;
+    overflow: hidden;
 }
 
 .svgs > *{
