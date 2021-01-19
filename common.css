@@ -211,6 +211,10 @@ a {
     --mobile-top-bar__height: 70px;
 }
 
+.mobile-top-bar-padding{
+    padding-top: var(--mobile-top-bar__height);
+}
+
 .mobile-top-bar {
     background-color: black;
     color: white;
@@ -220,10 +224,6 @@ a {
     left: 0;
     width: 100%;
     z-index: 1000;
-}
-
-body{
-    padding-top: var(--mobile-top-bar__height);
 }
 
 :root {
@@ -370,4 +370,14 @@ body{
       background-color: transparent;
   }
 /* 토스틑 UI 에디터 끝 */
+
+/* 아바타 시작 */
+.svgs {
+    width: 0;
+}
+
+.svgs > *{
+    display: block;
+}
+/* 아바타 끝 */
 /* 커스텀 끝 */
