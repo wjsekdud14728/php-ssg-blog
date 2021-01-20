@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>디자이너 다0</title>
+    <title><?=$siteTitle?></title>
 
     <!-- 반응형 필수 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
