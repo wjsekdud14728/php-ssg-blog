@@ -18,64 +18,33 @@ require_once "head.php";
         <div class="article-list-box">
             <ul>
                 <li>
-                    <h1 class="article-list-box__title">자바스크립트 태그</h1>
-                    <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+                    <h1 class="article-list-box__title"><?=$article1["title"]?></h1>
+                    <div class="article-list-box__reg-date"><?=$article1["regDate"]?></div>
                     <div class="article-list-box__writer">
-                        <span>전다영</span>
+                        <span><?=$article1["writerName"]?></span>
                         <span>
-                            <svg viewBox="0 0 264 280">
-                                <use xlink:href="#avatar-1"></use>
-                            </svg>
+                        <?=$article1["writerAvatar"]?>
                         </span>
                     </div>
                     <div class="article-list-box__body">
                         <script type="text/x-template">
-# 개요
-- script 태그를 사용해야 한다.
-- src 속성으로 외부 스크립트를 불러올 수 있다.
-- defer 속성으로 html 엘리먼트 로딩까지 실행을 유보시킬 수 있다.
-- 자식 컨텐츠로 자바 스크립트를 넣어서 사용할 수 있다.
-                                        
-# 예시 - 자식 컨텐츠로 자바스크립트를 넣어서 사용
-```html
-<t-script>
-var a = 10;
-</t-script>
-<div class="a"></div>
-```
-                                    </script>
+                        <?=$article1["body"]?>
+                        </script>
                         <div class="toast-ui-viewer"></div>
                     </div>
                 </li>
 
                 <li>
-                    <h1 class="article-list-box__title">자바스크립트 태그</h1>
-                    <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+                    <h1 class="article-list-box__title"><?=$article2["title"]?></h1>
+                    <div class="article-list-box__reg-date"><?=$article2["regDate"]?></div>
                     <div class="article-list-box__writer">
-                        <span>전다영</span>
+                        <span><?=$article2["writerName"]?></span>
                         <span>
-                            <svg viewBox="0 0 264 280">
-                                <use xlink:href="#avatar-1"></use>
-                            </svg>
+                        <?=$article2["writerAvatar"]?>
                         </span>
                     </div>
                     <div class="article-list-box__body">
-                        <script type="text/x-template">
-# 태그
-```codepen
-https://codepen.io/wjsekdud789/embed/abmMwGP?height=265&theme-id=dark&default-tab=html,result&editable=true
-```
-
-# 콘솔
-```codepen
-https://codepen.io/jangka44/embed/gOwERBM?height=300&theme-id=light&default-tab=js,result&editable=true
-```
-
-# 참고영상
-```youtube
-wnudr9qjrbA
-```
-                                    </script>
+                        <script type="text/x-template"><?=$article2["body"]?></script>
                         <div class="toast-ui-viewer"></div>
                     </div>
                 </li>
