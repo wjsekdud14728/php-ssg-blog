@@ -146,10 +146,6 @@ a {
     min-height: 100vh;
 }
 
-.body-content > *{
-
-}
-
 .body-content>main{
     flex-grow: 1;
 }
@@ -186,8 +182,6 @@ a {
     color: white;
     height: 100px;
 }
-
-.top-bar__menu-box-1>ul>li {}
 
 .top-bar__menu-box-1>ul>li>a {
     font-weight: bold;
