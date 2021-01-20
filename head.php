@@ -61,7 +61,7 @@
                                 <span>ABOUT</span>
                             </a>
                         </li>
-                        <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                        <li><a href="pf.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
                                 <span><i class="fas fa-list-alt"></i></span>
                                 <span>PORTFOLIO</span>
                             </a>
