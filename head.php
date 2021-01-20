@@ -34,11 +34,10 @@
     </script>
     <!-- 토스트 UI 끝 -->
 
-    <link rel="stylesheet" href="common.css">
-    <script src="common.js" defer></script>
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/common.js" defer></script>
 
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
+
 </head>
 
 <body>

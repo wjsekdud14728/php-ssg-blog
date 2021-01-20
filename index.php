@@ -1,31 +1,34 @@
 <?php
 require_once "head.php";
 ?>
-            
-            <section class="section-title con-min-width">
-                <h1 class="con">
-                    <span><i class="fas fa-fire"></i></span>
-                    <span>LATEST ARTICLES</span>
-                </h1>
-            </section>
 
-            <section class="section-latest-articles con-min-width">
-                <div class="con">
-                    <div class="article-list-box">
-                        <ul>
-                            <li>
-                                <h1 class="article-list-box__title">자바스크립트 태그</h1>
-                                <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
-                                <div class="article-list-box__writer">
-                                    <span>전다영</span>
-                                    <span>
-                                        <svg viewBox="0 0 264 280">
-                                            <use xlink:href="#avatar-1"></use>
-                                        </svg>
-                                    </span>
-                                </div>
-                                <div class="article-list-box__body">
-                                    <script type="text/x-template">
+<link rel="stylesheet" href="css/index.css">
+<script src="js/index.js" defer></script>
+
+<section class="section-title con-min-width">
+    <h1 class="con">
+        <span><i class="fas fa-fire"></i></span>
+        <span>LATEST ARTICLES</span>
+    </h1>
+</section>
+
+<section class="section-latest-articles con-min-width">
+    <div class="con">
+        <div class="article-list-box">
+            <ul>
+                <li>
+                    <h1 class="article-list-box__title">자바스크립트 태그</h1>
+                    <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+                    <div class="article-list-box__writer">
+                        <span>전다영</span>
+                        <span>
+                            <svg viewBox="0 0 264 280">
+                                <use xlink:href="#avatar-1"></use>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="article-list-box__body">
+                        <script type="text/x-template">
 # 개요
 - script 태그를 사용해야 한다.
 - src 속성으로 외부 스크립트를 불러올 수 있다.
@@ -40,23 +43,23 @@ var a = 10;
 <div class="a"></div>
 ```
                                     </script>
-                                    <div class="toast-ui-viewer"></div>
-                                </div>
-                            </li>
+                        <div class="toast-ui-viewer"></div>
+                    </div>
+                </li>
 
-                            <li>
-                                <h1 class="article-list-box__title">자바스크립트 태그</h1>
-                                <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
-                                <div class="article-list-box__writer">
-                                    <span>전다영</span>
-                                    <span>
-                                        <svg viewBox="0 0 264 280">
-                                            <use xlink:href="#avatar-1"></use>
-                                        </svg>
-                                    </span>
-                                </div>
-                                <div class="article-list-box__body">
-                                    <script type="text/x-template">
+                <li>
+                    <h1 class="article-list-box__title">자바스크립트 태그</h1>
+                    <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+                    <div class="article-list-box__writer">
+                        <span>전다영</span>
+                        <span>
+                            <svg viewBox="0 0 264 280">
+                                <use xlink:href="#avatar-1"></use>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="article-list-box__body">
+                        <script type="text/x-template">
 # 태그
 ```codepen
 https://codepen.io/wjsekdud789/embed/abmMwGP?height=265&theme-id=dark&default-tab=html,result&editable=true
@@ -72,13 +75,13 @@ https://codepen.io/jangka44/embed/gOwERBM?height=300&theme-id=light&default-tab=
 wnudr9qjrbA
 ```
                                     </script>
-                                    <div class="toast-ui-viewer"></div>
-                                </div>
-                            </li>
-                        </ul>
+                        <div class="toast-ui-viewer"></div>
                     </div>
-                </div>
-            </section>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 <?php
 require_once "foot.php";
 ?>
