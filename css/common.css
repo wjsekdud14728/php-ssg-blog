@@ -116,6 +116,10 @@ a {
     box-sizing: border-box;
 }
 
+.padding-0-10 {
+    padding: 0 10px;
+}
+
 @media(max-width: 720px) {
     .visible-md-up {
         display: none !important;
@@ -366,6 +370,17 @@ a {
 .article-list-box>ul>li {
     border-top: 3px dotted black;
     padding: 20px 0;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.article-list-box__title > a{
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+
+.article-list-box__title > a:hover{
+    color: red;
 }
 
 .article-list-box__reg-date::before {

@@ -8,7 +8,7 @@
     </h1>
 </section>
 
-<section class="section-article-detail con-min-width">
+<section class="section-article-detail con-min-width padding-0-10">
     <div class="con">
     <h1 class="article-list-box__title"><a href="article_detail_1.ssghtml.php" class="cursor-big"><?=$selectedArticle["title"]?></a></h1>
                     <div class="article-list-box__reg-date"><?=$selectedArticle["regDate"]?></div>
@@ -27,7 +27,7 @@
     </div>
 </section>
 
-<section class="section-article-reply-box con-min-width">
+<section class="section-article-reply-box con-min-width padding-0-10">
     <div class="con">
     <div id="disqus_thread"></div>
 <script>
