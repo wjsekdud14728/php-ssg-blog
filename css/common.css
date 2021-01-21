@@ -144,6 +144,7 @@ a {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #fff;
 }
 
 .body-content>main {
@@ -151,6 +152,48 @@ a {
 }
 
 /* 바디 콘텐트 끝 */
+
+/* 커서 시작 */
+* {
+    cursor:none;
+  }
+
+.cursor {
+    position:fixed;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color:white;
+    mix-blend-mode:difference;
+    pointer-events:none;
+    transform:translateX(-50%) translateY(-50%);
+    z-index:100;
+    transition:width .1s, height .1s;
+  }
+  
+  .cursor-shadow {
+    position:fixed;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:white;
+    mix-blend-mode:difference;
+    pointer-events:none;
+    transform:translateX(-50%) translateY(-50%);
+    transition:width .1s, height .1s, top .1s, left .1s;
+    z-index:99;
+  }
+  
+  .need-to-cursor-big .cursor-shadow {
+    width:100px;
+    height:100px;
+  }
+  
+  .cursor-big {
+    color:red;
+    cursor:pointer;
+  }
+/* 커서 끝 */
 
 /* 섹션타이틀 시작 */
 .section-title {

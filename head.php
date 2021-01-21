@@ -41,6 +41,9 @@
 </head>
 
 <body>
+<div class="cursor"></div>
+<div class="cursor-shadow"></div>
+
     <div class="body-content">
         <!-- 탑바시작 -->
         <header class="top-bar con-min-width visible-md-up">
