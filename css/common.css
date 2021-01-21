@@ -185,13 +185,8 @@ a {
   }
   
   .need-to-cursor-big .cursor-shadow {
-    width:100px;
-    height:100px;
-  }
-  
-  .cursor-big {
-    color:red;
-    cursor:pointer;
+    width:50px;
+    height:50px;
   }
 /* 커서 끝 */
 
@@ -352,6 +347,7 @@ a {
 
 /* 하단바 시작 */
 .bottom-bar {
+    margin-top: 30px;
     background-color: black;
     color: white;
 }

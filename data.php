@@ -49,3 +49,10 @@ var a = 10;
 ```
 EOT;
 
+if ( isset($articleId) ){
+    $articleVarName = "article" . $articleId;
+    $selectedArticle = $$articleVarName;
+}
+
+
+
