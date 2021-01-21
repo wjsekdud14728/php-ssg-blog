@@ -132,8 +132,7 @@
         <!-- 모바일 사이드바 끝 -->
 
         <hr>
-        <main>
-<link rel="stylesheet" href="css/about.css">
+        <main><link rel="stylesheet" href="css/about.css">
 <script src="js/about.js" defer></script>
 
 <section class="section-title con-min-width">
@@ -171,7 +170,24 @@ var a = 10;
                     </div>
     </div>
 </section>
-</main>
+
+<section class="section-article-reply-box con-min-width">
+    <div class="con">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://ssg-2020-12.oa.gg/article_detail_1.html';
+        this.page.identifier = 'article_detail_1.html';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://phpblog-7.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+    </div>
+</section></main>
 <hr>
 
 <!-- 하단바 시작 -->
