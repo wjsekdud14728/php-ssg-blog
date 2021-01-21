@@ -4,6 +4,7 @@ $siteTitle = "디자이너 전다영";
 
 // 게시물2
 $article2 = [];
+$article2["id"] = "2";
 $article2["title"] = "자바스크립트 태그 2";
 $article2["regDate"] = "2020-01-12 12:12:14";
 $article2["writerName"] = "전다영";
@@ -29,6 +30,7 @@ EOT;
 
 // 게시물1
 $article1 = [];
+$article1["id"] = 1;
 $article1["title"] = "자바스크립트 태그";
 $article1["regDate"] = "2020-01-12 12:12:14";
 $article1["writerName"] = "전다영";
