@@ -5,24 +5,30 @@ $siteTitle = "디자이너 전다영";
 // 게시물2
 $article2 = [];
 $article2["id"] = "2";
-$article2["title"] = "자바스크립트 태그 2";
-$article2["regDate"] = "2020-01-12 12:12:14";
+$article2["title"] = "2화, 숫자와 문장";
+$article2["regDate"] = "2021-01-12 18:33:42";
 $article2["writerName"] = "전다영";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article2["body"] = <<<EOT
-# 태그
-```codepen
-https://codepen.io/wjsekdud789/embed/abmMwGP?height=265&theme-id=dark&default-tab=html,result&editable=true
+# 숫자와 문장의 연산
+```javascript
+//숫자 + 숫자
+console.log(10+10) // type = number
+
+//문장 + 숫자(문장)
+console.log("점수 : " + "10") // type = string
+
+//문장 + 숫자
+console.log("점수 : " + 10) // type = string
 ```
 
-# 콘솔
-```codepen
-https://codepen.io/jangka44/embed/gOwERBM?height=300&theme-id=light&default-tab=js,result&editable=true
+# 연산의 우선순위
+```javascript
 ```
 
-# 참고영상
-```youtube
-wnudr9qjrbA
+# 실습
+```codepen
+https://codepen.io/jangka44/embed/XWjxbgy?height=300&theme-id=light&default-tab=js,result&editable=true
 ```
 EOT;
 
@@ -31,23 +37,22 @@ EOT;
 // 게시물1
 $article1 = [];
 $article1["id"] = 1;
-$article1["title"] = "자바스크립트 태그";
-$article1["regDate"] = "2020-01-12 12:12:14";
+$article1["title"] = "1화, 출력";
+$article1["regDate"] = "2021-01-12 18:33:17";
 $article1["writerName"] = "전다영";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article1["body"] = <<<EOT
-# 개요
-- script 태그를 사용해야 한다.
-- src 속성으로 외부 스크립트를 불러올 수 있다.
-- defer 속성으로 html 엘리먼트 로딩까지 실행을 유보시킬 수 있다.
-- 자식 컨텐츠로 자바 스크립트를 넣어서 사용할 수 있다.
-                                        
-# 예시 - 자식 컨텐츠로 자바스크립트를 넣어서 사용
+
 ```html
 <t-script>
-var a = 10;
-</t-script>
-<div class="a"></div>
+console.clear();
+console.log("HI");
+</t-script>>
+```
+
+# 실습
+```codepen
+https://codepen.io/wjsekdud789/embed/ExgdVja?height=265&theme-id=dark&default-tab=js,result&editable=true
 ```
 EOT;
 
