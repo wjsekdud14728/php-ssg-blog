@@ -1,3 +1,16 @@
+  
+<?php
+if ( defined('STDIN') ) {
+    $_GET['id'] = $argv[1];
+}
+
+require_once "data.php";
+require_once "head.php";
+
+$articleId = $_GET['id'];
+$selectedArticle = &getArticleById($articleId);
+?>
+
 <link rel="stylesheet" href="css/about.css">
 <script src="js/about.js" defer></script>
 
