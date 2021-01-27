@@ -23,7 +23,7 @@ $selectedArticle = &getArticleById($articleId);
 
 <section class="section-article-detail con-min-width padding-0-10">
     <div class="con">
-    <h1 class="article-list-box__title"><a href="article_detail_1.ssghtml.php" class="cursor-big"><?=$selectedArticle["title"]?></a></h1>
+    <h1 class="article-list-box__title"><?=$selectedArticle["title"]?></h1>
                     <div class="article-list-box__reg-date"><?=$selectedArticle["regDate"]?></div>
                     <div class="article-list-box__writer">
                         <span><?=$selectedArticle["writerName"]?></span>
@@ -36,6 +36,10 @@ $selectedArticle = &getArticleById($articleId);
                         <?=$selectedArticle["body"]?>
                         </script>
                         <div class="toast-ui-viewer"></div>
+                    </div>
+
+                    <div class="article-list-box__tags">
+                        <?=getArticleTagsHtml($selectedArticle["id"])?>
                     </div>
     </div>
 </section>

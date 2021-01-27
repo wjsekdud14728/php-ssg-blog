@@ -11,7 +11,7 @@ $article2["title"] = "2화, 숫자와 문장";
 $article2["regDate"] = "2021-01-12 18:33:42";
 $article2["writerName"] = "전다영";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article2["tags"] = ['CSS']
+$article2["tags"] = ["CSS"];
 $article2["body"] = <<<'EOT'
 # 숫자와 문장의 연산
 ```javascript
@@ -44,7 +44,7 @@ $article1["title"] = "1화, 출력";
 $article1["regDate"] = "2021-01-12 18:33:17";
 $article1["writerName"] = "전다영";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article1["tags"] = ['SCRIPT']
+$article1["tags"] = ["SCRIPT"];
 $article1["body"] = <<<'EOT'
 
 ```html
