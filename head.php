@@ -2,6 +2,19 @@
 <html lang="ko">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Q9JQLP7YW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0Q9JQLP7YW');
+    </script>
+
     <meta charset="UTF-8">
     <title><?=$siteTitle?></title>
 
@@ -41,8 +54,8 @@
 </head>
 
 <body>
-<div class="cursor"></div>
-<div class="cursor-shadow"></div>
+    <div class="cursor"></div>
+    <div class="cursor-shadow"></div>
 
     <div class="body-content">
         <!-- 탑바시작 -->
