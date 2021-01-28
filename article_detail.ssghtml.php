@@ -7,22 +7,14 @@ if ( defined('STDIN') ) {
 require_once "data.php";
 
 $articleId = $_GET['id'];
-$selectedArticle = &getArticleById($articleId);
-$siteTitle .= " - " .$selectedArticle['title'];
+$selectedArticle = &getForPrintArticleById($articleId);
+$pageTitle = $selectedArticle['pageTitle'];
+$pageThumbUrl = $selectedArticle['pageThumbUrl'];
+$pageDescription = $selectedArticle['pageDescription'];
+$pageKeywordsStr = $selectedArticle['pageKeywordsStr'];
 
 require_once "head.php";
-
 ?>
-
-<link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
-
-<section class="section-title con-min-width">
-    <h1 class="con">
-        <span><i class="fas fa-newspaper"></i></span>
-        <span>DETAIL</span>
-    </h1>
-</section>
 
 <section class="section-article-detail con-min-width padding-0-10">
     <div class="con">

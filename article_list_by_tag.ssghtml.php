@@ -1,9 +1,17 @@
+
 <?php
 if ( defined('STDIN') ) {
     $_GET['tag'] = $argv[1];
 }
 
 require_once "data.php";
+
+$tagInfo = &getForPrintTagInfo($_GET['tag']);
+$pageTitle = $tagInfo['pageTitle'];
+$pageThumbUrl = $tagInfo['pageThumbUrl'];
+$pageDescription = $tagInfo['pageDescription'];
+$pageKeywordsStr = $tagInfo['pageKeywordsStr'];
+
 require_once "head.php";
 
 $articles = &getArticlesByTag($_GET['tag']);
