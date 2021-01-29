@@ -17,6 +17,50 @@ $tagInfos = [
 ];
 // 태그정보 끝
 
+// 게시물4
+$article4 = [];
+$article4["id"] = "4";
+$article4["title"] = "4화, 조건문";
+$article4["regDate"] = "2021-01-14 18:33:42";
+$article4["writerName"] = "전다영";
+$article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article4["tags"] = ["JS"];
+$article4["body"] = <<<'EOT'
+# 조건문 예시
+```javascript
+var age = 5;
+
+console.log("== 1단계, 아주 어리석은 단계 ==")
+if ( age >= 20 ) {
+    console.log("성년입니다.");
+}
+if ( age < 20 ) {
+    console.log("미성년입니다.");
+}
+
+console.log("== 2단계, 조금 어리석은 단계 ==")
+if ( age >= 20 ) {
+    console.log("성년입니다.");
+}
+else if ( age < 20 ) {
+    console.log("미성년입니다.");
+}
+
+console.log("== 3단계, 영리한 단계 ==")
+if ( age >= 20 ) {
+    console.log("성년입니다.");
+}
+else {
+    console.log("미성년입니다.");
+}
+```
+
+문장 + 숫자 + 숫자 의 경우에는 문장과 숫자가 더해지면서 문장이 되고 그 문장과 다른 숫자가 또 더해지면서 문장이 된다. 결국 문자의 형태로 결과가 나온다.
+문장 + 숫자 * 숫자 의 경우에는 *먼저 계산이 되기 때문에 숫자 * 숫자가 먼저 계산되지만 마지막엔 문장 + 숫자가 되면서 문자의 형태로 결과가 나오지만 숫자는 계산된 결과로 문자형태로 나온다.
+문장 + (숫자 + 숫자) 의 경우에는 괄호안의 숫자 식이 먼저 계산되고 문장과 숫자가 계산되면서 문자형태로 결과값이 나온다.
+
+EOT;
+
 // 게시물3
 $article3 = [];
 $article3["id"] = "3";
@@ -26,29 +70,30 @@ $article3["writerName"] = "전다영";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article3["tags"] = ["CSS"];
 $article3["body"] = <<<'EOT'
-# 숫자와 문장의 연산
+# 변수 선언
 ```javascript
-//숫자 + 숫자
-console.log(10+10) // type = number
+console.log("== 변수 x 생성 ==");
+var x;
 
-//문장 + 숫자(문장)
-console.log("점수 : " + "10") // type = string
+console.log("== 변수 x에 값 할당 ==");
+x = 10;
 
-//문장 + 숫자
-console.log("점수 : " + 10) // type = string
+console.log("== 변수 x 사용 ==");
+console.log(x);
+console.log("x : " + x);
+
+console.log("== 변수 x의 값을 5 증가 ==");
+x = x + 5;
+console.log("x : " + x);
+
+console.log("== 변수 y 생성 ==");
+var y = x + 5;
+console.log("y : " + y);
+
+console.log("== 변수 x, y 사용 ==");
+console.log("x + y : " + (x + y));
 ```
 
-# 연산의 우선순위
-```javascript
-//문장 + 숫자 + 숫자
-console.log("점수 : " + 10 + 20);
-
-//문장 + 숫자 * 숫자
-console.log("점수 : " + 10 * 20);
-
-//문장 + (숫자 + 숫자)
-console.log("점수 : " + (10 + 20));
-```
 문장 + 숫자 + 숫자 의 경우에는 문장과 숫자가 더해지면서 문장이 되고 그 문장과 다른 숫자가 또 더해지면서 문장이 된다. 결국 문자의 형태로 결과가 나온다.
 문장 + 숫자 * 숫자 의 경우에는 *먼저 계산이 되기 때문에 숫자 * 숫자가 먼저 계산되지만 마지막엔 문장 + 숫자가 되면서 문자의 형태로 결과가 나오지만 숫자는 계산된 결과로 문자형태로 나온다.
 문장 + (숫자 + 숫자) 의 경우에는 괄호안의 숫자 식이 먼저 계산되고 문장과 숫자가 계산되면서 문자형태로 결과값이 나온다.
