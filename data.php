@@ -17,6 +17,34 @@ $tagInfos = [
 ];
 // 태그정보 끝
 
+// 게시물6
+$article6 = [];
+$article6["id"] = "6";
+$article6["title"] = "6화, 함수 - 매개변수";
+$article6["regDate"] = "2021-01-16 18:33:42";
+$article6["writerName"] = "전다영";
+$article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article6["tags"] = ["JS"];
+$article6["body"] = <<<'EOT'
+## 예시
+```javascript
+function plus(a, b) {
+    console.log(a + b);
+}
+
+plus(10, 20); // 30
+plus(100, 200); // 300
+
+function minus(a, b) {
+    console.log(a - b);
+}
+
+minus(10, 20); // -10
+minus(100, 200); // -100
+```
+
+EOT;
+
 // 게시물5
 $article5 = [];
 $article5["id"] = "5";
