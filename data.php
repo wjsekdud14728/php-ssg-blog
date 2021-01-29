@@ -17,6 +17,36 @@ $tagInfos = [
 ];
 // 태그정보 끝
 
+// 게시물5
+$article5 = [];
+$article5["id"] = "5";
+$article5["title"] = "5화, 함수의 개념";
+$article5["regDate"] = "2021-01-15 18:33:42";
+$article5["writerName"] = "전다영";
+$article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article5["tags"] = ["JS"];
+$article5["body"] = <<<'EOT'
+# 함수값의 종류
+- 실행할 수 없는 계열
+    - 숫자
+    - 문장
+    - 논리값(true/false)
+    - 객체
+- 실행할 수 있는 계열
+    - 함수 
+
+## 예시
+```javascript
+var say = function() {
+    console.log("== 함수 시작 ==");
+    console.log("안녕하세요.");
+    console.log("반갑습니다.");
+    console.log("== 함수 끝 ==");
+};
+```
+
+EOT;
+
 // 게시물4
 $article4 = [];
 $article4["id"] = "4";
