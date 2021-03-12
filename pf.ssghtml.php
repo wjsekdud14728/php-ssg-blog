@@ -13,7 +13,15 @@ require_once "head.php";
     </h1>
 </section>
 
-<div>dlskdjflskj</div>
+<nav class="pf-article">
+    <ul>
+        <li>
+        <a href="o'kitchen/index.html">
+        o'kitchen
+        </a>
+        </li>
+    </ul>
+</nav>
 <?php
 require_once "foot.php";
 ?>
