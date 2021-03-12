@@ -20,6 +20,24 @@ require_once "head.php";
         o'kitchen
         </a>
         </li>
+
+        <li>
+        <a href="o'kitchen/index.html">
+        o'kitchen
+        </a>
+        </li>
+
+        <li>
+        <a href="booking/index.html">
+        booking
+        </a>
+        </li>
+
+        <li>
+        <a href="cj/index.html">
+        cj
+        </a>
+        </li>
     </ul>
 </nav>
 <?php
