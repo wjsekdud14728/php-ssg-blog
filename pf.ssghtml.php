@@ -12,6 +12,8 @@ require_once "head.php";
         <span>PORTFOLIO</span>
     </h1>
 </section>
+
+<div>dlskdjflskj</div>
 <?php
 require_once "foot.php";
 ?>
