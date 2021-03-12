@@ -13,29 +13,29 @@ require_once "head.php";
     </h1>
 </section>
 
-<nav class="pf-article">
+<nav class="pf-article con">
     <ul>
         <li>
         <a href="o'kitchen/index.html">
-        o'kitchen
+        오키친 모작사이트
         </a>
         </li>
 
         <li>
-        <a href="o'kitchen/index.html">
-        o'kitchen
+        <a href="eoyeomo/index.html">
+        어여모 모작사이트
         </a>
         </li>
 
         <li>
         <a href="booking/index.html">
-        booking
+        booking 프로세스페이지
         </a>
         </li>
 
         <li>
         <a href="cj/index.html">
-        cj
+        cj 올리브네트웍스 리디자인 페이지
         </a>
         </li>
     </ul>
