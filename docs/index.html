@@ -163,6 +163,14 @@
         <main>
 <link rel="stylesheet" href="css/index.css">
 <script src="js/index.js" defer></script>
+<script>
+    // 주소 뒤에 /를 붙여주는 코드
+    // 오직 index.html, index.html 에도 추가해주세요.
+    if (location.pathname.indexOf('index.html' !== -1 && location.pathname.indexOf('index.html') !== -1 &&
+            location.pathname.substr(-1, 1) ~ = '/') {
+            location.replace(location.href + '/');
+        }
+</script>
 
 <section class="section-title con-min-width">
     <h1 class="con">
@@ -175,19 +183,20 @@
     <div class="con">
         <div class="article-list-box">
             <ul>
-                                    <li>
-                    <h1 class="article-list-box__title"><a href="article_detail_6.html" class="cursor-big">6화, 함수 - 매개변수</a></h1>
+                                <li>
+                    <h1 class="article-list-box__title"><a href="article_detail_6.html"
+                            class="cursor-big">6화, 함수 - 매개변수</a></h1>
                     <div class="article-list-box__reg-date">2021-01-16 18:33:42</div>
                     <div class="article-list-box__writer">
                         <span>전다영</span>
                         <span>
-                        <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>                        </span>
+                            <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>                        </span>
                     </div>
                     <div class="article-list-box__tags">
                          <a class="tag-link" href="article_list_by_tag_JS.html">#JS</a>                    </div>
                     <div class="article-list-box__body">
                         <script type="text/x-template">
-                        ## 예시
+                            ## 예시
 ```javascript
 function plus(a, b) {
     console.log(a + b);
@@ -207,19 +216,20 @@ minus(100, 200); // -100
                         <div class="toast-ui-viewer"></div>
                     </div>
                 </li>
-                                    <li>
-                    <h1 class="article-list-box__title"><a href="article_detail_5.html" class="cursor-big">5화, 함수의 개념</a></h1>
+                                <li>
+                    <h1 class="article-list-box__title"><a href="article_detail_5.html"
+                            class="cursor-big">5화, 함수의 개념</a></h1>
                     <div class="article-list-box__reg-date">2021-01-15 18:33:42</div>
                     <div class="article-list-box__writer">
                         <span>전다영</span>
                         <span>
-                        <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>                        </span>
+                            <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>                        </span>
                     </div>
                     <div class="article-list-box__tags">
                          <a class="tag-link" href="article_list_by_tag_JS.html">#JS</a>                    </div>
                     <div class="article-list-box__body">
                         <script type="text/x-template">
-                        # 함수값의 종류
+                            # 함수값의 종류
 - 실행할 수 없는 계열
     - 숫자
     - 문장
@@ -241,19 +251,20 @@ var say = function() {
                         <div class="toast-ui-viewer"></div>
                     </div>
                 </li>
-                                    <li>
-                    <h1 class="article-list-box__title"><a href="article_detail_4.html" class="cursor-big">4화, 조건문</a></h1>
+                                <li>
+                    <h1 class="article-list-box__title"><a href="article_detail_4.html"
+                            class="cursor-big">4화, 조건문</a></h1>
                     <div class="article-list-box__reg-date">2021-01-14 18:33:42</div>
                     <div class="article-list-box__writer">
                         <span>전다영</span>
                         <span>
-                        <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>                        </span>
+                            <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>                        </span>
                     </div>
                     <div class="article-list-box__tags">
                          <a class="tag-link" href="article_list_by_tag_JS.html">#JS</a>                    </div>
                     <div class="article-list-box__body">
                         <script type="text/x-template">
-                        # 조건문 예시
+                            # 조건문 예시
 ```javascript
 var age = 5;
 
@@ -289,19 +300,20 @@ else {
                         <div class="toast-ui-viewer"></div>
                     </div>
                 </li>
-                                    <li>
-                    <h1 class="article-list-box__title"><a href="article_detail_3.html" class="cursor-big">3화, 변수</a></h1>
+                                <li>
+                    <h1 class="article-list-box__title"><a href="article_detail_3.html"
+                            class="cursor-big">3화, 변수</a></h1>
                     <div class="article-list-box__reg-date">2021-01-13 18:33:42</div>
                     <div class="article-list-box__writer">
                         <span>전다영</span>
                         <span>
-                        <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>                        </span>
+                            <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>                        </span>
                     </div>
                     <div class="article-list-box__tags">
                          <a class="tag-link" href="article_list_by_tag_CSS.html">#CSS</a>                    </div>
                     <div class="article-list-box__body">
                         <script type="text/x-template">
-                        # 변수 선언
+                            # 변수 선언
 ```javascript
 console.log("== 변수 x 생성 ==");
 var x;
@@ -332,19 +344,20 @@ console.log("x + y : " + (x + y));
                         <div class="toast-ui-viewer"></div>
                     </div>
                 </li>
-                                    <li>
-                    <h1 class="article-list-box__title"><a href="article_detail_2.html" class="cursor-big">2화, 숫자와 문장</a></h1>
+                                <li>
+                    <h1 class="article-list-box__title"><a href="article_detail_2.html"
+                            class="cursor-big">2화, 숫자와 문장</a></h1>
                     <div class="article-list-box__reg-date">2021-01-12 18:33:42</div>
                     <div class="article-list-box__writer">
                         <span>전다영</span>
                         <span>
-                        <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>                        </span>
+                            <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>                        </span>
                     </div>
                     <div class="article-list-box__tags">
                          <a class="tag-link" href="article_list_by_tag_CSS.html">#CSS</a>                    </div>
                     <div class="article-list-box__body">
                         <script type="text/x-template">
-                        # 숫자와 문장의 연산
+                            # 숫자와 문장의 연산
 ```javascript
 //숫자 + 숫자
 console.log(10+10) // type = number
@@ -374,19 +387,20 @@ console.log("점수 : " + (10 + 20));
                         <div class="toast-ui-viewer"></div>
                     </div>
                 </li>
-                                    <li>
-                    <h1 class="article-list-box__title"><a href="article_detail_1.html" class="cursor-big">1화, 출력</a></h1>
+                                <li>
+                    <h1 class="article-list-box__title"><a href="article_detail_1.html"
+                            class="cursor-big">1화, 출력</a></h1>
                     <div class="article-list-box__reg-date">2021-01-12 18:33:17</div>
                     <div class="article-list-box__writer">
                         <span>전다영</span>
                         <span>
-                        <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>                        </span>
+                            <svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>                        </span>
                     </div>
                     <div class="article-list-box__tags">
                          <a class="tag-link" href="article_list_by_tag_SCRIPT.html">#SCRIPT</a>                    </div>
                     <div class="article-list-box__body">
                         <script type="text/x-template">
-                        
+                            
 ```html
 <t-script>
 console.clear();

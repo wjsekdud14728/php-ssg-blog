@@ -16,25 +16,25 @@ require_once "head.php";
 <nav class="pf-article con">
     <ul>
         <li>
-        <a href="o'kitchen/index.html">
+        <a href="pf/o'kitchen/index.html">
         오키친 모작사이트
         </a>
         </li>
 
         <li>
-        <a href="eoyeomo/index.html">
+        <a href="pf/eoyeomo/index.html">
         어여모 모작사이트
         </a>
         </li>
 
         <li>
-        <a href="booking/index.html">
+        <a href="pf/booking/index.html">
         booking 프로세스페이지
         </a>
         </li>
 
         <li>
-        <a href="cj/index.html">
+        <a href="pf/cj/index.html">
         cj 올리브네트웍스 리디자인 페이지
         </a>
         </li>
