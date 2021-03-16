@@ -15,6 +15,7 @@ require_once "head.php";
 </script>
 
 
+  <!-- 비주얼 -->
   <div id="visual">
     <div class="my-slider-box-1">
       <div class="swiper-container">
@@ -64,41 +65,45 @@ require_once "head.php";
       </div>
     </div>
   </div>
+
+  <!-- 컨텐츠 -->
   <div id="content">
+
+  <!-- 섹션 1 -->
     <section class="section-1 con">
-      <div class="section-1__title"><span>고객과 사회의 행복을 선도하는</span><span><strong>TOP TIER</strong> 디지털 서비스 기업,
-          <strong>CJ올리브네트웍스</strong></span></div>
-      <div class="section-1__contents flex flex-jc-sb">
-        <div class="ceo-img relative">
-          <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_ceo-img.png" alt="">
-          <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_sign.png" alt="">
-        </div>
-        <div class="work-rule-txt">
+      <div class="section-1__title">
+        <span>WORK RULL</span>
+        <span>고객과 사회의 행복을 선도하는 TOP TIER 디지털 서비스 기업, CJ올리브네트웍스 </span>
+      </div>
+        <nav class="work-rule-item">
           <ul>
             <li>
+              <div class="img-box"><img src="" alt=""></div>
               <div class="title">고객중심</div>
               <div class="sub-title">고객 가치·신뢰</div>
               <div class="txt">고객성공/가치향상을 위해 최선을 다하고
                 신뢰 관계를 구축한다.</div>
             </li>
             <li>
+            <div class="img-box"><img src="" alt=""></div>
               <div class="title">사회적 가치증대</div>
               <div class="sub-title">동반 성장·지속가능경영</div>
               <div class="txt">우리를 둘러싼 이해관계자와의 동반성장과 사회적 책임을 다하기 위해 노력한다.</div>
             </li>
             <li>
+            <div class="img-box"><img src="" alt=""></div>
               <div class="title">전문성 강화</div>
               <div class="sub-title">최고 기술·역량 개발</div>
               <div class="txt">ONLYONE 제품/서비스를 위해 최고의 기술과 역량을 확보한다.</div>
             </li>
             <li>
+            <div class="img-box"><img src="" alt=""></div>
               <div class="title">혁신</div>
               <div class="sub-title">혁신 추구·도전/다양성 중시</div>
               <div class="txt">지속적인 혁신, 끊임없는 도전과 다양성 추구로 새로운 가치를 창출한다.</div>
             </li>
           </ul>
-        </div>
-      </div>
+        </nav>
     </section>
 
     <section class="section-2 relative">
