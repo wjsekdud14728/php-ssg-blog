@@ -399,7 +399,7 @@ a{
   background-color: #f7f7f7;
   width: 90%;
   margin-top: 140px;
-  padding: 150px 0 210px 0;
+  padding: 180px 0;
 }
 
 .section-1__title>span{
@@ -437,32 +437,17 @@ a{
 }
 
 .section-1>.work-rule-item>ul>li:not(:last-child){
-  border-right: .5px solid #afafaf;
+  border-right: .5px solid #adadad;
 }
 
 .section-1>.work-rule-item>ul>li>.image{
   width: 150px;
-  margin: 0 auto;
 }
 
 .section-1>.work-rule-item>ul>li>.title{
-  font-size: 25px;
+  font-size: 30px;
   color: #333;
   text-align: center;
-  margin-top: 84px;
-}
-
-.section-1>.work-rule-item>ul>li>.sub-title{
-  font-size: 15px;
-  color: #006ECD;
-  text-align: center;
-}
-
-.section-1>.work-rule-item>ul>li>.txt{
-  font-size: 15px;
-  color: #959595;
-  margin : 24px auto 0 auto;
-  width: 90%;
 }
 
 /* 섹션2 */
