@@ -78,30 +78,30 @@ require_once "head.php";
     <nav class="work-rule-item">
       <ul class="flex">
         <li>
-          <div class="image img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-1.png"
-              alt=""></div>
+          <div class="image img-box"><img
+              src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-1.png" alt=""></div>
           <div class="title">고객중심</div>
           <div class="sub-title">고객 가치·신뢰</div>
           <div class="txt">고객성공/가치향상을 위해 최선을 다하고
             신뢰 관계를 구축한다.</div>
         </li>
         <li>
-          <div class="image img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-2.png"
-              alt=""></div>
+          <div class="image img-box"><img
+              src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-2.png" alt=""></div>
           <div class="title">사회적 가치증대</div>
           <div class="sub-title">동반 성장·지속가능경영</div>
           <div class="txt">우리를 둘러싼 이해관계자와의 동반성장과 사회적 책임을 다하기 위해 노력한다.</div>
         </li>
         <li>
-          <div class="image img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-3.png"
-              alt=""></div>
+          <div class="image img-box"><img
+              src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-3.png" alt=""></div>
           <div class="title">전문성 강화</div>
           <div class="sub-title">최고 기술·역량 개발</div>
           <div class="txt">ONLYONE 제품/서비스를 위해 최고의 기술과 역량을 확보한다.</div>
         </li>
         <li>
-          <div class="image img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-4.png"
-              alt=""></div>
+          <div class="image img-box"><img
+              src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-4.png" alt=""></div>
           <div class="title">혁신</div>
           <div class="sub-title">혁신 추구·도전/다양성 중시</div>
           <div class="txt">지속적인 혁신, 끊임없는 도전과 다양성 추구로 새로운 가치를 창출한다.</div>
@@ -110,21 +110,28 @@ require_once "head.php";
     </nav>
   </section>
 
+  <!-- 섹션 2 -->
   <section class="section-2 relative">
+
+    <div class="section-2__bg-img">
+      <div class="img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle 79.png" alt=""></div>
+      <div class="img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle 21.png" alt=""></div>
+    </div>
+
     <div class="section-2__title">
       <span>Business</span><span>Introduction</span>
     </div>
-    <nav class="section-2__menu-box">
-      <ul>
-        <li class="active">디지털 비즈니스</li>
-        <li>솔루션 비즈니스</li>
-        <li>서비스형 비즈니스</li>
-        <li>시스템형 비즈니스</li>
-      </ul>
-    </nav>
 
-    <section class="section-2__inner-pages height-100p">
+    <section class="section-2__inner-pages">
       <section class="section-2__inner-page active">
+        <section class="section-2__ip-title-box">
+          <div class="section-2__inner-page-title">
+            디지털 비지니스
+          </div>
+          <div class="section-2__inner-page-des">
+            최신 IT기술의 융합으로 산업별 최고의 Digital Experience를 제공하여 고객의 비즈니스혁신을 선도합니다.
+          </div>
+        </section>
         <div class="section-2__ip-slider-box">
           <!-- Swiper -->
           <div class="swiper-container" dir="rtl">
@@ -134,7 +141,7 @@ require_once "head.php";
                   <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_slider-bg-1.png" alt="">
                 </div>
                 <div class="section-2__ip-title">지능형 물류 관제 시스템</div>
-                <div class="section-2__ip-des">물류 솔루션과 자동화 설비를 통한 물류 프로세스의 표준화, 자동화 및 정보 가시화를 지원합니다.</div>
+                <div class="section-2__ip-des">물류 솔루션과 자동화 설비를 통한 물류 프로세스의 표준화, 자동화 및 정보 가시화를 지원합니다</div>
               </div>
               <div class="swiper-slide">
                 <div class="section-2__ip-image-box img-box">
@@ -156,7 +163,7 @@ require_once "head.php";
                   <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_slider-bg-4.png" alt="">
                 </div>
                 <div class="section-2__ip-title">미디어 컬처 스페이스</div>
-                <div class="section-2__ip-des">미디어 융합 기술 및 디지털 서비스 기반으로 고객의 새로운 경험을 제공합니다.</div>
+                <div class="section-2__ip-des">미디어 융합 기술 및 디지털 서비스 기반으로 고객의 새로운 경험을 제공합니다</div>
               </div>
             </div>
           </div>
@@ -169,6 +176,14 @@ require_once "head.php";
           style="background-image:url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_bg-1.jpg)"></div>
       </section>
       <section class="section-2__inner-page">
+        <section class="section-2__ip-title-box">
+          <div class="section-2__inner-page-title">
+            솔루션 비즈니스
+          </div>
+          <div class="section-2__inner-page-des">
+            고객의 비즈니스 성공을 위해 수준 높은 솔루션을 제공합니다.
+          </div>
+        </section>
         <div class="section-2__ip-slider-box">
           <!-- Swiper -->
           <div class="swiper-container" dir="rtl">
@@ -242,6 +257,14 @@ require_once "head.php";
           style="background-image:url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_bg-2.jpg"></div>
       </section>
       <section class="section-2__inner-page">
+        <section class="section-2__ip-title-box">
+          <div class="section-2__inner-page-title">
+            서비스형 비즈니스
+          </div>
+          <div class="section-2__inner-page-des">
+            고객의 비즈니스 성공을 위해 차별화된 서비스를 제공합니다.
+          </div>
+        </section>
         <div class="section-2__ip-slider-box">
           <!-- Swiper -->
           <div class="swiper-container" dir="rtl">
@@ -300,6 +323,14 @@ require_once "head.php";
           style="background-image:url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_bg-3.jpg)"></div>
       </section>
       <section class="section-2__inner-page">
+        <section class="section-2__ip-title-box">
+          <div class="section-2__inner-page-title">
+            시스템형 비즈니스
+          </div>
+          <div class="section-2__inner-page-des">
+            비즈니스 이해를 바탕으로 기업의 경쟁력 강화를 위해 최고의 IT서비스를 제공합니다.
+          </div>
+        </section>
         <div class="section-2__ip-slider-box">
           <!-- Swiper -->
           <div class="swiper-container" dir="rtl">
@@ -344,6 +375,7 @@ require_once "head.php";
           style="background-image:url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_bg-4.jpg"></div>
       </section>
     </section>
+
   </section>
 
   <section class="section-3 con relative">

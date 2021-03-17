@@ -52,23 +52,20 @@ function MySliderBox1__init() {
   
   
   function Section2__init() {
-    $('.section-2__menu-box > ul > li').click(function() {
+    $('.section-2__inner-page').click(function() {
       const $clicked = $(this);
       const index = $clicked.index();
   
       $clicked.siblings('.active').removeClass('active');
       $clicked.addClass('active');
-  
-      $('.section-2__inner-page.active').removeClass('active');
-      $('.section-2__inner-page').eq(index).addClass('active');
     });
   
     $('.section-2__ip-slider-box > .swiper-container').each(function(index, node) {
       const $sliderBox = $(node).parent();
       const swiper = new Swiper(node, {
         simulateTouch: false,
-        slidesPerView:3.5,
-        spaceBetween:20,
+        slidesPerView:5,
+        // spaceBetween: -50,
         loop: true,
         navigation: {
           nextEl: $sliderBox.find('.section-2__ip-btn-right').get(0),
