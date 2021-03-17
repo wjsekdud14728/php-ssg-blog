@@ -34,7 +34,7 @@ require_once "head.php";
         </li>
 
         <li>
-        <a href="pf/cj/index.html">
+        <a href="pf/cj/index.index.html">
         cj 올리브네트웍스 리디자인 페이지
         </a>
         </li>
