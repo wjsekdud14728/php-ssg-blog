@@ -69,8 +69,19 @@ require_once "head.php";
 <!-- 컨텐츠 -->
 <div id="content">
 
+<!-- 인디케이터 -->
+<nav class="indicator">
+  <ul>
+    <li><a class="one-page-link" href="#page1">Work Rull</a></li>
+    <li><a class="one-page-link" href="#page2">Business Introduction</a></li>
+    <li><a class="one-page-link" href="#page3">Public Relations Center</a></li>
+    <li><a class="one-page-link" href="#page4">Social Contribution</a></li>
+    <li><a class="one-page-link" href="#page5">Contact</a></li>
+  </ul>
+</nav>
+
   <!-- 섹션 1 -->
-  <section class="section-1">
+  <section class="section-1" data-one-page-link="page1">
     <div class="section-1__title">
       <span>WORK RULL</span>
       <span>고객과 사회의 행복을 선도하는 TOP TIER 디지털 서비스 기업, CJ올리브네트웍스 </span>
@@ -111,7 +122,7 @@ require_once "head.php";
   </section>
 
   <!-- 섹션 2 -->
-  <section class="section-2 relative">
+  <section class="section-2 relative" data-one-page-link="page2">
 
     <div class="section-2__bg-image">
     </div>
@@ -390,29 +401,9 @@ require_once "head.php";
 
   </section>
 
-  <section class="section-3 con relative">
-    <div class="section-3__title">
-      <span>Sustainability</span><span>Social Contribution</span>
-    </div>
-    <nav class="section-3__item absolute">
-      <ul class="flex">
-        <li><a href="#" class="img-box">
-            <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle 50.png" alt="">
-          </a></li>
-        <li><a href="#" class="img-box">
-            <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle 49.png" alt="">
-          </a></li>
-        <li><a href="#" class="img-box">
-            <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle 48.png" alt="">
-          </a></li>
-        <li><a href="#" class="img-box">
-            <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle 47.png" alt="">
-          </a></li>
-      </ul>
-    </nav>
-  </section>
-  <section class="section-4"></section>
-  <section class="section-5"></section>
+  <section class="section-3" data-one-page-link="page3"></section>
+  <section class="section-4" data-one-page-link="page4"></section>
+  <section class="section-5" data-one-page-link="page5"></section>
 </div>
 
 <?php
