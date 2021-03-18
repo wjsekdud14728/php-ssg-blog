@@ -70,7 +70,7 @@ require_once "head.php";
 <div id="content">
 
   <!-- 섹션 1 -->
-  <section class="section-1 con">
+  <section class="section-1">
     <div class="section-1__title">
       <span>WORK RULL</span>
       <span>고객과 사회의 행복을 선도하는 TOP TIER 디지털 서비스 기업, CJ올리브네트웍스 </span>
@@ -114,13 +114,16 @@ require_once "head.php";
   <section class="section-2 relative">
 
     <div class="section-2__bg-img">
-      <div class="img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle 79.png" alt=""></div>
-      <div class="img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle 21.png" alt=""></div>
+      <div class="img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle 79.png" alt="">
+        <div class="section-2__title">
+          <span>Business</span><span>Introduction</span>
+        </div>
+      </div>
+      <div class="img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle 21.png" alt="">
+      </div>
     </div>
 
-    <div class="section-2__title">
-      <span>Business</span><span>Introduction</span>
-    </div>
+
 
     <section class="section-2__inner-pages">
       <section class="section-2__inner-page active">

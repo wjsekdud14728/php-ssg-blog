@@ -15,6 +15,11 @@
           <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/header_logo.png" alt="">
         </a>
       </div>
+      <div class="header__logo-color">
+        <a href="index.ssghtml.php" class="img-box">
+          <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/header_logo-color.png" alt="">
+        </a>
+      </div>
       <div class="header__menu-bar-1">
         <ul class="flex">
           <li><a href="company.ssghtml.php">회사소개</a></li>
@@ -36,6 +41,12 @@
         <a href="#" class="img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/header_ico_1.png"
             alt=""></a>
         <a href="#" class="img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/header_ico_2.png"
+            alt=""></a>
+      </div>
+      <div class="header__icos header__icos-black flex">
+        <a href="#" class="img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/header_ico_1-black.png"
+            alt=""></a>
+        <a href="#" class="img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/header_ico_2-black.png"
             alt=""></a>
       </div>
     </div>
