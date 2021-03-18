@@ -482,47 +482,69 @@ a{
 
 .section-2{
   display: block;
-  height: 100vh;
+  height: 857px;
 }
 
-.section-2__bg-img>div{
+.section-2__bg-image{
+  width: 660px;
+  height: 100%;
   position: absolute;
+  background-image: url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_bg-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 3;
 }
 
-.section-2__bg-img>div>img{
-  position: relative;
-}
-
-.section-2__bg-img>div>img::after{
+.section-2__bg-image::after{
   position: absolute;
+  display: block;
+  content:"";
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: #000;
+  opacity: .4;
+}
+
+.section-2__title-box{
+  position: absolute;
   z-index: 5;
-  content: "";
-}
-
-.section-2__bg-img>div:first-child{
-  width: 630px;
-  z-index: 4;
-  left: 15%;
   top: 50%;
   transform: translatey(-50%);
+  left: 20%;
 }
 
-.section-2__bg-img>div:last-child{
-  width: 886px;
-  z-index:2;
-  left: -10%;
-  top: 50%;
-  transform: translatey(-50%);
+.section-2__title-img{
+  position: relative;
+}
+
+.section-2__title-img::after{
+  position: absolute;
+  display: block;
+  content:"";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.4);
 }
 
 .section-2__title{
-  margin-top: 100px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
 }
+
+.section-2__title>span{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+
 
 .section-2__inner-pages{
   margin-left: 20%;

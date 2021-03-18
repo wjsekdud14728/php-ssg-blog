@@ -113,13 +113,22 @@ require_once "head.php";
   <!-- 섹션 2 -->
   <section class="section-2 relative">
 
-    <div class="section-2__bg-img">
-      <div class="img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle 79.png" alt="">
-        <div class="section-2__title">
-          <span>Business</span><span>Introduction</span>
-        </div>
+    <div class="section-2__bg-image">
+    </div>
+
+    <div class="section-2__title-box">
+      <div class="section-2__title-img">
+        <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_title-image.png" alt="">
       </div>
-      <div class="img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle 21.png" alt="">
+      <div class="section-2__title">
+        <span>Business</span><span>Introduction</span>
+      </div>
+    </div>
+
+    <div class="section-2__bg-img">
+      <div class="img-1">
+        <div class="img-box"></div>
+
       </div>
     </div>
 
