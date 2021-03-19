@@ -401,17 +401,49 @@ a{
     width:100%;
   }
 }
+#content{
+  position: relative;
+}
+
+#content::before{
+  position: fixed;
+  display: block;
+  content: "";
+  top: 0;
+  left: 2.5%;
+  height: 100vh;
+  width: .5px;
+  background-color: #808080;
+}
+
+/* 인디케이터 */
+.indicator{
+  position: fixed;
+  top: 50%;
+  left: 3%;
+  transform: translatey(-50%);
+  z-index: 100;
+}
+
+.indicator>ul>li>a{
+  position: relative;
+  display: block;
+  padding: 10px 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.indicator>ul>li>a.active{
+  color: #006ECD;
+}
 
 /* section-1 */
 
 #content>.section-1{
   padding: 140px 0;
-  background-color: #f7f7f7;
+  background-color: #F4F4F4;
   width: 80%;
-  margin-top: 140px;
-  margin-left: auto;
-  margin-right: 0;
-  padding: 100px 0;
+  margin: 165px 0 165px auto;
 }
 
 .section-1__title>span{
@@ -482,12 +514,12 @@ a{
 
 .section-2{
   display: block;
-  height: 857px;
+  height: 100vh;
 }
 
 .section-2__bg-image{
   width: 660px;
-  height: 100%;
+  height: 100vh;
   position: absolute;
   background-image: url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_bg-2.png);
   background-position: center;
@@ -535,11 +567,12 @@ a{
   position: absolute;
   top: 50%;
   left: 10%;
+  transform: translatey(-50%);
 }
 
 .section-2__title>span{
   color: #fff;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
   display: block;
 }
@@ -549,6 +582,7 @@ a{
 .section-2__inner-pages{
   margin-left: 20%;
   text-align: right;
+  padding: 175.9px 0;
 }
 
 .section-2__inner-page{
@@ -615,80 +649,27 @@ a{
 /* 섹션 3 */
 
 .section-3{
-  border-left: 1.5px solid #d9e9f8;
-  border-right: 1.5px solid #d9e9f8;
   height: 100vh;
-}
-
-.section-3__title{
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  z-index: 10;
-}
-
-.section-3__title>span{
-  display: block;
-  font-size: 30px;
-  color: #bababa;
-  font-weight: bold;
-  margin-left: 6%;
-  white-space:nowrap;
-}
-
-.section-3__title>span:last-child{
-  font-size: 50px;
-  color: #333;
-}
-
-.section-3__item{
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.section-3__item>ul{
-  height: 100%;
-}
-
-.section-3__item>ul>li{
-  width: 25%;
-  border-left: 1.5px solid #d9e9f8;
-  border-right: 1.5px solid #d9e9f8;
-  margin-left: 6%;
-  position: relative;
-}
-
-.section-3__item>ul>li:last-child{
-  margin-right: 6%;
-}
-
-.section-3__item>ul>li>a{
-  display: block;
-  width: 100%;
-  bottom:0;
-  left: 0;
-  position: absolute;
-  outline: 0;
-}
-
-.section-3__item>ul>li>a::after{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  opacity: .5;
-  content:"";
-  top: 0;
-  left: 0;
-}
-
-.section-3__item>ul>li>a::before{
-  position: absolute;
-  top: 5px;
-  right: 0;
-  transform: rotate(90deg);
-  content:"공평한 교육";
   background-color: red;
+}
+
+/* 섹션 4 */
+
+.section-4{
+  height: 100vh;
+  background-color: green;
+}
+
+/* 섹션 5 */
+
+.section-5{
+  height: 100vh;
+  background-color: blue;
+}
+
+/* 푸터 */
+
+#footer{
+  height: 10vh;
+  background-color: #afafaf;
 }
