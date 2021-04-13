@@ -69,63 +69,64 @@ require_once "head.php";
 <!-- 컨텐츠 -->
 <div id="content">
 
-<!-- 인디케이터 -->
-<nav class="indicator">
-  <ul>
-    <li><a class="one-page-link" href="#page1">Work Rull</a></li>
-    <li><a class="one-page-link" href="#page2">Business Introduction</a></li>
-    <li><a class="one-page-link" href="#page3">Public Relations Center</a></li>
-    <li><a class="one-page-link" href="#page4">Social Contribution</a></li>
-    <li><a class="one-page-link" href="#page5">Contact</a></li>
-  </ul>
-</nav>
+  <!-- 인디케이터 -->
+  <nav class="indicator">
+    <ul>
+      <li><a class="one-page-link" href="#page1">Work Rull</a></li>
+      <li><a class="one-page-link" href="#page2">Business Introduction</a></li>
+      <li><a class="one-page-link" href="#page3">Public Relations Center</a></li>
+      <li><a class="one-page-link" href="#page4">Social Contribution</a></li>
+      <li><a class="one-page-link" href="#page5">Contact</a></li>
+    </ul>
+  </nav>
 
   <!-- 섹션 1 -->
   <section class="section-1" data-one-page-link="page1">
-    <div class="section-1__title">
-      <span>WORK RULL</span>
-      <span>고객과 사회의 행복을 선도하는 TOP TIER 디지털 서비스 기업, CJ올리브네트웍스 </span>
+    <div class="section-1__box">
+      <div class="section-1__title">
+        <span>WORK RULL</span>
+        <span>고객과 사회의 행복을 선도하는 TOP TIER 디지털 서비스 기업, CJ올리브네트웍스 </span>
+      </div>
+      <nav class="work-rule-item">
+        <ul class="flex">
+          <li>
+            <div class="image img-box"><img
+                src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-1.png" alt=""></div>
+            <div class="title">고객중심</div>
+            <div class="sub-title">고객 가치·신뢰</div>
+            <div class="txt">고객성공/가치향상을 위해 최선을 다하고
+              신뢰 관계를 구축한다.</div>
+          </li>
+          <li>
+            <div class="image img-box"><img
+                src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-2.png" alt=""></div>
+            <div class="title">사회적 가치증대</div>
+            <div class="sub-title">동반 성장·지속가능경영</div>
+            <div class="txt">우리를 둘러싼 이해관계자와의 동반성장과 사회적 책임을 다하기 위해 노력한다.</div>
+          </li>
+          <li>
+            <div class="image img-box"><img
+                src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-3.png" alt=""></div>
+            <div class="title">전문성 강화</div>
+            <div class="sub-title">최고 기술·역량 개발</div>
+            <div class="txt">ONLYONE 제품/서비스를 위해 최고의 기술과 역량을 확보한다.</div>
+          </li>
+          <li>
+            <div class="image img-box"><img
+                src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-4.png" alt=""></div>
+            <div class="title">혁신</div>
+            <div class="sub-title">혁신 추구·도전/다양성 중시</div>
+            <div class="txt">지속적인 혁신, 끊임없는 도전과 다양성 추구로 새로운 가치를 창출한다.</div>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav class="work-rule-item">
-      <ul class="flex">
-        <li>
-          <div class="image img-box"><img
-              src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-1.png" alt=""></div>
-          <div class="title">고객중심</div>
-          <div class="sub-title">고객 가치·신뢰</div>
-          <div class="txt">고객성공/가치향상을 위해 최선을 다하고
-            신뢰 관계를 구축한다.</div>
-        </li>
-        <li>
-          <div class="image img-box"><img
-              src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-2.png" alt=""></div>
-          <div class="title">사회적 가치증대</div>
-          <div class="sub-title">동반 성장·지속가능경영</div>
-          <div class="txt">우리를 둘러싼 이해관계자와의 동반성장과 사회적 책임을 다하기 위해 노력한다.</div>
-        </li>
-        <li>
-          <div class="image img-box"><img
-              src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-3.png" alt=""></div>
-          <div class="title">전문성 강화</div>
-          <div class="sub-title">최고 기술·역량 개발</div>
-          <div class="txt">ONLYONE 제품/서비스를 위해 최고의 기술과 역량을 확보한다.</div>
-        </li>
-        <li>
-          <div class="image img-box"><img
-              src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-4.png" alt=""></div>
-          <div class="title">혁신</div>
-          <div class="sub-title">혁신 추구·도전/다양성 중시</div>
-          <div class="txt">지속적인 혁신, 끊임없는 도전과 다양성 추구로 새로운 가치를 창출한다.</div>
-        </li>
-      </ul>
-    </nav>
+
+
   </section>
 
   <!-- 섹션 2 -->
   <section class="section-2 relative" data-one-page-link="page2">
-
-    <div class="section-2__bg-image">
-    </div>
 
     <div class="section-2__title-box">
       <div class="section-2__title-img">
@@ -136,14 +137,7 @@ require_once "head.php";
       </div>
     </div>
 
-    <div class="section-2__bg-img">
-      <div class="img-1">
-        <div class="img-box"></div>
-
-      </div>
-    </div>
-
-
+    <div class="section-2__bg-image"></div>
 
     <section class="section-2__inner-pages">
       <section class="section-2__inner-page active">
@@ -401,7 +395,109 @@ require_once "head.php";
 
   </section>
 
-  <section class="section-3" data-one-page-link="page3"></section>
+  <section class="section-3" data-one-page-link="page3">
+    <div class="section-3__title">
+      <span>Public Relations Center</span>
+    </div>
+    <div class="section-3__articles-box flex">
+      <div class="section-3__main-article-box">
+        <a href="#">
+          <div class="thumb img-box">
+            <img src="" alt="">
+          </div>
+          <div class="category">Intelligent Transformation</div>
+          <div class="title">도전의 기회, 성장의 기회! CJ올리브네트웍스 '카이로스 랩(Kairos-Lab)'을 소개합니다.</div>
+          <div class="des">CJ그룹의 사보 NI:M을 통해 신사업 인큐베이팅 프로그램 ‘카이로스 랩’이 소개되었습니다. </div>
+        </a>
+
+      </div>
+      <nav class="section-3__article-box">
+        <ul>
+          <li>
+            <a href="#">
+              <div class="thumb img-box">
+                <img src="" alt="">
+              </div>
+              <div class="category">news</div>
+              <div class="title">CJ올리브네트웍스, 던험비와 빅데이터 분석 신사업개발 나서</div>
+              <div class="des">CJ올리브네트웍스가 빅데이터 분석 기업 던험비와 빅데이터 비즈니스에 관해 업무협약을 체결하고 글로벌 수준의 데이터 관리 체계를 구축함과 동시에 CJ ONE 고객 데이터를 정밀 분석해 새로운 고객 가치를 제공합니다.</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <div class="thumb img-box">
+                <img src="" alt="">
+              </div>
+              <div class="category"></div>
+              <div class="title"></div>
+              <div class="des"></div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <div class="thumb img-box">
+                <img src="" alt="">
+              </div>
+              <div class="category"></div>
+              <div class="title"></div>
+              <div class="des"></div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <div class="thumb img-box">
+                <img src="" alt="">
+              </div>
+              <div class="category"></div>
+              <div class="title"></div>
+              <div class="des"></div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <div class="thumb img-box">
+                <img src="" alt="">
+              </div>
+              <div class="category"></div>
+              <div class="title"></div>
+              <div class="des"></div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <div class="thumb img-box">
+                <img src="" alt="">
+              </div>
+              <div class="category"></div>
+              <div class="title"></div>
+              <div class="des"></div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <div class="thumb img-box">
+                <img src="" alt="">
+              </div>
+              <div class="category"></div>
+              <div class="title"></div>
+              <div class="des"></div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <div class="thumb img-box">
+                <img src="" alt="">
+              </div>
+              <div class="category"></div>
+              <div class="title"></div>
+              <div class="des"></div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </section>
   <section class="section-4" data-one-page-link="page4"></section>
   <section class="section-5" data-one-page-link="page5"></section>
 </div>
