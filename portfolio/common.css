@@ -91,6 +91,28 @@ body{
 }
 
 .logo{
-    background-image: url();
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    width: 80px;
+}
+
+.gnb{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translatey(-50%);
+}
+
+.gnb>ul>li{
+    width: 160px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.gnb>ul>li>a{
+    display: block;
+    padding: 8px;
+    font-size: 13px;
 }
 /* 커스텀 끝 */
