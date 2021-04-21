@@ -75,6 +75,10 @@ a{
 
 /* 커스텀 */
 
+.site_wrap{
+  background-color: #fff;
+}
+
 .con{
   max-width: 1800px;
   min-width: 350px;
@@ -413,7 +417,9 @@ a{
   left: 2.5%;
   height: 100vh;
   width: .5px;
-  background-color: #808080;
+  background-color: white;
+  mix-blend-mode:difference;
+  z-index: 100;
 }
 
 /* 인디케이터 */
@@ -431,6 +437,7 @@ a{
   padding: 10px 5px;
   font-size: 15px;
   font-weight: bold;
+  color: #333;
 }
 
 .indicator>ul>li>a.active{
@@ -439,11 +446,21 @@ a{
 
 /* section-1 */
 
-#content>.section-1{
+.section-1{
+  height: 100vh;
+  position: relative;
+}
+
+
+.section-1__box{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translatey(-50%);
   padding: 140px 0;
   background-color: #F4F4F4;
   width: 80%;
-  margin: 165px 0 165px auto;
+  margin: auto 0 auto auto;
 }
 
 .section-1__title>span{
@@ -470,26 +487,26 @@ a{
   width: 50%;
 }
 
-.section-1>.work-rule-item>ul{
+.section-1__box>.work-rule-item>ul{
   margin-top: 60px;
 }
 
-.section-1>.work-rule-item>ul>li{
+.section-1__box>.work-rule-item>ul>li{
   width: 25%;
   padding: 40px;
   box-sizing: border-box;
 }
 
-.section-1>.work-rule-item>ul>li:not(:last-child){
+.section-1__box>.work-rule-item>ul>li:not(:last-child){
   border-right: .5px solid rgba(0,0,0,.3);
 }
 
-.section-1>.work-rule-item>ul>li>.image{
+.section-1__box>.work-rule-item>ul>li>.image{
   width: 130px;
   margin: 0 auto;
 }
 
-.section-1>.work-rule-item>ul>li>.title{
+.section-1__box>.work-rule-item>ul>li>.title{
   font-size: 23px;
   color: #333;
   text-align: center;
@@ -497,13 +514,13 @@ a{
   font-weight: 500;
 }
 
-.section-1>.work-rule-item>ul>li>.sub-title{
+.section-1__box>.work-rule-item>ul>li>.sub-title{
   font-size: 13px;
   color: #006ECD;
   text-align: center;
 }
 
-.section-1>.work-rule-item>ul>li>.txt{
+.section-1__box>.work-rule-item>ul>li>.txt{
   font-size: 15px;
   color: #959595;
   margin : 24px auto 0 auto;
@@ -577,12 +594,10 @@ a{
   display: block;
 }
 
-
-
 .section-2__inner-pages{
   margin-left: 20%;
   text-align: right;
-  padding: 175.9px 0;
+  padding-top: 125px;
 }
 
 .section-2__inner-page{
@@ -649,8 +664,34 @@ a{
 /* 섹션 3 */
 
 .section-3{
-  height: 100vh;
+  height: 200vh;
+  margin-left: 15%;
+  padding-top: 250px;
+}
+
+.section-3__title>span{
+  display: block;
+  font-size: 35px;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-3__main-article-box{
+  height: 100%;
+  width: 40%;
   background-color: red;
+}
+
+.section-3__article-box{
+  height: 100%;
+  width: 60%;
+  background-color: blue;
+}
+
+.section-3__article-box>ul>li{
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 /* 섹션 4 */

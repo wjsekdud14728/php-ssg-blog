@@ -22,6 +22,12 @@ require_once "head.php";
         </li>
 
         <li>
+        <a href="pf/o'kitchen/index.html">
+        오키친 모작사이트
+        </a>
+        </li>
+
+        <li>
         <a href="pf/eoyeomo/index.html">
         어여모 모작사이트
         </a>

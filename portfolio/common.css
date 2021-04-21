@@ -86,33 +86,106 @@ a{
 /* 라이브러리 끝 */
 
 /* 커스텀 시작 */
-body{
+body, html{
+    overflow: hidden;
+}
+
+body {
     background-color: #ffd432;
+    min-width: 1400px;
+    height: 23000px;
+    font-family: Orbitron;
+    font-size: 12px;
+    letter-spacing: 2px;
 }
 
 .logo{
-    position: absolute;
+    position: fixed;
     top: 7%;
     left: 7%;
     width: 80px;
+    z-index: 100;
 }
 
-.gnb{
-    position: absolute;
+.scrollNavi{
+    position: fixed;
     top: 50%;
     left: 0;
     transform: translatey(-50%);
+    z-index: 100;
 }
 
-.gnb>ul>li{
+.scrollNavi>ul>li{
     width: 160px;
     padding-left: 20px;
     box-sizing: border-box;
+    perspective: 400px;
 }
 
-.gnb>ul>li>a{
+.scrollNavi>ul>li.on{
+    background-color: red;
+}
+
+.scrollNavi>ul>li>a{
     display: block;
     padding: 8px;
     font-size: 13px;
+}
+
+
+section {
+    width: 1200px;
+    height: 700px;
+    position: fixed;
+    left: 50%;
+    margin-left: -600px;
+    top: 50%;
+    margin-top: -350px;
+    perspective: 2300px;
+    z-index: 1;
+}
+
+section > article {
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 8;
+}
+section > article.on {
+    opacity: 1;
+    z-index: 9;
+}
+section > article:nth-child(1) {
+    transform: translateZ(0px);
+}
+section > article:nth-child(2) {
+    transform: translateZ(-5000px);
+}
+section > article:nth-child(3) {
+    transform: translateZ(-10000px);
+}
+section > article:nth-child(4) {
+    transform: translateZ(-15000px);
+}
+section > article:nth-child(5) {
+    transform: translateZ(-20000px);
+}
+
+section > article> div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+section > article:nth-child(1)>div{
+    background-color: black;
+    top: 20%;
+    left: 20%;
 }
 /* 커스텀 끝 */
