@@ -4,34 +4,34 @@
     font-style: normal;
     font-weight: 400;
     src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff') format('woff');
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'LotteMartDream';
     font-style: normal;
     font-weight: 700;
     src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff') format('woff');
-  }
- 
-  @font-face {
+}
+
+@font-face {
     font-family: 'LotteMartDream';
     font-style: normal;
     font-weight: 300;
     src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff') format('woff');
-  }
-  
-  * {
-   font-family: 'LotteMartDream', sans-serif;
-  }
+}
+
+* {
+    font-family: 'LotteMartDream', sans-serif;
+}
 
 /* 노말라이징 */
-*{
+* {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     color: inherit;
     text-decoration: none;
 }
@@ -112,7 +112,8 @@ a{
 /* 라이브러리 끝 */
 
 /* 커스텀 시작 */
-body, html{
+body,
+html {
     overflow: hidden;
 }
 
@@ -125,7 +126,7 @@ body {
     letter-spacing: 2px;
 }
 
-.logo{
+.logo {
     position: fixed;
     top: 7%;
     left: 7%;
@@ -133,7 +134,7 @@ body {
     z-index: 100;
 }
 
-.scrollNavi{
+.scrollNavi {
     position: fixed;
     top: 50%;
     left: 0;
@@ -141,19 +142,19 @@ body {
     z-index: 100;
 }
 
-.scrollNavi>ul>li{
+.scrollNavi>ul>li {
     width: 160px;
     padding-left: 20px;
     box-sizing: border-box;
     perspective: 400px;
 }
 
-.scrollNavi>ul>li.on{
+.scrollNavi>ul>li.on {
     background-color: black;
-    color:white;
+    color: white;
 }
 
-.scrollNavi>ul>li>a{
+.scrollNavi>ul>li>a {
     display: block;
     padding: 8px;
     font-size: 13px;
@@ -169,7 +170,7 @@ body {
     z-index: 1;
 }
 
-.move-box > article {
+.move-box>article {
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -178,51 +179,112 @@ body {
     opacity: 0.5;
     z-index: 8;
 }
-.move-box > article.on {
+
+.move-box>article.on {
     opacity: 1;
     z-index: 9;
 }
-.move-box > article:nth-child(1) {
+
+.move-box>article:nth-child(1) {
     transform: translateZ(0px);
 }
-.move-box > article:nth-child(2) {
+
+.move-box>article:nth-child(2) {
     transform: translateZ(-5000px);
 }
-.move-box > article:nth-child(3) {
+
+.move-box>article:nth-child(3) {
     transform: translateZ(-10000px);
 }
-.move-box > article:nth-child(4) {
+
+.move-box>article:nth-child(4) {
     transform: translateZ(-15000px);
 }
-.move-box > article:nth-child(5) {
+
+.move-box>article:nth-child(5) {
     transform: translateZ(-20000px);
 }
 
-.move-box > article> ul>li{
+.move-box>article>ul>li {
     position: absolute;
 }
 
-.home__img-1{
+.wave_box {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    top: 0;
+}
+
+.sky {
+    width: 100%;
+    height: 100%;
+}
+
+.wave01 {
+    background: url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/home__sky-2.png) repeat-x;
+    position: absolute;
+    top: 0%;
+    width: 3200px;
+    height: 60%;
+    animation: wave01 40s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+
+}
+
+.wave01:nth-of-type(2) {
+    animation: wave01 30s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 5s ease -1.25s infinite;
+}
+
+.wave01:nth-of-type(3) {
+    animation: wave01 20s cubic-bezier(0.36, 0.45, 0.63, 0.53) -1s infinite, swell 10s ease -7s infinite;
+}
+
+@keyframes wave01 {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -1600px;
+    }
+}
+
+@keyframes swell {
+    0% {
+        transform: translate3d(0, -15px, 0);
+    }
+
+    50% {
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, -15px, 0);
+    }
+}
+
+.home__img-1 {
     top: 0;
     left: 0;
     width: 100%;
 }
 
-.home__img-2{
+.home__img-2 {
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 65%;
 }
 
-.home__img-3{
-    bottom:0;
+.home__img-3 {
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     width: 70%;
 }
 
-.home__img-4{
+.home__img-4 {
     top: 70%;
     left: 50%;
     transform: translatex(-50%);
@@ -231,16 +293,17 @@ body {
     z-index: 100;
 }
 
-.home__img-5{
+.home__img-5 {
     top: 85%;
     left: 50%;
     transform: translatex(-50%);
 
 }
 
-.home__img-6{
+.home__img-6 {
     bottom: 50px;
     left: 60px;
     width: 93%;
 }
+
 /* 커스텀 끝 */
