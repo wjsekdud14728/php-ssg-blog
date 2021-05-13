@@ -180,15 +180,6 @@ body {
     z-index: 8;
 }
 
-.move-box>article:not(:first-child)>div{
-    width: 500px;
-    height: 500px;
-    background-color: red;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
 .move-box>article.on {
     opacity: 1;
     z-index: 9;
@@ -315,6 +306,60 @@ body {
     bottom: 50px;
     left: 60px;
     width: 93%;
+}
+
+ .about__left{
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.about__profile-img{
+    width: 300px;
+    margin-left: 120px;
+}
+
+.about__name{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.about__name>p, .about__information>p{
+    margin-top: 3px;
+}
+
+.about__information{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.about__introduce{
+    font-size: 15px;
+    margin-top: 30px
+}
+
+.about__introduce>p{
+    margin-top: 7px;
+}
+
+.about__right{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.about__right>div>.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about__right>div>div:not(:first-child){
+    font-size: 15px;
+    display: inline-block;
+}
+
+.about__right>div>.date{
+    color: #91751c;
 }
 
 /* 커스텀 끝 */
