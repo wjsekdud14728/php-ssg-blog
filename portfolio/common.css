@@ -316,6 +316,7 @@ body {
 .about__profile-img{
     width: 300px;
     margin-left: 120px;
+    opacity: 80%;
 }
 
 .about__name{
@@ -349,8 +350,9 @@ body {
 }
 
 .about__right>div>.title{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
+    margin-bottom: 17px;
 }
 
 .about__right>div>div:not(:first-child){
@@ -358,8 +360,16 @@ body {
     display: inline-block;
 }
 
+.about__right>div>div:not(:first-child)>p{
+    padding-bottom: 7px;
+}
+
 .about__right>div>.date{
     color: #91751c;
+}
+
+.about__right>div:not(:first-child){
+    margin-top: 40px;
 }
 
 /* 커스텀 끝 */
