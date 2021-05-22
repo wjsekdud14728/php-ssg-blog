@@ -293,6 +293,28 @@ body {
     width: 10%;
     cursor: pointer;
     z-index: 100;
+    padding: 10px;
+}
+
+.home__img-4:hover>img{
+    animation-name: up-and-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes up-and-down {
+    from {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(10%);
+    }
+
+    to {
+        transform: translateY(-10%);
+    }
 }
 
 .home__img-5 {
@@ -308,21 +330,17 @@ body {
     width: 93%;
 }
 
- .about__left{
-    margin-left: 300px;
-    margin-top: 150px;
-}
-
 .about__profile-img{
     width: 300px;
-    margin-left: 120px;
+    margin-left: 150px;
     opacity: 80%;
+    border: 5px solid #91751c;
 }
 
 .about__name{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .about__name>p, .about__information>p{
@@ -330,14 +348,14 @@ body {
 }
 
 .about__information{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
-    margin-top: 7px;
+    margin-top: 13px;
 }
 
 .about__introduce{
-    font-size: 15px;
-    margin-top: 30px
+    font-size: 20px;
+    margin-top: 50px
 }
 
 .about__introduce>p{
@@ -345,18 +363,17 @@ body {
 }
 
 .about__right{
-    margin-top: 150px;
-    margin-left: 50px;
+    margin-left: 120px;
 }
 
 .about__right>div>.title{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 17px;
 }
 
 .about__right>div>div:not(:first-child){
-    font-size: 15px;
+    font-size: 20px;
     display: inline-block;
 }
 
@@ -366,10 +383,61 @@ body {
 
 .about__right>div>.date{
     color: #91751c;
+    margin-right: 5px;
 }
 
 .about__right>div:not(:first-child){
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
+.about__right>div:last-child>div>p:not(:last-child){
+    padding-bottom: 15px;
+}
+
+.about__skills>.stick{
+    height: 165px;
+    margin-left: 50px;
+}
+
+.about__skill-stick-box{
+    position: relative;
+    width: 400px;
+    height: 20%;
+    margin-bottom: 2px;
+}
+
+.about__skill-stick-box>.about__skill-stick{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    background-color: #fff;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.about__skill-stick-box>.about__skill-stick>div{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: #91751c;
+    height: 100%;
+    width: 0;
+    transition: all 2s;
+}
+
+.move-box>article:nth-child(2).on .about__skill-stick>.skill-percent-90{
+    width: 90%;
+}
+
+.move-box>article:nth-child(2).on .about__skill-stick>.skill-percent-80{
+    width: 80%;
+}
+
+.move-box>article:nth-child(2).on .about__skill-stick>.skill-percent-70{
+    width: 70%;
+}
+
+.move-box>article:nth-child(2).on .about__skill-stick>.skill-percent-60{
+    width: 60%;
+}
 /* 커스텀 끝 */

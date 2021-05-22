@@ -89,6 +89,11 @@ $(document).ready(function(){
         }
     });
 
+    //.home__img-4 클릭하면 다음페이지 이동
+    $(".home__img-4").on("click",function(){
+        Page__onDownScroll();
+    });	
+
     //화면에서 마우스 무브 시 박스안의 콘텐츠 움직이기
     $("body").on("mousemove",function(e){
         var posX = e.pageX/100;
@@ -99,3 +104,4 @@ $(document).ready(function(){
 
     
 });
+
