@@ -10,6 +10,31 @@ body,ul,li{
     text-decoration:none;
   }
   
+
+  /* 스크롤 */
+
+  /* total width */
+body::-webkit-scrollbar {
+  background-color: #fff;
+  width: 16px;
+}
+
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(2,15,89,.7);
+  border-radius: 16px;
+  border: 4px solid #fff;
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {
+  display:none;
+}
   
   /* 커스텀 */
   .con{
@@ -207,41 +232,41 @@ body,ul,li{
     top: 392px;
     left: 448px;
   }
-  
-  /* img_1_content */
-  .section-3>ul>li:nth-child(4){
-    top: 626px;
-    left: 405px;
-  }
-  
-  /* plus */
-  .section-3>ul>li:nth-child(5){
+
+   /* plus */
+   .section-3>ul>li:nth-child(4){
     top: 447px;
     left: 698px;
   }
-  
+
   /* img_2 */
-  .section-3>ul>li:nth-child(6){
+  .section-3>ul>li:nth-child(5){
     top: 426px;
     left: 942px;
   }
-  
-  /* img_2_content */
-  .section-3>ul>li:nth-child(7){
-    top: 624px;
-    left: 918px;
-  }
-  
+
   /* equal */
-  .section-3>ul>li:nth-child(8){
+  .section-3>ul>li:nth-child(6){
     top: 450px;
     left: 1155px;
   }
-  
+
   /* img_3 */
-  .section-3>ul>li:nth-child(9){
+  .section-3>ul>li:nth-child(7){
     top: 392px;
     left: 1358px;
+  }
+  
+  /* img_1_content */
+  .section-3>ul>li:nth-child(8){
+    top: 626px;
+    left: 405px;
+  }
+
+  /* img_2_content */
+  .section-3>ul>li:nth-child(9){
+    top: 624px;
+    left: 918px;
   }
   
   /* img_3_content */
