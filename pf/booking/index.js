@@ -219,12 +219,12 @@ gsap.from('.section-7 li.one', {
     y:50,
     opacity:0,
     duration: .8
-  });
+  },"-=.3");
   
   s10.from('.section-10 li:nth-child(4)', {
     opacity:0,
     duration: .8
-  });
+  },"-=.3");
 
   s10.from('.section-10 li:nth-child(7)', {
     y:50,
