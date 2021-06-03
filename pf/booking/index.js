@@ -97,3 +97,161 @@ gsap.from('.section-2 li.one>img', {
     duration: .8,
     stagger: 0.3
   });
+
+  function s6__init() {
+    for ( let i = 5; i <= 9; i++ ) {
+      gsap.from(".section-6 li:nth-child("+i+")", {
+        duration:1,
+        y:50,
+        opacity:0,
+        ease: "circ.out",
+        scrollTrigger:{
+          start:"top 70%",
+          trigger:".section-6 li:nth-child("+i+")"
+        }
+      });
+    }
+  }
+  
+  s6__init();
+
+  let s6 = gsap.timeline({
+    scrollTrigger:{
+      trigger:".section-6 li.three",
+      start:"20% center",
+    }
+  });
+  
+  s6.from('.section-6 li:nth-child(10)', {
+    y:50,
+    opacity:0,
+    duration: .8
+  });
+  
+  s6.from('.section-6 li:nth-child(11)', {
+    x:-50,
+    opacity:0,
+    duration: .8
+  });
+
+  // section-7
+
+gsap.from('.section-7 li.one', {
+    scrollTrigger: {
+      trigger:".section-7",
+      start:"top center",
+    },
+    y:50,
+    opacity:0,
+    duration: .8,
+    stagger: 0.5
+  });
+
+  gsap.from('.section-7 li.two', {
+    scrollTrigger: {
+      trigger:".section-7",
+      start:"center 60%",
+    },
+    y:50,
+    opacity:0,
+    duration: .8
+  });
+
+  // section-8
+
+  gsap.from('.section-8-background li.one', {
+    scrollTrigger: {
+      trigger:".section-8-background",
+      start:"center 90%",
+    },
+    y:50,
+    opacity:0,
+    duration: .8,
+    stagger: 0.5
+  });
+
+  // section-9
+  gsap.from('.section-9 li.one', {
+    scrollTrigger: {
+      trigger:".section-9",
+      start:"center 80%",
+    },
+    y:50,
+    opacity:0,
+    duration: .8,
+    stagger: 0.5
+  });
+
+  let s9 = gsap.timeline({
+    scrollTrigger:{
+      trigger:".section-9",
+      start:"top center"
+    }
+  });
+  
+  s9.from('.section-9 li:nth-child(4)', {
+    opacity:0,
+    duration: .8
+  });
+  
+  s9.from('.section-9 li:nth-child(5)', {
+    x:-50,
+    opacity:0,
+    duration: .8
+  });
+
+  // section-10
+  let s10 = gsap.timeline({
+    scrollTrigger:{
+      trigger:".section-10",
+      start:"top center",
+      markers:true
+    }
+  });
+  
+  s10.from('.section-10 li:nth-child(2)', {
+    y:50,
+    opacity:0,
+    duration: .8
+  });
+  
+  s10.from('.section-10 li:nth-child(3)', {
+    y:50,
+    opacity:0,
+    duration: .8
+  });
+  
+  s10.from('.section-10 li:nth-child(4)', {
+    opacity:0,
+    duration: .8
+  });
+
+  s10.from('.section-10 li:nth-child(7)', {
+    y:50,
+    opacity:0,
+    duration: .8
+  });
+
+  s10.from('.section-10 li:nth-child(8)', {
+    y:50,
+    opacity:0,
+    duration: .8
+  });
+
+  s10.from('.section-10 li:nth-child(5)', {
+    y:50,
+    opacity:0,
+    duration: .8
+  });
+
+  s10.from('.section-10 li:nth-child(9)', {
+    y:50,
+    opacity:0,
+    duration: .8
+  });
+
+  s10.from('.section-10 li:nth-child(6)', {
+    y:50,
+    opacity:0,
+    duration: .8
+  });

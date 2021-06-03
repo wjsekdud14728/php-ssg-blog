@@ -603,41 +603,45 @@ body::-webkit-scrollbar-button {
     left: 50%;
     transform: translatex(-50%);
   }
-  
-  /* mockup-1 */
-  .section-8-background>ul>li:nth-child(4){
-    top: 386px;
-  }
-  
-  /* mockup-2 */
-  .section-8-background>ul>li:nth-child(5){
-    top: 386px;
-    left: 291px;
-  }
-  
-  /* mockup-3 */
-  .section-8-background>ul>li:nth-child(6){
-    top: 386px;
-    left: 619px;
-  }
-  
-  /* mockup-4 */
-  .section-8-background>ul>li:nth-child(7){
-    top: 386px;
-    left: 946px;
-  }
-  
-  /* mockup-5 */
-  .section-8-background>ul>li:nth-child(8){
-    top: 386px;
-    left: 1274px;
-  }
-  
-  /* mockup-6 */
-  .section-8-background>ul>li:last-child{
-    top: 386px;
-    left: 1601px;
-  }
+
+  /* mockup imgs */
+
+  .section-8-background > .part {
+  position:absolute;
+  top:auto;
+  left:0;
+  right:0;
+  bottom:3%;
+  display:flex;
+  align-items:center;
+  overflow-x:hidden;
+}
+
+.section-8-background > .part > .section {
+  display:flex;
+  will-change: transform;
+  animation: marquee 10s linear infinite;
+}
+
+.section-8-background > .part > .section > div {
+  width:15vw;
+  padding:2vw;
+}
+
+.section-8-background > .part > .section > div > img {
+  height: 700px;
+  display:block;
+}
+
+.section-8-background > .part > .section > div > img:last-child {
+  margin-top:2vw;
+  margin-left:2vw;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
   
   /* section-9 */
   
