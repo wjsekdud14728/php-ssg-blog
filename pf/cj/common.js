@@ -163,6 +163,18 @@ function MySliderBox1__init() {
   
   Html__init();
 
+
+  // 인디케이터 content 부분에서만 fixed
+  gsap.to('.indicator', {
+    scrollTrigger:{
+      start:'top 0',
+      end:'bottom -100%',
+      trigger:'.indicator',
+      markers: true,
+      pin:true
+    },
+  });
+
   // one_page_link
 
   console.clear();
