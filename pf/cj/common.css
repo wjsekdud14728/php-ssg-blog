@@ -448,7 +448,7 @@ a{
   content: "";
   top: 0;
   left: 2.5%;
-  height: 100vh;
+  height: 100%;
   width: .5px;
   background-color: white;
   mix-blend-mode:difference;
@@ -457,9 +457,11 @@ a{
 
 .indicator{
   position: absolute;
-  margin-top: 50vh;
+  top: 0;
   left: 3%;
-  transform: translatey(-50%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
   z-index: 99;
 }
 
@@ -628,9 +630,11 @@ a{
 }
 
 .section-2__inner-pages{
+  position: relative;
+  top: 50%;
+  transform: translatey(-50%);
   margin-left: 20%;
   text-align: right;
-  transform: translatey(35%);
 }
 
 .section-2__inner-page{
@@ -643,7 +647,7 @@ a{
 }
 
 .section-2__inner-page.active{
-  height: 420px;
+  height: 430px;
   background-color: #006ECD;
   color: #fff;
 }
@@ -677,19 +681,25 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  color: #006ecd;
-  right: -25px;
-  bottom: -15px;
+  border: 2px solid #fff;
+  color: #fff;
+  right: 0;
+  bottom: -40px;
   width: 30px;
   height: 30px;
   border-radius: 15px;
   cursor: pointer;
   z-index: 50;
+  box-sizing: border-box;
 }
 
 .section-2__ip-btn-left{
-  right: 2%;
+  right: 3%;
+}
+
+.section-2__ip-btn-left:hover,.section-2__ip-btn-right:hover{
+  background-color: #fff;
+  color: #006ecd;
 }
 
 .section-2__inner-page.active .section-2__ip-slider-box{
