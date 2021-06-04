@@ -185,8 +185,8 @@ require_once "head.php";
             </div>
           </div>
           <div class="section-2__ip-nav">
-            <div class="section-2__ip-btn-left"></div>
-            <div class="section-2__ip-btn-right"></div>
+            <div class="section-2__ip-btn-left"><i class="fas fa-caret-left"></i></div>
+            <div class="section-2__ip-btn-right"><i class="fas fa-angle-right"></i></div>
           </div>
         </div>
         <div class="section-2__ip-bg"

@@ -204,8 +204,7 @@ gsap.from('.section-7 li.one', {
   let s10 = gsap.timeline({
     scrollTrigger:{
       trigger:".section-10",
-      start:"top center",
-      markers:true
+      start:"top center"
     }
   });
   
