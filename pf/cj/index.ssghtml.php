@@ -182,6 +182,40 @@ require_once "head.php";
                 <div class="section-2__ip-title">미디어 컬처 스페이스</div>
                 <div class="section-2__ip-des">미디어 융합 기술 및 디지털 서비스 기반으로 고객의 새로운 경험을 제공합니다</div>
               </div>
+
+
+              <!-- 루프 모드의 데이터 양이 slidesPerView의 값보다 작아서 두번 넣는다 -->
+              <div class="swiper-slide">
+                <div class="section-2__ip-image-box img-box">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_slider-bg-1.png" alt="">
+                </div>
+                <div class="section-2__ip-title">지능형 물류 관제 시스템</div>
+                <div class="section-2__ip-des">물류 솔루션과 자동화 설비를 통한 물류 프로세스의 표준화, 자동화 및 정보 가시화를 지원합니다</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section-2__ip-image-box img-box">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_slider-bg-2.png" alt="">
+                </div>
+                <div class="section-2__ip-title">빅데이터 분석</div>
+                <div class="section-2__ip-des">기업 내·외부에 산재한 Data를 연결, 융합, 가공하여 핵심 자산화하고, Data 분석·활용 인프라 제공을 통해 실질적인
+                  경영성과를 지원합니다.</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section-2__ip-image-box img-box">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_slider-bg-3.png" alt="">
+                </div>
+                <div class="section-2__ip-title">스마트 워크플레이스</div>
+                <div class="section-2__ip-des">언제, 어디서나 소통하고 협업할 수 있는 최적의 솔루션을 제공합니다.</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section-2__ip-image-box img-box">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_slider-bg-4.png" alt="">
+                </div>
+                <div class="section-2__ip-title">미디어 컬처 스페이스</div>
+                <div class="section-2__ip-des">미디어 융합 기술 및 디지털 서비스 기반으로 고객의 새로운 경험을 제공합니다</div>
+              </div>
+               <!-- 루프 모드의 데이터 양이 slidesPerView의 값보다 작아서 두번 넣는다 -->
+
             </div>
           </div>
           <div class="section-2__ip-nav">
