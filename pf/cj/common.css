@@ -750,6 +750,15 @@ a{
   background-color: red;
 }
 
+.section-3__main-article-box .thumb>.img{
+  width: 90%;
+  height: 100px;
+  background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-3__main.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .section-3__article-box{
   height: 100%;
   width: 60%;
