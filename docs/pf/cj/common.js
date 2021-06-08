@@ -163,6 +163,19 @@ function MySliderBox1__init() {
   
   Html__init();
 
+
+  // 인디케이터 content 부분에서만 fixed
+
+  const containerBoxBorderTopWidth = parseInt($('#content').css('border-top-width'));
+const containerBoxBorderBottomWidth = parseInt($('#content').css('border-bottom-width'));
+
+ScrollTrigger.create({
+  trigger:'#content',
+  pin:'.indicator',
+  start: containerBoxBorderTopWidth + "px 0",
+  end: () => "bottom " + ($('.indicator').outerHeight() + containerBoxBorderBottomWidth) + "px",
+})
+
   // one_page_link
 
   console.clear();
@@ -332,7 +345,6 @@ $(function() {
       const swiper = new Swiper(node, {
         simulateTouch: false,
         slidesPerView:5,
-        // spaceBetween: -50,
         loop: true,
         navigation: {
           nextEl: $sliderBox.find('.section-2__ip-btn-right').get(0),
@@ -343,3 +355,19 @@ $(function() {
   }
   
   Section2__init();
+
+
+
+
+  // slider-box > .swiper-container').each(function(index, node) {
+  //   const $sliderBox = $(node).parent();
+  //   const swiper = new Swiper(node, {
+  //     slidesPerView:3.5,
+  //     spaceBetween:0,
+  //     loop: true,
+  //     navigation: {
+  //       nextEl: $sliderBox.find('.section-3__ip-btn-right').get(0),
+  //       prevEl: $sliderBox.find('.section-3__ip-btn-left').get(0),
+  //     },
+  //   });
+  // });

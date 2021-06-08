@@ -729,7 +729,12 @@ a{
 .section-3{
   height: 200vh;
   margin-left: 15%;
-  padding-top: 250px;
+  margin-top: 250px;
+  background-color: gold;
+}
+
+.section-3__title{
+  margin-bottom: 70px;
 }
 
 .section-3__title>span{

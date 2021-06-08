@@ -356,6 +356,18 @@ $(function() {
   
   Section2__init();
 
+    // 섹션3 메인아티클 영역안에서 스크롤 따라오기
+
+    const containerBoxBorderTopWidth__2 = parseInt($('.section-3').css('border-top-width'));
+    const containerBoxBorderBottomWidth__2 = parseInt($('.section-3').css('border-bottom-width'));
+    
+    ScrollTrigger.create({
+      trigger:'.section-3',
+      pin:'.section-3__main-article-box',
+      start: containerBoxBorderTopWidth__2 + "px 0",
+      end: () => "bottom " + ($('.section-3__main-article-box').outerHeight() + containerBoxBorderBottomWidth__2) + "px",
+    })
+
 
 
 
