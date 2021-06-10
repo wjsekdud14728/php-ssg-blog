@@ -214,7 +214,7 @@ require_once "head.php";
                 <div class="section-2__ip-title">미디어 컬처 스페이스</div>
                 <div class="section-2__ip-des">미디어 융합 기술 및 디지털 서비스 기반으로 고객의 새로운 경험을 제공합니다</div>
               </div>
-               <!-- 루프 모드의 데이터 양이 slidesPerView의 값보다 작아서 두번 넣는다 -->
+              <!-- 루프 모드의 데이터 양이 slidesPerView의 값보다 작아서 두번 넣는다 -->
 
             </div>
           </div>
@@ -436,12 +436,20 @@ require_once "head.php";
     <div class="section-3__articles-box flex">
       <div class="section-3__main-article-box">
         <a href="#">
-          <div class="thumb">
-            <div class="img"></div>
+          <div class="thumb img-box">
+            <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-3__main-img.png" alt="">
+            <div class="box"></div>
           </div>
-          <div class="category">Intelligent Transformation</div>
-          <div class="title">도전의 기회, 성장의 기회! CJ올리브네트웍스 '카이로스 랩(Kairos-Lab)'을 소개합니다.</div>
-          <div class="des">CJ그룹의 사보 NI:M을 통해 신사업 인큐베이팅 프로그램 ‘카이로스 랩’이 소개되었습니다. </div>
+          <div class="txt">
+            <div class="category">Intelligent Transformation</div>
+            <div class="title">도전의 기회, 성장의 기회! CJ올리브네트웍스<br>'카이로스 랩(Kairos-Lab)'을 소개합니다.</div>
+            <div class="des">CJ그룹의 사보 NI:M을 통해 신사업 인큐베이팅 프로그램<br>‘카이로스 랩’이 소개되었습니다. </div>
+          </div>
+          <div class="arrow">
+            <div></div>
+            <div></div>
+            <div>click</div>
+          </div>
         </a>
 
       </div>
@@ -454,12 +462,13 @@ require_once "head.php";
               </div>
               <div class="category">news</div>
               <div class="title">CJ올리브네트웍스, 던험비와 빅데이터 분석 신사업개발 나서</div>
-              <div class="des">CJ올리브네트웍스가 빅데이터 분석 기업 던험비와 빅데이터 비즈니스에 관해 업무협약을 체결하고 글로벌 수준의 데이터 관리 체계를 구축함과 동시에 CJ ONE 고객 데이터를 정밀 분석해 새로운 고객 가치를 제공합니다.</div>
+              <div class="des">CJ올리브네트웍스가 빅데이터 분석 기업 던험비와 빅데이터 비즈니스에 관해 업무협약을 체결하고 글로벌 수준의 데이터 관리 체계를 구축함과 동시에 CJ ONE 고객
+                데이터를 정밀 분석해 새로운 고객 가치를 제공합니다.</div>
             </a>
           </li>
           <li>
             <a href="#">
-            <div class="thumb img-box">
+              <div class="thumb img-box">
                 <img src="" alt="">
               </div>
               <div class="category"></div>
@@ -469,7 +478,7 @@ require_once "head.php";
           </li>
           <li>
             <a href="#">
-            <div class="thumb img-box">
+              <div class="thumb img-box">
                 <img src="" alt="">
               </div>
               <div class="category"></div>
@@ -479,7 +488,7 @@ require_once "head.php";
           </li>
           <li>
             <a href="#">
-            <div class="thumb img-box">
+              <div class="thumb img-box">
                 <img src="" alt="">
               </div>
               <div class="category"></div>
@@ -489,7 +498,7 @@ require_once "head.php";
           </li>
           <li>
             <a href="#">
-            <div class="thumb img-box">
+              <div class="thumb img-box">
                 <img src="" alt="">
               </div>
               <div class="category"></div>
@@ -499,7 +508,7 @@ require_once "head.php";
           </li>
           <li>
             <a href="#">
-            <div class="thumb img-box">
+              <div class="thumb img-box">
                 <img src="" alt="">
               </div>
               <div class="category"></div>
@@ -509,7 +518,7 @@ require_once "head.php";
           </li>
           <li>
             <a href="#">
-            <div class="thumb img-box">
+              <div class="thumb img-box">
                 <img src="" alt="">
               </div>
               <div class="category"></div>
@@ -519,7 +528,7 @@ require_once "head.php";
           </li>
           <li>
             <a href="#">
-            <div class="thumb img-box">
+              <div class="thumb img-box">
                 <img src="" alt="">
               </div>
               <div class="category"></div>

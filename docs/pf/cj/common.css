@@ -729,7 +729,12 @@ a{
 .section-3{
   height: 200vh;
   margin-left: 15%;
-  padding-top: 250px;
+  margin-top: 250px;
+  background-color: gold;
+}
+
+.section-3__title{
+  margin-bottom: 70px;
 }
 
 .section-3__title>span{
@@ -743,6 +748,15 @@ a{
   height: 100%;
   width: 40%;
   background-color: red;
+}
+
+.section-3__main-article-box .thumb>.img{
+  width: 90%;
+  height: 100px;
+  background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-3__main.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .section-3__article-box{
