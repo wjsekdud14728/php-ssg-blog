@@ -584,7 +584,7 @@ require_once "head.php";
       </div>
     </div>
   </section>
-  <section class="section-5-wrap" data-one-page-link="page5">
+  <section class="section-5-wrap" data-one-page-link="page5" data-one-page-menu-target-diff-y="-300px">
     <div class="section-5">
       <div class="section-5__title">
         <span>Contact us</span>
