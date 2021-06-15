@@ -550,36 +550,36 @@ require_once "head.php";
       </div>
       <div class="section-4__page-content flex flex-jc-sa">
         <div class="card">
-          <a href="#">
+          <div class="card-bg"></div>
             <div class="content">
-              <div class="title">equitable education</div>
-              <div class="des">자라나는 아이들이 보다 쉽고 재미있게 소프트웨어 코딩(Coding)을 경험하며, 이를 통해 창의력과 논리적으로 사고할 수 있는 힘을 키울 수 있도록 지원하는 CJ올리브네트웍스의 대표적인 재능기부 프로그램입니다.</div>
+              <div class="title">공평한 교육</div>
+              <div class="des">業의 특성을 살린 지속 가능한 임직원 나눔 활동입니다</div>
+              <button class="btn">View more</button>
             </div>
-          </a>
         </div>
         <div class="card">
-        <a href="#">
+        <div class="card-bg"></div>
             <div class="content">
-              <div class="title">equitable education</div>
-              <div class="des">자라나는 아이들이 보다 쉽고 재미있게 소프트웨어 코딩(Coding)을 경험하며, 이를 통해 창의력과 논리적으로 사고할 수 있는 힘을 키울 수 있도록 지원하는 CJ올리브네트웍스의 대표적인 재능기부 프로그램입니다.</div>
+              <div class="title">경제적 기회</div>
+              <div class="des">허브팟은 집단지성을 통해 성장동력 발굴과 문제해결을 위한 솔루션을 찾을 수 있도록 돕는 개방형 혁신 플랫폼 입니다.</div>
+              <button class="btn">View more</button>
             </div>
-          </a>
         </div>
         <div class="card">
-        <a href="#">
+        <div class="card-bg"></div>
             <div class="content">
-              <div class="title">equitable education</div>
-              <div class="des">자라나는 아이들이 보다 쉽고 재미있게 소프트웨어 코딩(Coding)을 경험하며, 이를 통해 창의력과 논리적으로 사고할 수 있는 힘을 키울 수 있도록 지원하는 CJ올리브네트웍스의 대표적인 재능기부 프로그램입니다.</div>
+              <div class="title">건강한 복지</div>
+              <div class="des">임직원들의 시간과 재능을 기부하는 자원봉사를 통해 지역사회의 건강한 복지에 기여하고 있습니다.</div>
+              <button class="btn">View more</button>
             </div>
-          </a>
         </div>
         <div class="card">
-        <a href="#">
+        <div class="card-bg"></div>
             <div class="content">
-              <div class="title">equitable education</div>
-              <div class="des">자라나는 아이들이 보다 쉽고 재미있게 소프트웨어 코딩(Coding)을 경험하며, 이를 통해 창의력과 논리적으로 사고할 수 있는 힘을 키울 수 있도록 지원하는 CJ올리브네트웍스의 대표적인 재능기부 프로그램입니다.</div>
+              <div class="title">환경보전</div>
+              <div class="des">중앙집중식시스템(UPS&냉동기)과 고효율 인버터냉동기 사용, 냉수/냉각수 펌프 회전속도 및 항온기 풍속 제어 등을 통해 에너지 절감을 위한 노력을 계속하고 있습니다.</div>
+              <button class="btn">View more</button>
             </div>
-          </a>
         </div>
       </div>
     </div>

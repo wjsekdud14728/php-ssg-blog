@@ -916,13 +916,14 @@ a{
   bottom: 0;
   width: 100%;
   height: 45%;
-  background-color: rgba(0,0,0,.03);
+  background-color: rgba(0,0,0,.05);
 }
 
 .section-4{
   position: relative;
   margin-left: 15%;
   height: 100%;
+  z-index: 10;
   /* background-color: gold; */
 }
 
@@ -950,14 +951,19 @@ a{
   top: 0;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 
 .section-4__page-content>.card{
+  position: relative;
   height: 50%;
+  width: 20%;
   margin: 0 35px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .section-4__page-content>.card:nth-child(1){
@@ -976,6 +982,75 @@ a{
   background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__img4.png");
 }
 
+.section-4__page-content>.card>.card-bg{
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 87%;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .5;
+  transition: top .5s;
+}
+
+.section-4__page-content>.card>.content{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%,0);
+  text-align: center;
+  color: #fff;
+  /* margin-top: 40%; */
+  z-index: 10;
+  transition: top .5s, transform .5s; 
+}
+
+.section-4__page-content>.card>.content>.title{
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 35px;
+}
+
+.section-4__page-content>.card>.content>.des{
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.section-4__page-content>.card>.content>.btn {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.section-4__page-content>.card>.content>.btn:hover{
+  background-color: lighten(black, 5%);
+}
+
+.section-4__page-content>.card:hover>.card-bg{
+  top: 0;
+}
+
+.section-4__page-content>.card:hover>.content{
+  top: 50%;
+  transform: translate(-50%,-50%)
+}
+
+.section-4__page-content>.card:hover>.content>.des{
+  opacity: 1;
+}
 
 
 /* 섹션 5 */
