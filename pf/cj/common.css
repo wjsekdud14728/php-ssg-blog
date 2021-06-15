@@ -1055,14 +1055,43 @@ a{
 
 /* 섹션 5 */
 
+.section-5-wrap{
+  height: 80vh;
+  background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-5__bg.png");
+}
+
 .section-5{
-  height: 100vh;
-  background-color: blue;
+  position: relative;
+  margin-left: 15%;
+  height: 100%;
+  z-index: 10;
+  padding-top: 150px;
+  box-sizing: border-box;
+}
+
+.section-5__title>span{
+  display: block;
+  font-size: 35px;
+  color: #fff;
+  text-align: left;
+  font-weight: 800;
+}
+
+.section-5__title>span:first-child{
+  margin-top: 10px;
+  color: #fff;
+}
+
+.section-5__title>span:last-child{
+  margin-top: 30px;
+  font-size: 20px;
+  color: #ffff;
+  font-weight: 300;
 }
 
 /* 푸터 */
 
 #footer{
   height: 10vh;
-  background-color: #afafaf;
+  background-color: #014f92;
 }

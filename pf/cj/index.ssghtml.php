@@ -584,7 +584,14 @@ require_once "head.php";
       </div>
     </div>
   </section>
-  <section class="section-5" data-one-page-link="page5"></section>
+  <section class="section-5-wrap" data-one-page-link="page5">
+    <div class="section-5">
+      <div class="section-5__title">
+        <span>Contact us</span>
+        <span>CJ올리브네트웍스는 귀사의 비즈니스를 위한 IT전문 기술 제공 및 컨설팅을 지원합니다.</span>
+      </div>
+    </div>
+  </section>
 </div>
 
 <?php
