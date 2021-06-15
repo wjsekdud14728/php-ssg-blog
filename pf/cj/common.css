@@ -57,6 +57,10 @@ a{
   justify-content: space-between;
 }
 
+.flex-jc-sa{
+  justify-content: space-around;
+}
+
 .absolute{
   position: absolute;
 }
@@ -760,7 +764,7 @@ a{
 .section-3__main-article-box .thumb>.box{
   position: absolute;
   display: block;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   width: 80%;
   height: 12%;
@@ -896,10 +900,83 @@ a{
 
 /* 섹션 4 */
 
-.section-4{
+
+.section-4-wrap{
+  position: relative;
   height: 100vh;
-  background-color: green;
+  padding-top: 230px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
+
+.section-4-wrap::after{
+  position: absolute;
+  content:"";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 45%;
+  background-color: rgba(0,0,0,.03);
+}
+
+.section-4{
+  position: relative;
+  margin-left: 15%;
+  height: 100%;
+  /* background-color: gold; */
+}
+
+.section-4__title>span{
+  display: block;
+  font-size: 35px;
+  color: #333;
+  text-align: left;
+  font-weight: 800;
+}
+
+.section-4__title>span:first-child{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #bababa;
+  font-weight: 700;
+}
+
+.section-4__title>span:last-child{
+  margin-top: 10px;
+}
+
+.section-4__page-content{
+  position: absolute;
+  top: 0;
+  align-items: center;
+  height: 100%;
+}
+
+.section-4__page-content>.card{
+  height: 50%;
+  margin: 0 35px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-4__page-content>.card:nth-child(1){
+  background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__img1.png");
+}
+
+.section-4__page-content>.card:nth-child(2){
+  background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__img2.png");
+}
+
+.section-4__page-content>.card:nth-child(3){
+  background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__img3.png");
+}
+
+.section-4__page-content>.card:nth-child(4){
+  background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__img4.png");
+}
+
+
 
 /* 섹션 5 */
 
