@@ -465,26 +465,25 @@ a{
 
 .indicator{
   position: absolute;
-  top: 0;
-  left: 3%;
+  margin-left: 3%;
   height: 100vh;
   display: flex;
   align-items: center;
   z-index: 99;
-  color: white;
+  color: #fff;
   mix-blend-mode:difference;
 }
 
 .indicator>ul>li>a{
-  position: relative;
   display: block;
   padding: 10px 5px;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 300;
+  z-index: 10000000000;
 }
 
 .indicator>ul>li>a.active{
-  color: #006ECD;
+  color: #006ecd;
 }
 
 /* section-1 */

@@ -166,7 +166,7 @@ function MySliderBox1__init() {
 
   // 인디케이터 content 부분에서만 fixed
 
-  const containerBoxBorderTopWidth = parseInt($('#content').css('border-top-width'));
+const containerBoxBorderTopWidth = parseInt($('#content').css('border-top-width'));
 const containerBoxBorderBottomWidth = parseInt($('#content').css('border-bottom-width'));
 
 ScrollTrigger.create({
@@ -327,6 +327,8 @@ function OnePageMenu__checkAndActive() {
 $(function() {
   OnePageMenu__init();
 });
+
+
 
   
   
