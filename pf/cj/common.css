@@ -471,6 +471,8 @@ a{
   display: flex;
   align-items: center;
   z-index: 99;
+  color: white;
+  mix-blend-mode:difference;
 }
 
 .indicator>ul>li>a{
@@ -479,8 +481,6 @@ a{
   padding: 10px 5px;
   font-size: 15px;
   font-weight: bold;
-  color: black;
-  mix-blend-mode:difference;
 }
 
 .indicator>ul>li>a.active{
