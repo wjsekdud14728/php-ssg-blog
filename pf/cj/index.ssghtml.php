@@ -70,15 +70,11 @@ require_once "head.php";
 <div id="content">
 
   <!-- 인디케이터 -->
-  <nav class="indicator">
-    <ul>
-      <li><a class="one-page-link" href="#page1">Work Rull</a></li>
-      <li><a class="one-page-link" href="#page2">Business Introduction</a></li>
-      <li><a class="one-page-link" href="#page3">Public Relations Center</a></li>
-      <li><a class="one-page-link" href="#page4">Social Contribution</a></li>
-      <li><a class="one-page-link" href="#page5">Contact</a></li>
-    </ul>
-  </nav>
+      <a class="one-page-link" href="#page1">Work Rull</a>
+      <a class="one-page-link" href="#page2">Business Introduction</a>
+      <a class="one-page-link" href="#page3">Public Relations Center</a>
+      <a class="one-page-link" href="#page4">Social Contribution</a>
+      <a class="one-page-link" href="#page5">Contact</a>
 
   <!-- 섹션 1 -->
   <section class="section-1" data-one-page-link="page1">

@@ -463,7 +463,7 @@ a{
   z-index: 99;
 }
 
-.indicator{
+/* .indicator{
   position: absolute;
   margin-left: 3%;
   height: 100vh;
@@ -472,19 +472,47 @@ a{
   z-index: 99;
   color: #fff;
   mix-blend-mode:difference;
-}
+} */
 
-.indicator>ul>li>a{
+a.one-page-link{
+  position: absolute;
+  left: 3%;
   display: block;
   padding: 10px 5px;
   font-size: 15px;
-  font-weight: 300;
-  z-index: 10000000000;
+  font-weight: 700;
+  z-index: 99;
+  color: #fff;
+  mix-blend-mode:difference;
+  transform: translatey(-50%);
+  background-color: red;
 }
 
-.indicator>ul>li>a.active{
-  color: #006ecd;
+a.one-page-link:nth-child(1){
+  top: 44vh;
 }
+
+a.one-page-link:nth-child(2){
+  top: 47vh;
+}
+
+a.one-page-link:nth-child(3){
+  top: 50vh;
+}
+
+a.one-page-link:nth-child(4){
+  top: 53vh;
+}
+
+a.one-page-link:nth-child(5){
+  top: 56vh;
+}
+
+a.one-page-link.active{
+  color: #006ecd;
+  mix-blend-mode: normal;
+}
+
 
 /* section-1 */
 
