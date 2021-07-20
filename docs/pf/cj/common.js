@@ -171,9 +171,37 @@ const containerBoxBorderBottomWidth = parseInt($('#content').css('border-bottom-
 
 ScrollTrigger.create({
   trigger:'#content',
-  pin:'.indicator',
+  pin:'a.one-page-link:nth-child(1)',
   start: containerBoxBorderTopWidth + "px 0",
-  end: () => "bottom " + ($('.indicator').outerHeight() + containerBoxBorderBottomWidth) + "px",
+  end: () => "bottom " + ($('a.one-page-link:nth-child(1)').outerHeight() + containerBoxBorderBottomWidth) + "px",
+})
+
+ScrollTrigger.create({
+  trigger:'#content',
+  pin:'a.one-page-link:nth-child(2)',
+  start: containerBoxBorderTopWidth + "px 0",
+  end: () => "bottom " + ($('a.one-page-link:nth-child(2)').outerHeight() + containerBoxBorderBottomWidth) + "px",
+})
+
+ScrollTrigger.create({
+  trigger:'#content',
+  pin:'a.one-page-link:nth-child(3)',
+  start: containerBoxBorderTopWidth + "px 0",
+  end: () => "bottom " + ($('a.one-page-link:nth-child(3)').outerHeight() + containerBoxBorderBottomWidth) + "px",
+})
+
+ScrollTrigger.create({
+  trigger:'#content',
+  pin:'a.one-page-link:nth-child(4)',
+  start: containerBoxBorderTopWidth + "px 0",
+  end: () => "bottom " + ($('a.one-page-link:nth-child(4)').outerHeight() + containerBoxBorderBottomWidth) + "px",
+})
+
+ScrollTrigger.create({
+  trigger:'#content',
+  pin:'a.one-page-link:nth-child(5)',
+  start: containerBoxBorderTopWidth + "px 0",
+  end: () => "bottom " + ($('a.one-page-link:nth-child(5)').outerHeight() + containerBoxBorderBottomWidth) + "px",
 })
 
   // one_page_link
