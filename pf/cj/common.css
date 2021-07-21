@@ -515,7 +515,7 @@ a.one-page-link.active{
 /* section-1 */
 
 .section-1{
-  height: 980px;
+  height: 900px;
   position: relative;
 }
 
@@ -524,6 +524,7 @@ a.one-page-link.active{
   position: absolute;
   top: 50%;
   right: 0;
+  margin-right: 80px;
   transform: translatey(-50%);
   width: 80%;
 }
@@ -571,13 +572,15 @@ a.one-page-link.active{
 
 .section-1__work-rule-item{
   position: relative;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .section-1__work-rule-item::before{
   position: absolute;
   display: block;
   content: "";
-  top: 40%;
+  top: 36%;
   left: 0;
   transform: translateY(-50%);
   width: 100%;
@@ -597,6 +600,27 @@ a.one-page-link.active{
   box-sizing: border-box;
 }
 
+.section-1__work-rule-item>ul>li:hover>.image{
+  background-color: #006ECD;
+  border-color: #006ECD;
+}
+
+.section-1__work-rule-item>ul>li:hover>.image>img:first-child{
+  transition: .5s;
+}
+
+.section-1__work-rule-item>ul>li:hover>.image>img:last-child{
+  transition: .5s;
+}
+
+.section-1__work-rule-item>ul>li:hover>.image>img:first-child{
+  display: none;
+}
+
+.section-1__work-rule-item>ul>li:hover>.image>img:last-child{
+  display: block;
+}
+
 .section-1__work-rule-item>ul>li>.image{
   width: 100px;
   padding: 20px;
@@ -604,14 +628,65 @@ a.one-page-link.active{
   background-color: #fff;
   border: 5px solid #e9e9e9;
   margin: 0 auto;
+  transition: .5s;
+}
+
+.section-1__work-rule-item>ul>li>.image>img:last-child{
+  display: none;
 }
 
 .section-1__work-rule-item>ul>li>.txt{
   text-align: center;
-  font-size: 15px;
-  color: #959595;
+  font-size: 13px;
+  color: #333;
   margin : 24px auto 0 auto;
-  width: 90%;
+}
+
+.section-1__btn{
+  text-align: center;
+  font-weight: 700;
+  margin-top: 70px;
+}
+
+.section-1__btn>a{
+  position: relative;
+  display: inline-block;
+  padding: 20px 40px;
+  color: #333;
+}
+
+.section-1__btn>a::before{
+  position: absolute;
+  display: block;
+  content:"";
+  top: 0;
+  left: 0;
+  width: 59px;
+  height: 59px;
+  border-radius: 40px;
+  background-color: #f4f4f4;
+  z-index: -1;
+  transition: all .5s;
+}
+
+.section-1__btn>a:hover::before{
+  width: 100%;
+  background-color: #71ceff;
+  opacity: 50%;
+}
+
+.section-1__btn>a>i{
+  transition: transform .5s;
+}
+
+.section-1__btn:hover>a>i{
+  transform: rotate(90deg);
+}
+
+.section-1__btn>a>span:last-child{
+  font-size: 900;
+  font-size: 1.3rem;
+  transition: transform .5s;
 }
 
 /* 섹션2 */
