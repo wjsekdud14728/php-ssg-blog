@@ -73,50 +73,47 @@ require_once "head.php";
       <a class="one-page-link" href="#page1">Work Rull</a>
       <a class="one-page-link" href="#page2">Business Introduction</a>
       <a class="one-page-link" href="#page3">Public Relations Center</a>
-      <a class="one-page-link" href="#page4">Social Contribution</a>
       <a class="one-page-link" href="#page5">Contact</a>
 
   <!-- 섹션 1 -->
   <section class="section-1" data-one-page-link="page1">
     <div class="section-1__box">
       <div class="section-1__title">
-        <span>WORK RULL</span>
-        <span>고객과 사회의 행복을 선도하는 TOP TIER 디지털 서비스 기업, CJ올리브네트웍스 </span>
+        <span>고객과 사회의 행복을 선도하는 TOP TIER</span>
+        <span>디지털 서비스 기업, <strong>CJ올리브네트웍스</strong></span>
       </div>
-      <nav class="work-rule-item">
+      <div class="section-1__sub-title">
+        <span>CJ OLIVE NETWORKS</span>
+      </div>
+      <div class="section-1__des">
+        <span>우리는 OnlyOne 기술과 서비스로 고객의 성공을 견인하고 더 나은 세상을 만드는데 기여한다</span>
+        <span>CJ올리브네트웍스는 빠르게 변화하는 경영환경 속에서 다가올 미래를 위해 남들보다 먼저, 더 멀리, 예측하여</span>
+        <span>고객의 혁신적인 성공을 견인하고 사회적 문제 해결을 통한 더 나은 세상을 실현하는데 앞장서겠습니다.</span>
+      </div>
+      <nav class="section-1__work-rule-item">
         <ul class="flex">
           <li>
             <div class="image img-box"><img
                 src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-1.png" alt=""></div>
-            <div class="title">고객중심</div>
-            <div class="sub-title">고객 가치·신뢰</div>
-            <div class="txt">고객성공/가치향상을 위해 최선을 다하고
-              신뢰 관계를 구축한다.</div>
+            <div class="txt">고객성공과 가치향상을 위해 최선을 다하고<br>신뢰 관계를 구축한다</div>
           </li>
           <li>
             <div class="image img-box"><img
                 src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-2.png" alt=""></div>
-            <div class="title">사회적 가치증대</div>
-            <div class="sub-title">동반 성장·지속가능경영</div>
-            <div class="txt">우리를 둘러싼 이해관계자와의 동반성장과 사회적 책임을 다하기 위해 노력한다.</div>
+            <div class="txt">우리를 둘러싼 이해관계자와의 동반성장과<br>사회적 책임을 다하기 위해 노력한다</div>
           </li>
           <li>
             <div class="image img-box"><img
                 src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-3.png" alt=""></div>
-            <div class="title">전문성 강화</div>
-            <div class="sub-title">최고 기술·역량 개발</div>
-            <div class="txt">ONLYONE 제품/서비스를 위해 최고의 기술과 역량을 확보한다.</div>
+            <div class="txt">ONLYONE 제품/서비스를 위해 최고의<br>기술과 역량을 확보한다</div>
           </li>
           <li>
             <div class="image img-box"><img
                 src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_item-4.png" alt=""></div>
-            <div class="title">혁신</div>
-            <div class="sub-title">혁신 추구·도전/다양성 중시</div>
-            <div class="txt">지속적인 혁신, 끊임없는 도전과 다양성 추구로 새로운 가치를 창출한다.</div>
+            <div class="txt">지속적인 혁신, 끊임없는 도전과<br>다양성 추구로 새로운 가치를 창출한다</div>
           </li>
         </ul>
       </nav>
-    </div>
 
 
   </section>
