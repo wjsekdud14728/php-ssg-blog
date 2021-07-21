@@ -135,16 +135,19 @@ require_once "head.php";
   <!-- 섹션 2 -->
   <section class="section-2 relative" data-one-page-link="page2">
 
-    <div class="section-2__title-box">
-      <div class="section-2__title-img">
-        <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_title-image.png" alt="">
-      </div>
-      <div class="section-2__title">
-        <span>Business</span><span>Introduction</span>
+    <div class="section-2__bg-image">
+      <div class="section-2__title-box">
+        <div class="title">Business<br>Introduction</div>
+        <nav class="list">
+          <ul>
+            <li class="active">디지털 비즈니스</li>
+            <li>솔루션 비즈니스</li>
+            <li>서비스형 비즈니스</li>
+            <li>시스템형 비즈니스</li>
+          </ul>
+        </nav>
       </div>
     </div>
-
-    <div class="section-2__bg-image"></div>
 
   </section>
 

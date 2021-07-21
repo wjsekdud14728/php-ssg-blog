@@ -697,9 +697,9 @@ a.one-page-link.active{
 }
 
 .section-2__bg-image{
-  width: 660px;
+  width: 700px;
   height: 980px;
-  position: absolute;
+  position: relative;
   background-image: url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_bg-img.png);
   background-position: center;
   background-size: cover;
@@ -716,141 +716,62 @@ a.one-page-link.active{
   width: 100%;
   height: 100%;
   background-color: #000;
-  opacity: .4;
+  opacity: .5;
 }
 
 .section-2__title-box{
   position: absolute;
-  z-index: 5;
   top: 50%;
-  transform: translatey(-50%);
-  left: 15%;
-}
-
-.section-2__title-img{
-  position: relative;
-}
-
-.section-2__title-img::after{
-  position: absolute;
-  display: block;
-  content:"";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,.4);
-}
-
-.section-2__title{
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translatey(-50%);
-}
-
-.section-2__title>span{
-  color: #fff;
-  font-size: 40px;
-  font-weight: bold;
-  display: block;
-}
-
-.section-2__inner-pages{
-  position: relative;
-  top: 50%;
-  transform: translatey(-50%);
-  margin-left: 20%;
-  text-align: right;
-}
-
-.section-2__inner-page{
-  border-top: 2px solid rgba(153,153,153,.5);
-  color: #333;
-  padding-right: 5%;
-  height: 100px;
-  overflow: hidden;
-  transition: height .8s;
-}
-
-.section-2__inner-page.active{
-  height: 430px;
-  background-color: #006ECD;
-  color: #fff;
-}
-
-.section-2__inner-page:last-child{
-  border-bottom: 2px solid rgba(153,153,153,.5);
-}
-
-.section-2__inner-page-title{
-  font-size: 25px;
-  font-weight: 500;
-  margin-top: 25px;
-}
-
-.section-2__inner-page-des{
-  font-size: 15px;
-  margin-top: 5px;
-}
-
-.section-2__ip-slider-box{
-  margin-top: 35px;
-  width: 85%;
-  margin-left: auto;
-  margin-right: 0;
-  transition: margin-top .2s;
-  position: relative;
-}
-
-.section-2__ip-btn-left,.section-2__ip-btn-right{
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #fff;
-  color: #fff;
   right: 0;
-  bottom: -40px;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  cursor: pointer;
-  z-index: 50;
-  box-sizing: border-box;
-}
-
-.section-2__ip-btn-left{
-  right: 3%;
-}
-
-.section-2__ip-btn-left:hover,.section-2__ip-btn-right:hover{
+  transform: translateY(-50%);
+  width: 50%;
+  height: 70%;
   background-color: #fff;
-  color: #006ecd;
+  z-index: 20;
 }
 
-.section-2__inner-page.active .section-2__ip-slider-box{
-  margin-top: 20px;
+.section-2__title-box>.title{
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
-.section-2__ip-image-box{
-  width:200px;
-  margin: 0 auto;
+.section-2__title-box>.list{
+  margin-top: 100px;
 }
 
-.section-2__ip-title{
-  text-align: center;
-  margin-top: 7px;
-  font-size: 17px;
+.section-2__title-box>.list>ul>li{
+  font-size: 20px;
+  width: 100%;
+  padding: 30px 0 30px 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 600;
 }
 
-.section-2__ip-des{
-  width: 200px;
-  margin: 0 auto;
-  margin-top: 5px;
-  font-size: 13px;
-  text-align: left;
+.section-2__title-box>.list>ul>li:not(:last-child){
+  border-bottom: 1px solid #333;
 }
+
+.section-2__title-box>.list>ul>li.active{
+  position: relative;
+  color: #014f92;
+  font-weight: 900;
+}
+
+.section-2__title-box>.list>ul>li.active::after{
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  content:"\f054";
+  font-family: "Font Awesome 5 Free";
+  color: #014f92;
+  font-size: 1.8rem;
+}
+
 /* 섹션 3 */
 
 .section-3{
