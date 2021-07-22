@@ -363,11 +363,11 @@ $('.section-2__title-box>.list>ul>li').click(function (){
   
   $('.section-2__title-box>.list>ul>li.active').removeClass('active');
   $('.section-2__title-box>.list>ul>li').eq(index).addClass('active');
+  
+  var $section = $(this.closest('.section-2'));
 
-});
-
-$('.section-2__list-content>img>.swiper-nav> .swiper-next').click(function (){
-  alert("hi");
+  $('.section-2__list-items>ul>li.active').removeClass('active');
+  $('.section-2__list-items>ul>li').eq(index).addClass('active');
 });
 
 // 섹션2 리스트아이템 스와이퍼
@@ -377,11 +377,11 @@ function MySliderBox2__init() {
     simulateTouch: false,
     effect: 'fade',
   navigation: {
-    nextEl: '.section-2__list-content>.img>.swiper-nav> .swiper-next',
-    prevEl: '.section-2__list-content>.img>.swiper-nav> .swiper-prev',
+    nextEl: '.section-2__list-items>ul>li>.img>.swiper-nav-2> .swiper-next',
+    prevEl: '.section-2__list-items>ul>li>.img>.swiper-nav-2> .swiper-prev',
   },
     pagination: {
-      el: ".section-2__list-content>.img>.swiper-pagination",
+      el: ".section-2__list-items>ul>li>.img>.swiper-pagination",
       clickable:true,
       renderBullet: function (index, className) {
         const $currentSlide = $('.my-slider-box-2 .swiper-slide[data-index="' + index + '"]');
@@ -394,16 +394,68 @@ function MySliderBox2__init() {
     spaceBetween:0,
     loop: true,
   });
-
-  const $bulletActive = $('.my-slider-box-2 .swiper-pagination-bullet-active');
-
-  $bulletActive.removeClass('.swiper-pagination-bullet-active');
-  setTimeout(function() {
-    $bulletActive.addClass('.swiper-pagination-bullet-active');
-  }, 100);
 }
 
 MySliderBox2__init();
+
+// function MySliderBox3__init() {
+//   var swiper = new Swiper('.my-slider-box-3 .swiper-container', {
+//     simulateTouch: false,
+//     effect: 'fade',
+//   navigation: {
+//     nextEl: '.section-2__list-items>ul>li>.img>.swiper-nav-3> .swiper-next',
+//     prevEl: '.section-2__list-items>ul>li>.img>.swiper-nav-3> .swiper-prev',
+//   },
+//     pagination: {
+//       el: ".section-2__list-items>ul>li>.img>.swiper-pagination-3",
+//       clickable:true,
+//       renderBullet: function (index, className) {
+//         const $currentSlide = $('.my-slider-box-3 .swiper-slide[data-index="' + index + '"]');
+
+//         const bullet = '<span class="' + className + '"><span class="txt">' + $currentSlide.attr('data-title') + '</span></span>';
+//         return bullet;
+//       },
+//     },
+//     slidesPerView:1,
+//     spaceBetween:0,
+//     loop: true,
+//   });
+// }
+
+// MySliderBox3__init();
+
+
+// function Section2__init() {
+
+//   $('li>.img>.my-slider-box-2>.swiper-container').each(function(index, node) {
+//     const $sliderBox = $(node).parent();
+//     const swiper = new Swiper(node, {
+//       simulateTouch: false,
+//       effect: 'fade',
+//       navigation: {
+
+//         nextEl: $sliderBox.find('.swiper-next').get(0),
+//         prevEl: $sliderBox.find('.swiper-prev').get(0),
+//       },
+//       pagination: {
+//         el: ".section-2__list-items>ul>li>.img>.swiper-pagination",
+//         clickable:true,
+//         renderBullet: function (index, className) {
+//           const $currentSlide = $('.my-slider-box-2 .swiper-slide[data-index="' + index + '"]');
+  
+//           const bullet = '<span class="' + className + '"><span class="txt">' + $currentSlide.attr('data-title') + '</span></span>';
+//           return bullet;
+//         },
+//       },
+      
+//     slidesPerView:1,
+//     spaceBetween:0,
+//     loop: true,
+//     });
+//   });
+// }
+
+// Section2__init();
 
 
     // 섹션3 메인아티클 영역안에서 스크롤 따라오기
