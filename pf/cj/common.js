@@ -356,35 +356,55 @@ $(function() {
   OnePageMenu__init();
 });
 
+//섹션2 리스트클릭
 
+$('.section-2__title-box>.list>ul>li').click(function (){
+  var index = $(this).index();
+  
+  $('.section-2__title-box>.list>ul>li.active').removeClass('active');
+  $('.section-2__title-box>.list>ul>li').eq(index).addClass('active');
 
-  
-  
-  // section-2 스와이퍼
-  function Section2__init() {
-    $('.section-2__inner-page').click(function() {
-      const $clicked = $(this);
-      const index = $clicked.index();
-  
-      $clicked.siblings('.active').removeClass('active');
-      $clicked.addClass('active');
-    });
-  
-    $('.section-2__ip-slider-box > .swiper-container').each(function(index, node) {
-      const $sliderBox = $(node).parent();
-      const swiper = new Swiper(node, {
-        simulateTouch: false,
-        slidesPerView:5,
-        loop: true,
-        navigation: {
-          nextEl: $sliderBox.find('.section-2__ip-btn-right').get(0),
-          prevEl: $sliderBox.find('.section-2__ip-btn-left').get(0),
-        },
-      });
-    });
-  }
-  
-  Section2__init();
+});
+
+$('.section-2__list-content>img>.swiper-nav> .swiper-next').click(function (){
+  alert("hi");
+});
+
+// 섹션2 리스트아이템 스와이퍼
+
+function MySliderBox2__init() {
+  var swiper = new Swiper('.my-slider-box-2 .swiper-container', {
+    simulateTouch: false,
+    effect: 'fade',
+  navigation: {
+    nextEl: '.section-2__list-content>.img>.swiper-nav> .swiper-next',
+    prevEl: '.section-2__list-content>.img>.swiper-nav> .swiper-prev',
+  },
+    pagination: {
+      el: ".section-2__list-content>.img>.swiper-pagination",
+      clickable:true,
+      renderBullet: function (index, className) {
+        const $currentSlide = $('.my-slider-box-2 .swiper-slide[data-index="' + index + '"]');
+
+        const bullet = '<span class="' + className + '"><span class="txt">' + $currentSlide.attr('data-title') + '</span></span>';
+        return bullet;
+      },
+    },
+    slidesPerView:1,
+    spaceBetween:0,
+    loop: true,
+  });
+
+  const $bulletActive = $('.my-slider-box-2 .swiper-pagination-bullet-active');
+
+  $bulletActive.removeClass('.swiper-pagination-bullet-active');
+  setTimeout(function() {
+    $bulletActive.addClass('.swiper-pagination-bullet-active');
+  }, 100);
+}
+
+MySliderBox2__init();
+
 
     // 섹션3 메인아티클 영역안에서 스크롤 따라오기
 

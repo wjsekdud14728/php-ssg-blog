@@ -692,12 +692,11 @@ a.one-page-link.active{
 /* 섹션2 */
 
 .section-2{
-  display: block;
   height: 980px;
 }
 
 .section-2__bg-image{
-  width: 700px;
+  width: 33%;
   height: 980px;
   position: relative;
   background-image: url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2_bg-img.png);
@@ -757,7 +756,6 @@ a.one-page-link.active{
 .section-2__title-box>.list>ul>li.active{
   position: relative;
   color: #014f92;
-  font-weight: 900;
 }
 
 .section-2__title-box>.list>ul>li.active::after{
@@ -771,6 +769,81 @@ a.one-page-link.active{
   color: #014f92;
   font-size: 1.8rem;
 }
+
+.section-2__list-content{
+  width: 67%;
+  align-self: center;
+}
+
+.section-2__list-content>.img{
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.section-2__list-content>.img .swiper-slide>.txt{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-size: .85rem;
+}
+
+.section-2__list-content>.img>.swiper-pagination{
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+}
+
+.section-2__list-content>.img>.swiper-pagination > .swiper-pagination-bullet {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  overflow: none;
+  background-color: #fff;
+  opacity: .5;
+}
+
+.section-2__list-content>.img>.swiper-pagination > .swiper-pagination-bullet>span{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translatex(-50%);
+  white-space: nowrap;
+  color: #fff;
+  font-size: .8rem;
+  opacity: 0;
+}
+
+.section-2__list-content>.img>.swiper-nav>.swiper-prev, .section-2__list-content>.img>.swiper-nav>.swiper-next{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 5%;
+  right:0;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.section-2__list-content>.img>.swiper-nav>.swiper-prev{
+  right: 50px;
+}
+
+
+
+
+
+
+ html.active #visual>.my-slider-box-1:not([data-autoplay-stop="Y"])>.swiper-pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active::after {
+  animation:width-0-to-100;
+  animation-duration:10s;
+  width:100%;
+}
+
+
+
 
 /* 섹션 3 */
 

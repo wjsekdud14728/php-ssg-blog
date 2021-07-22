@@ -133,8 +133,7 @@ require_once "head.php";
   </section>
 
   <!-- 섹션 2 -->
-  <section class="section-2 relative" data-one-page-link="page2">
-
+  <section class="section-2 relative flex" data-one-page-link="page2">
     <div class="section-2__bg-image">
       <div class="section-2__title-box">
         <div class="title">Business<br>Introduction</div>
@@ -148,6 +147,39 @@ require_once "head.php";
         </nav>
       </div>
     </div>
+    <div class="section-2__list-content">
+      <div class="img">
+        <div class="my-slider-box-2">
+          <div class="swiper-container">
+           <div class="swiper-wrapper">
+              <div class="swiper-slide" data-title="지능형물류관제시스템" data-index="0">
+               <div class="my-slider-box-2__img img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle.png" alt=""></div>
+              </div>
+              <div class="swiper-slide" data-title="빅데이터분석" data-index="1">
+              <div class="my-slider-box-2__img img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-104.png" alt=""></div>
+              </div>
+              <div class="swiper-slide" data-title="스마트워크플레이스" data-index="2">
+              <div class="my-slider-box-2__img img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle.png" alt=""></div>
+              </div>
+              <div class="swiper-slide" data-title="미디어컬처스페이스" data-index="3">
+              <div class="my-slider-box-2__img img-box"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-nav">
+          <div class="swiper-prev"><i class="fas fa-angle-left"></i></div>
+          <div class="swiper-next"><i class="fas fa-angle-right"></i></div>
+        </div>
+      </div>
+        <div class="des">최신 IT기술의 융합으로 산업별 최고의 Digital Experience를 제공하여 고객의 비즈니스혁신을 선도합니다.</div>
+        <div class="section-2__btn">
+          <a href="#">
+            More View <i class="fas fa-plus"></i>
+         </a>
+        </div>
+      </div>
 
   </section>
 
