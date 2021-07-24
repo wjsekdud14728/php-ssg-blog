@@ -770,80 +770,74 @@ a.one-page-link.active{
   font-size: 1.8rem;
 }
 
-.section-2__list-content{
+.section-2__list-items{
   width: 67%;
   align-self: center;
 }
 
-.section-2__list-content>.img{
+.section-2__list-items>ul>li{
+  display: none;
+}
+
+.section-2__list-items>ul>li.active{
+  display: block;
+}
+
+.section-2__list-items>ul>li>.img{
   position: relative;
   width: 60%;
   margin: 0 auto;
 }
 
-.section-2__list-content>.img .swiper-slide>.txt{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  color: #fff;
-  font-size: .85rem;
-}
-
-.section-2__list-content>.img>.swiper-pagination{
+.section-2__list-items>ul>li>.img>.swiper-pagination{
   position: absolute;
   bottom: 10%;
-  right: 0;
+  right: 10%;
 }
 
-.section-2__list-content>.img>.swiper-pagination > .swiper-pagination-bullet {
-  position: relative;
+.section-2__list-items>ul>li>.img>.swiper-pagination > .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+  margin-left: 3px;
   overflow: none;
   background-color: #fff;
   opacity: .5;
 }
 
-.section-2__list-content>.img>.swiper-pagination > .swiper-pagination-bullet>span{
+.section-2__list-items>ul>li>.img>.swiper-pagination > .swiper-pagination-bullet>span{
   position: absolute;
-  top: 0;
+  top: 100%;
   left: 50%;
   transform: translatex(-50%);
   white-space: nowrap;
   color: #fff;
   font-size: .8rem;
-  opacity: 0;
+  display: none;
 }
 
-.section-2__list-content>.img>.swiper-nav>.swiper-prev, .section-2__list-content>.img>.swiper-nav>.swiper-next{
+.section-2__list-items>ul>li>.img>.swiper-pagination > .swiper-pagination-bullet-active>span{
+  display: block;
+}
+
+.section-2__list-items>ul>li>.img>.swiper-pagination>.swiper-pagination-bullet-active{
+  opacity: 1;
+}
+
+.section-2__list-items .swiper-nav>.swiper-prev, .section-2__list-items .swiper-nav>.swiper-next{
   position: absolute;
   width: 10px;
   height: 10px;
-  bottom: 5%;
-  right:0;
+  bottom: 7%;
+  right:3%;
   color: #fff;
   cursor: pointer;
   z-index: 10;
 }
 
-.section-2__list-content>.img>.swiper-nav>.swiper-prev{
-  right: 50px;
+.section-2__list-items .swiper-nav>.swiper-prev{
+  right: 23%;
 }
-
-
-
-
-
-
- html.active #visual>.my-slider-box-1:not([data-autoplay-stop="Y"])>.swiper-pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active::after {
-  animation:width-0-to-100;
-  animation-duration:10s;
-  width:100%;
-}
-
-
-
 
 /* 섹션 3 */
 
@@ -1020,167 +1014,12 @@ a.one-page-link.active{
 
 /* 섹션 4 */
 
-
 .section-4-wrap{
-  position: relative;
-  height: 980px;
-  padding-top: 230px;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-.section-4-wrap::after{
-  position: absolute;
-  content:"";
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 45%;
-  background-color: rgba(0,0,0,.05);
-}
-
-.section-4{
-  position: relative;
-  margin-left: 15%;
-  height: 100%;
-  z-index: 10;
-  /* background-color: gold; */
-}
-
-.section-4__title>span{
-  display: block;
-  font-size: 35px;
-  color: #333;
-  text-align: left;
-  font-weight: 800;
-}
-
-.section-4__title>span:first-child{
-  margin-top: 10px;
-  font-size: 20px;
-  color: #bababa;
-  font-weight: 700;
-}
-
-.section-4__title>span:last-child{
-  margin-top: 10px;
-}
-
-.section-4__page-content{
-  position: absolute;
-  top: 0;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.section-4__page-content>.card{
-  position: relative;
-  height: 50%;
-  width: 20%;
-  margin: 0 35px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-
-.section-4__page-content>.card:nth-child(1){
-  background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__img1.png");
-}
-
-.section-4__page-content>.card:nth-child(2){
-  background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__img2.png");
-}
-
-.section-4__page-content>.card:nth-child(3){
-  background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__img3.png");
-}
-
-.section-4__page-content>.card:nth-child(4){
-  background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__img4.png");
-}
-
-.section-4__page-content>.card>.card-bg{
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 87%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  opacity: .5;
-  transition: top .5s;
-}
-
-.section-4__page-content>.card>.content{
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  width: 80%;
-  transform: translate(-50%,0);
-  text-align: center;
-  color: #fff;
-  /* margin-top: 40%; */
-  z-index: 10;
-  transition: top .5s, transform .5s; 
-}
-
-.section-4__page-content>.card>.content>.title{
-  font-size: 25px;
-  font-weight: 800;
-  margin-bottom: 35px;
-}
-
-.section-4__page-content>.card>.content>.des{
-  font-size: 17px;
-  line-height: 25px;
-  font-weight: 400;
-  margin-bottom: 20px;
-  opacity: 0;
-  transition: opacity .5s;
-}
-
-.section-4__page-content>.card>.content>.btn {
-  cursor: pointer;
-  margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  font-size: 0.65rem;
-  font-weight: bold;
-  letter-spacing: 0.025rem;
-  text-transform: uppercase;
-  color: white;
-  background-color: black;
-  border: none;
-}
-
-.section-4__page-content>.card>.content>.btn:hover{
-  background-color: lighten(black, 5%);
-}
-
-.section-4__page-content>.card:hover>.card-bg{
-  top: 0;
-}
-
-.section-4__page-content>.card:hover>.content{
-  top: 50%;
-  transform: translate(-50%,-50%)
-}
-
-.section-4__page-content>.card:hover>.content>.des{
-  opacity: 1;
-}
-
-
-/* 섹션 5 */
-
-.section-5-wrap{
   height: 880px;
   background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-5__bg.png");
 }
 
-.section-5{
+.section-4{
   position: relative;
   margin-left: 15%;
   height: 100%;
@@ -1189,7 +1028,7 @@ a.one-page-link.active{
   box-sizing: border-box;
 }
 
-.section-5__title>span{
+.section-4__title>span{
   display: block;
   font-size: 35px;
   color: #fff;
@@ -1197,12 +1036,12 @@ a.one-page-link.active{
   font-weight: 800;
 }
 
-.section-5__title>span:first-child{
+.section-4__title>span:first-child{
   margin-top: 10px;
   color: #fff;
 }
 
-.section-5__title>span:last-child{
+.section-4__title>span:last-child{
   margin-top: 30px;
   font-size: 20px;
   color: #ffff;

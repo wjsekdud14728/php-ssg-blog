@@ -464,7 +464,7 @@ MySliderBox2__init();
     const containerBoxBorderBottomWidth__2 = parseInt($('.section-3').css('border-bottom-width'));
     
     ScrollTrigger.create({
-      trigger:'.section-3',
+      trigger:'.section-3__articles-box',
       pin:'.section-3__main-article-box',
       start: containerBoxBorderTopWidth__2 + "px 0",
       end: () => "bottom " + ($('.section-3__main-article-box').outerHeight() + containerBoxBorderBottomWidth__2) + "px",

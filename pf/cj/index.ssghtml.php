@@ -256,13 +256,13 @@ require_once "head.php";
       <div class="section-3__main-article-box">
         <a href="#">
           <div class="thumb img-box">
-            <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-3__main-img.png" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/cj.jpg" alt="">
             <div class="box"></div>
           </div>
           <div class="txt">
-            <div class="category">Intelligent Transformation</div>
-            <div class="title">도전의 기회, 성장의 기회! CJ올리브네트웍스<br>'카이로스 랩(Kairos-Lab)'을 소개합니다.</div>
-            <div class="des">CJ그룹의 사보 NI:M을 통해 신사업 인큐베이팅 프로그램<br>‘카이로스 랩’이 소개되었습니다. </div>
+            <div class="category">news</div>
+            <div class="title">CJ ONE, 걷기만 해도 포인트가 쌓이는<br>'ONE워크' 서비스 출시</div>
+            <div class="des">CJ올리브네트웍스의 통합 멤버십 서비스 CJ ONE이<br>헬스케어 서비스 'ONE워크'를 출시했습니다.</div>
           </div>
           <div class="arrow">
             <div></div>
@@ -281,8 +281,7 @@ require_once "head.php";
               </div>
               <div class="category">news</div>
               <div class="title">CJ올리브네트웍스, 던험비와 빅데이터 분석 신사업개발 나서</div>
-              <div class="des">CJ올리브네트웍스가 빅데이터 분석 기업 던험비와 빅데이터 비즈니스에 관해 업무협약을 체결하고 글로벌 수준의 데이터 관리 체계를 구축함과 동시에 CJ ONE 고객
-                데이터를 정밀 분석해 새로운 고객 가치를 제공합니다.</div>
+              <div class="date">2021. 01. 28 </div>
             </a>
           </li>
           <li>
@@ -292,8 +291,7 @@ require_once "head.php";
               </div>
               <div class="category">Intelligent Transformation</div>
               <div class="title">CJ올리브네트웍스, 스마트테크 코리아에서 고객니즈에 최적화된 최첨단 IT서비스를 선보이다!</div>
-              <div class="des">CJ올리브네트웍스가 빅데이터 분석 기업 던험비와 빅데이터 비즈니스에 관해 업무협약을 체결하고 글로벌 수준의 데이터 관리 체계를 구축함과 동시에 CJ ONE 고객
-                데이터를 정밀 분석해 새로운 고객 가치를 제공합니다.</div>
+              <div class="date">2021. 01. 28 </div>
             </a>
           </li>
           <li>
@@ -303,9 +301,7 @@ require_once "head.php";
               </div>
               <div class="category">Intelligent Transformation</div>
               <div class="title">"오늘배송..."택배기사도 'AI비서' 쓴다.</div>
-              <div class="des">
-                <헤럴드경제> 기사를 통해 CJ올리브네트웍스의 가상비서 솔루션 적용 사례가 소개됐습니다.
-              </div>
+              <div class="date">2021. 01. 28 </div>
             </a>
           </li>
           <li>
@@ -315,7 +311,7 @@ require_once "head.php";
               </div>
               <div class="category">news</div>
               <div class="title">CJ올리브네트웍스, 'CJ SW창의캠프'대학생 봉사단모집</div>
-              <div class="des">CJ올리브네트웍스의 대표 사회공헌 활동인 CJ SW창의캠프가 비대면 디지털 SW코딩교육을 함께 이끌어 나갈 대학생 봉사단을 모집합니다.</div>
+              <div class="date">2021. 01. 28 </div>
             </a>
           </li>
           <li>
@@ -325,7 +321,7 @@ require_once "head.php";
               </div>
               <div class="category">Intelligent Transformation</div>
               <div class="title">미리보는 2021 글로벌 IT트렌드</div>
-              <div class="des">다가오는 2021 IT업계의 화두는 무엇일까요? 내년을 맞이하기에 앞서 꼭 주목해야 할 '잇'한 IT키워드를 소개합니다!</div>
+              <div class="date">2021. 01. 28 </div>
             </a>
           </li>
           <li>
@@ -335,7 +331,7 @@ require_once "head.php";
               </div>
               <div class="category">news</div>
               <div class="title">CJ올리브네트웍스-LG전자 CES에서 협력 기술 선보여</div>
-              <div class="des">CJ올리브네트웍스가 LG전자와 함께 가전과 고객을 연결하는 데이터 기반AI기술을 개발해 CES에서 선보입니다.</div>
+              <div class="date">2021. 01. 28 </div>
             </a>
           </li>
           <li>
@@ -345,7 +341,7 @@ require_once "head.php";
               </div>
               <div class="category">news</div>
               <div class="title">CJ올리브네트웍스, 코그넥스와 AI 머신비전 공동 사업추진</div>
-              <div class="des">CJ올리브네트웍스가 AI 머신비전 개발 기업 코그넥스와 MOU를 체결하고 스마트팩토리 솔루션의 역량을 강화합니다.</div>
+              <div class="date">2021. 01. 28 </div>
             </a>
           </li>
           <li>
@@ -355,7 +351,7 @@ require_once "head.php";
               </div>
               <div class="category">news</div>
               <div class="title">CJ올리브네트웍스, 의약품 전문 무인화 스마트 물류센터 짓는다</div>
-              <div class="des">CJ올리브네트웍스가 LG전자와 함께 가전과 고객을 연결하는 데이터 기반AI기술을 개발해 CES에서 선보입니다.</div>
+              <div class="date">2021. 01. 28 </div>
             </a>
           </li>
         </ul>
