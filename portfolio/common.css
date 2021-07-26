@@ -118,7 +118,7 @@ html {
 }
 
 body {
-    background-color: #ffd432;
+    background-color: beige;
     min-width: 1400px;
     height: 23000px;
     font-family: Orbitron;
@@ -187,7 +187,7 @@ body {
 
 .move-box>article:nth-child(1) {
     transform: translateZ(0px);
-    background-color: #ffd432;
+    background-color: beige;
 }
 
 .move-box>article:nth-child(2) {
@@ -439,5 +439,13 @@ body {
 
 .move-box>article:nth-child(2).on .about__skill-stick>.skill-percent-60{
     width: 60%;
+}
+
+.ui-ux{
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    left: auto;
+    right: 0;
 }
 /* 커스텀 끝 */

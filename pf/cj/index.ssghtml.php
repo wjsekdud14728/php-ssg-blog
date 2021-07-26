@@ -146,37 +146,33 @@ require_once "head.php";
     <nav class="section-2__list-items">
       <ul>
         <li class="active">
-          <div class="img">
-            <div class="my-slider-box-2">
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide" data-title="지능형물류관제시스템" data-index="0">
-                    <div class="my-slider-box-2__img img-box"><img
-                        src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle.png" alt=""></div>
-                  </div>
-                  <div class="swiper-slide" data-title="빅데이터분석" data-index="1">
-                    <div class="my-slider-box-2__img img-box"><img
-                        src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-104.png" alt=""></div>
-                  </div>
-                  <div class="swiper-slide" data-title="스마트워크플레이스" data-index="2">
-                    <div class="my-slider-box-2__img img-box"><img
-                        src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-105.png" alt=""></div>
-                  </div>
-                  <div class="swiper-slide" data-title="미디어컬처스페이스" data-index="3">
-                    <div class="my-slider-box-2__img img-box"><img
-                        src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-106.png" alt=""></div>
-                  </div>
+
+          <div class="section-2__slider-box-1 section-2__slider-box">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide img-box" data-title="지능형물류관제시스템" data-index="0">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="빅데이터분석" data-index="0">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-104.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="스마트워크플레이스" data-index="0">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-105.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="미디어컬처스페이스" data-index="0">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-106.png" alt="">
                 </div>
               </div>
+              <div class="swiper-pagination section-2__slider-1-pagination"></div>
 
-              <div class="swiper-nav-2 swiper-nav">
-                <div class="swiper-prev"><i class="fas fa-angle-left"></i></div>
-                <div class="swiper-next"><i class="fas fa-angle-right"></i></div>
+              <div class="section-2__slider-1-nav section-2__slider-nav">
+                <div class="section-2__slider-prev section-2__slider-1-prev"><i class="fas fa-angle-left"></i></div>
+                <div class="section-2__slider-next section-2__slider-1-next"><i class="fas fa-angle-right"></i></div>
               </div>
+              
             </div>
-            <div class="swiper-pagination-2 swiper-pagination"></div>
-
           </div>
+
           <div class="des">최신 IT기술의 융합으로 산업별 최고의 Digital Experience를 제공하여 고객의 비즈니스혁신을 선도합니다.</div>
           <div class="section-2__btn">
             <a href="#">
@@ -185,36 +181,30 @@ require_once "head.php";
           </div>
         </li>
         <li>
-          <div class="img">
-            <div class="my-slider-box">
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide" data-title="ㅇㅇ" data-index="0">
-                    <div class="my-slider-box-3__img img-box"><img
-                        src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle.png" alt=""></div>
-                  </div>
-                  <div class="swiper-slide" data-title="ㄹㄹ" data-index="1">
-                    <div class="my-slider-box-3__img img-box"><img
-                        src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-104.png" alt=""></div>
-                  </div>
-                  <div class="swiper-slide" data-title="ㄴㄴ" data-index="2">
-                    <div class="my-slider-box-3__img img-box"><img
-                        src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-105.png" alt=""></div>
-                  </div>
-                  <div class="swiper-slide" data-title="ㅁㅁ" data-index="3">
-                    <div class="my-slider-box-3__img img-box"><img
-                        src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-106.png" alt=""></div>
-                  </div>
+
+        <div class="section-2__slider-box-2 section-2__slider-box">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide img-box" data-title="지능형물류관제시스템" data-index="0">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="빅데이터분석" data-index="0">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-104.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="스마트워크플레이스" data-index="0">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-105.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="미디어컬처스페이스" data-index="0">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-106.png" alt="">
                 </div>
               </div>
-              <div class="swiper-nav swiper-nav-3">
-              <div class="swiper-prev"><i class="fas fa-angle-left"></i></div>
-              <div class="swiper-next"><i class="fas fa-angle-right"></i></div>
+              <div class="section-2__slider-pagination section-2__slider-2-pagination"></div>
+
+              <div class="section-2__slider-prev section-2__slider-2-prev"><i class="fas fa-angle-left"></i></div>
+              <div class="section-2__slider-next section-2__slider-2-next"><i class="fas fa-angle-right"></i></div>
             </div>
-            </div>
-            <div class="swiper-pagination swiper-pagination-3"></div>
-            
           </div>
+
           <div class="des">고객의 비즈니스 성공을 위해 수준 높은 솔루션을 제공합니다.</div>
           <div class="section-2__btn">
             <a href="#">
@@ -223,7 +213,6 @@ require_once "head.php";
           </div>
         </li>
         <li>
-          <div class="img"></div>
           <div class="des">고객의 비즈니스 성공을 위해 차별화된 서비스를 제공합니다.</div>
           <div class="section-2__btn">
             <a href="#">
@@ -232,7 +221,6 @@ require_once "head.php";
           </div>
         </li>
         <li>
-          <div class="img"></div>
           <div class="des">비즈니스 이해를 바탕으로 기업의 경쟁력 강화를 위해 최고의 IT서비스를 제공합니다.</div>
           <div class="section-2__btn">
             <a href="#">
