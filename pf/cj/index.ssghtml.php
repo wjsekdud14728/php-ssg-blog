@@ -73,7 +73,7 @@ require_once "head.php";
   <a class="one-page-link" href="#page1">Work Rull</a>
   <a class="one-page-link" href="#page2">Business Introduction</a>
   <a class="one-page-link" href="#page3">Public Relations Center</a>
-  <a class="one-page-link" href="#page5">Contact</a>
+  <a class="one-page-link" href="#page4">Contact</a>
 
   <!-- 섹션 1 -->
   <section class="section-1" data-one-page-link="page1">
@@ -151,26 +151,27 @@ require_once "head.php";
             <div class="swiper-container">
               <div class="swiper-wrapper">
                 <div class="swiper-slide img-box" data-title="지능형물류관제시스템" data-index="0">
-                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle.png" alt="">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-1-1.png" alt="">
                 </div>
-                <div class="swiper-slide img-box" data-title="빅데이터분석" data-index="0">
-                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-104.png" alt="">
+                <div class="swiper-slide img-box" data-title="빅데이터분석" data-index="1">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-1-2.png" alt="">
                 </div>
-                <div class="swiper-slide img-box" data-title="스마트워크플레이스" data-index="0">
-                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-105.png" alt="">
+                <div class="swiper-slide img-box" data-title="스마트워크플레이스" data-index="2">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-1-3.png" alt="">
                 </div>
-                <div class="swiper-slide img-box" data-title="미디어컬처스페이스" data-index="0">
-                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-106.png" alt="">
+                <div class="swiper-slide img-box" data-title="미디어컬처스페이스" data-index="3">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-1-4.png" alt="">
                 </div>
               </div>
-              <div class="swiper-pagination section-2__slider-1-pagination"></div>
 
               <div class="section-2__slider-1-nav section-2__slider-nav">
                 <div class="section-2__slider-prev section-2__slider-1-prev"><i class="fas fa-angle-left"></i></div>
                 <div class="section-2__slider-next section-2__slider-1-next"><i class="fas fa-angle-right"></i></div>
               </div>
-              
+
             </div>
+
+            <div class="swiper-pagination section-2__slider-1-pagination"></div>
           </div>
 
           <div class="des">최신 IT기술의 융합으로 산업별 최고의 Digital Experience를 제공하여 고객의 비즈니스혁신을 선도합니다.</div>
@@ -182,27 +183,43 @@ require_once "head.php";
         </li>
         <li>
 
-        <div class="section-2__slider-box-2 section-2__slider-box">
+          <div class="section-2__slider-box-2 section-2__slider-box">
             <div class="swiper-container">
               <div class="swiper-wrapper">
-                <div class="swiper-slide img-box" data-title="지능형물류관제시스템" data-index="0">
-                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle.png" alt="">
+                <div class="swiper-slide img-box" data-title="디지털마케팅솔루션" data-index="0">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-2-1.png" alt="">
                 </div>
-                <div class="swiper-slide img-box" data-title="빅데이터분석" data-index="0">
-                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-104.png" alt="">
+                <div class="swiper-slide img-box" data-title="워크스캔" data-index="1">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-2-2.png" alt="">
                 </div>
-                <div class="swiper-slide img-box" data-title="스마트워크플레이스" data-index="0">
-                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-105.png" alt="">
+                <div class="swiper-slide img-box" data-title="티켓통합솔루션" data-index="2">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-2-3.png" alt="">
                 </div>
-                <div class="swiper-slide img-box" data-title="미디어컬처스페이스" data-index="0">
-                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/Rectangle-106.png" alt="">
+                <div class="swiper-slide img-box" data-title="FrameOne" data-index="3">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-2-4.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="APOne" data-index="4">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-2-5.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="보안 단말기 솔루션" data-index="5">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-2-6.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="스마트 스토어 솔루션" data-index="6">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-2-7.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="스마트 팩토리 솔루션" data-index="7">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-2-8.png" alt="">
                 </div>
               </div>
-              <div class="section-2__slider-pagination section-2__slider-2-pagination"></div>
 
-              <div class="section-2__slider-prev section-2__slider-2-prev"><i class="fas fa-angle-left"></i></div>
-              <div class="section-2__slider-next section-2__slider-2-next"><i class="fas fa-angle-right"></i></div>
+              <div class="section-2__slider-2-nav section-2__slider-nav">
+                <div class="section-2__slider-prev section-2__slider-2-prev"><i class="fas fa-angle-left"></i></div>
+                <div class="section-2__slider-next section-2__slider-2-next"><i class="fas fa-angle-right"></i></div>
+              </div>
+
             </div>
+
+            <div class="swiper-pagination section-2__slider-2-pagination"></div>
           </div>
 
           <div class="des">고객의 비즈니스 성공을 위해 수준 높은 솔루션을 제공합니다.</div>
@@ -213,6 +230,39 @@ require_once "head.php";
           </div>
         </li>
         <li>
+        <div class="section-2__slider-box-3 section-2__slider-box">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide img-box" data-title="PG서비스" data-index="0">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-3-1.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="메시징 서비스" data-index="1">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-3-2.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="웹/앱 서비스" data-index="2">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-3-3.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="e-러닝 서비스" data-index="3">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-3-4.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="AI/ROBOT" data-index="4">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-3-5.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="RPA 서비스" data-index="5">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-3-6.png" alt="">
+                </div>
+              </div>
+
+              <div class="section-2__slider-3-nav section-2__slider-nav">
+                <div class="section-2__slider-prev section-2__slider-3-prev"><i class="fas fa-angle-left"></i></div>
+                <div class="section-2__slider-next section-2__slider-3-next"><i class="fas fa-angle-right"></i></div>
+              </div>
+
+            </div>
+
+            <div class="swiper-pagination section-2__slider-3-pagination"></div>
+          </div>
+
           <div class="des">고객의 비즈니스 성공을 위해 차별화된 서비스를 제공합니다.</div>
           <div class="section-2__btn">
             <a href="#">
@@ -221,6 +271,32 @@ require_once "head.php";
           </div>
         </li>
         <li>
+        <div class="section-2__slider-box-4 section-2__slider-box">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide img-box" data-title="시스템 통합" data-index="0">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-4-1.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="시스템 운영" data-index="1">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-4-2.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="IT인프라" data-index="2">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-4-3.png" alt="">
+                </div>
+                <div class="swiper-slide img-box" data-title="IT컨설팅" data-index="3">
+                  <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-2__list-item-4-4.png" alt="">
+                </div>
+              </div>
+
+              <div class="section-2__slider-4-nav section-2__slider-nav">
+                <div class="section-2__slider-prev section-2__slider-4-prev"><i class="fas fa-angle-left"></i></div>
+                <div class="section-2__slider-next section-2__slider-4-next"><i class="fas fa-angle-right"></i></div>
+              </div>
+
+            </div>
+
+            <div class="swiper-pagination section-2__slider-4-pagination"></div>
+          </div>
           <div class="des">비즈니스 이해를 바탕으로 기업의 경쟁력 강화를 위해 최고의 IT서비스를 제공합니다.</div>
           <div class="section-2__btn">
             <a href="#">
@@ -348,12 +424,34 @@ require_once "head.php";
 
     <!-- section-4 -->
   </section>
-  <section class="section-4-wrap" data-one-page-link="page4" data-one-page-menu-target-diff-y="-300px">
+  <section class="section-4-wrap" data-one-page-link="page4">
     <div class="section-4">
       <div class="section-4__title">
         <span>Contact us</span>
         <span>CJ올리브네트웍스는 귀사의 비즈니스를 위한 IT전문 기술 제공 및 컨설팅을 지원합니다.</span>
       </div>
+      <nav class="section-4__items">
+        <ul class="flex">
+          <li><a href="#">
+            <div class="icon img-box">
+              <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__ico-1.png" alt="">
+            </div>
+            <div class="des">오시는길</div>
+          </a></li>
+          <li><a href="#">
+          <div class="icon img-box">
+              <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__ico-2.png" alt="">
+            </div>
+            <div class="des">문의하기</div>
+          </a></li>
+          <li><a href="#">
+          <div class="icon img-box">
+              <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__ico-3.png" alt="">
+            </div>
+            <div class="des">인재채용</div>
+          </a></li>
+        </ul>
+      </nav>
     </div>
   </section>
 </div>

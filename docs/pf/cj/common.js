@@ -372,45 +372,67 @@ $('.section-2__title-box>.list>ul>li').click(function (){
 
 // 섹션2 리스트아이템 스와이퍼
 
-function MySliderBox2__init() {
-  var swiper = new Swiper('.my-slider-box-2 .swiper-container', {
+function Section2SliderBox1__init() {
+  var swiper = new Swiper('.section-2__slider-box-1 .swiper-container',{
     simulateTouch: false,
     effect: 'fade',
-  navigation: {
-    nextEl: '.section-2__list-items>ul>li>.img>.swiper-nav-2> .swiper-next',
-    prevEl: '.section-2__list-items>ul>li>.img>.swiper-nav-2> .swiper-prev',
-  },
-    pagination: {
-      el: ".section-2__list-items>ul>li>.img>.swiper-pagination",
-      clickable:true,
-      renderBullet: function (index, className) {
-        const $currentSlide = $('.my-slider-box-2 .swiper-slide[data-index="' + index + '"]');
-
-        const bullet = '<span class="' + className + '"><span class="txt">' + $currentSlide.attr('data-title') + '</span></span>';
-        return bullet;
-      },
-    },
-    slidesPerView:1,
-    spaceBetween:0,
-    loop: true,
+    navigation: {
+          nextEl: '.section-2__slider-box-1>.section-2__slider-nav>.section-2__slider-next',
+          prevEl: '.section-2__slider-box-1>.section-2__slider-nav>.section-2__slider-prev',
+        },
+        pagination: {
+                el: ".section-2__slider-box-1>.section-2__slider-1-pagination",
+                clickable:true,
+                renderBullet: function (index, className) {
+                  const $currentSlide = $('.section-2__slider-box-1 .swiper-slide[data-index="' + index + '"]');
+          
+                  const bullet = '<span class="' + className + '"><span class="txt">' + $currentSlide.attr('data-title') + '</span></span>';
+                  return bullet;
+                },
+              },
+              slidesPerView:1,
+              spaceBetween:0,
+              loop: true,
+    observer: true,
+    observeParents: true,
   });
 }
 
-MySliderBox2__init();
 
-// function MySliderBox3__init() {
-//   var swiper = new Swiper('.my-slider-box-3 .swiper-container', {
+function Section2SliderBox2__init() {
+  var swiper = new Swiper('.section-2__slider-box-2 .swiper-container',{
+    effect: 'fade',
+    observer: true,
+    observeParents: true,
+  });
+}
+
+function Section2SliderBox3__init() {
+  var swiper = new Swiper('.my-slider-box-3 .swiper-container');
+}
+
+function Section2SliderBox4__init() {
+  var swiper = new Swiper('.my-slider-box-3 .swiper-container');
+}
+
+Section2SliderBox1__init();
+Section2SliderBox2__init();
+Section2SliderBox3__init();
+Section2SliderBox4__init();
+
+// function MySliderBox2__init() {
+//   var swiper = new Swiper('.my-slider-box-2 .swiper-container', {
 //     simulateTouch: false,
 //     effect: 'fade',
 //   navigation: {
-//     nextEl: '.section-2__list-items>ul>li>.img>.swiper-nav-3> .swiper-next',
-//     prevEl: '.section-2__list-items>ul>li>.img>.swiper-nav-3> .swiper-prev',
+//     nextEl: '.my-slider-box-2>.swiper-nav-2> .swiper-next',
+//     prevEl: '.my-slider-box-2>.swiper-nav-2> .swiper-prev',
 //   },
 //     pagination: {
-//       el: ".section-2__list-items>ul>li>.img>.swiper-pagination-3",
+//       el: ".section-2__list-items>ul>li>.img>.swiper-pagination-2",
 //       clickable:true,
 //       renderBullet: function (index, className) {
-//         const $currentSlide = $('.my-slider-box-3 .swiper-slide[data-index="' + index + '"]');
+//         const $currentSlide = $('.my-slider-box-2 .swiper-slide[data-index="' + index + '"]');
 
 //         const bullet = '<span class="' + className + '"><span class="txt">' + $currentSlide.attr('data-title') + '</span></span>';
 //         return bullet;
@@ -422,40 +444,9 @@ MySliderBox2__init();
 //   });
 // }
 
-// MySliderBox3__init();
 
 
-// function Section2__init() {
 
-//   $('li>.img>.my-slider-box-2>.swiper-container').each(function(index, node) {
-//     const $sliderBox = $(node).parent();
-//     const swiper = new Swiper(node, {
-//       simulateTouch: false,
-//       effect: 'fade',
-//       navigation: {
-
-//         nextEl: $sliderBox.find('.swiper-next').get(0),
-//         prevEl: $sliderBox.find('.swiper-prev').get(0),
-//       },
-//       pagination: {
-//         el: ".section-2__list-items>ul>li>.img>.swiper-pagination",
-//         clickable:true,
-//         renderBullet: function (index, className) {
-//           const $currentSlide = $('.my-slider-box-2 .swiper-slide[data-index="' + index + '"]');
-  
-//           const bullet = '<span class="' + className + '"><span class="txt">' + $currentSlide.attr('data-title') + '</span></span>';
-//           return bullet;
-//         },
-//       },
-      
-//     slidesPerView:1,
-//     spaceBetween:0,
-//     loop: true,
-//     });
-//   });
-// }
-
-// Section2__init();
 
 
     // 섹션3 메인아티클 영역안에서 스크롤 따라오기

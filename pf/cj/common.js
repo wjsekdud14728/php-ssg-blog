@@ -377,8 +377,8 @@ function Section2SliderBox1__init() {
     simulateTouch: false,
     effect: 'fade',
     navigation: {
-          nextEl: '.section-2__slider-box-1>.section-2__slider-nav>.section-2__slider-next',
-          prevEl: '.section-2__slider-box-1>.section-2__slider-nav>.section-2__slider-prev',
+          nextEl: '.section-2__slider-box-1>.swiper-container>.section-2__slider-1-nav>.section-2__slider-1-next',
+          prevEl: '.section-2__slider-box-1>.swiper-container>.section-2__slider-1-nav>.section-2__slider-1-prev',
         },
         pagination: {
                 el: ".section-2__slider-box-1>.section-2__slider-1-pagination",
@@ -398,21 +398,83 @@ function Section2SliderBox1__init() {
   });
 }
 
-
 function Section2SliderBox2__init() {
   var swiper = new Swiper('.section-2__slider-box-2 .swiper-container',{
+    simulateTouch: false,
     effect: 'fade',
+    navigation: {
+          nextEl: '.section-2__slider-box-2>.swiper-container>.section-2__slider-2-nav>.section-2__slider-2-next',
+          prevEl: '.section-2__slider-box-2>.swiper-container>.section-2__slider-2-nav>.section-2__slider-2-prev',
+        },
+        pagination: {
+                el: ".section-2__slider-box-2>.section-2__slider-2-pagination",
+                clickable:true,
+                renderBullet: function (index, className) {
+                  const $currentSlide = $('.section-2__slider-box-2 .swiper-slide[data-index="' + index + '"]');
+          
+                  const bullet = '<span class="' + className + '"><span class="txt">' + $currentSlide.attr('data-title') + '</span></span>';
+                  return bullet;
+                },
+              },
+              slidesPerView:1,
+              spaceBetween:0,
+              loop: true,
     observer: true,
     observeParents: true,
   });
 }
 
+
 function Section2SliderBox3__init() {
-  var swiper = new Swiper('.my-slider-box-3 .swiper-container');
+  var swiper = new Swiper('.section-2__slider-box-3 .swiper-container',{
+    simulateTouch: false,
+    effect: 'fade',
+    navigation: {
+          nextEl: '.section-2__slider-box-3>.swiper-container>.section-2__slider-3-nav>.section-2__slider-3-next',
+          prevEl: '.section-2__slider-box-3>.swiper-container>.section-2__slider-3-nav>.section-2__slider-3-prev',
+        },
+        pagination: {
+                el: ".section-2__slider-box-3>.section-2__slider-3-pagination",
+                clickable:true,
+                renderBullet: function (index, className) {
+                  const $currentSlide = $('.section-2__slider-box-3 .swiper-slide[data-index="' + index + '"]');
+          
+                  const bullet = '<span class="' + className + '"><span class="txt">' + $currentSlide.attr('data-title') + '</span></span>';
+                  return bullet;
+                },
+              },
+              slidesPerView:1,
+              spaceBetween:0,
+              loop: true,
+    observer: true,
+    observeParents: true,
+  });
 }
 
 function Section2SliderBox4__init() {
-  var swiper = new Swiper('.my-slider-box-3 .swiper-container');
+  var swiper = new Swiper('.section-2__slider-box-4 .swiper-container',{
+    simulateTouch: false,
+    effect: 'fade',
+    navigation: {
+          nextEl: '.section-2__slider-box-4>.swiper-container>.section-2__slider-4-nav>.section-2__slider-4-next',
+          prevEl: '.section-2__slider-box-4>.swiper-container>.section-2__slider-4-nav>.section-2__slider-4-prev',
+        },
+        pagination: {
+                el: ".section-2__slider-box-4>.section-2__slider-4-pagination",
+                clickable:true,
+                renderBullet: function (index, className) {
+                  const $currentSlide = $('.section-2__slider-box-4 .swiper-slide[data-index="' + index + '"]');
+          
+                  const bullet = '<span class="' + className + '"><span class="txt">' + $currentSlide.attr('data-title') + '</span></span>';
+                  return bullet;
+                },
+              },
+              slidesPerView:1,
+              spaceBetween:0,
+              loop: true,
+    observer: true,
+    observeParents: true,
+  });
 }
 
 Section2SliderBox1__init();
