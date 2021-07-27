@@ -222,6 +222,18 @@ body{
       padding: 8px 15px !important;
     }
 
+    .section-1__title>span{
+      font-size: 25px !important;
+    }
+
+    .section-1__sub-title{
+      font-size: 20px !important;
+    }
+
+    .section-1__des{
+      font-size: 13px !important;
+    }
+
     .section-1__work-rule-item>ul>li{
       padding: 11px !important;
     }
@@ -286,6 +298,60 @@ body{
       left: 20% !important;
       transform: translateX(0) !important;
     }
+
+    .section-1{
+      height: 600px !important;
+    }
+
+    .section-1__sub-title{
+      display: none !important;
+    }
+
+    .section-1__des{
+      display: none !important;
+    }
+
+    .section-1__title::after{
+      display: none !important;
+    }
+
+    /* .section-1__work-rule-item>ul{
+      margin-top: 20px !important;
+    }
+
+    .section-1__work-rule-item>ul>li{
+      padding: 5px !important;
+    }
+
+    .section-1__des{
+      margin-top: 25px !important;
+    }
+
+    .section-1__des>span:not(:last-child){
+      margin-bottom: 3px !important;
+      font-size: 12px !important;
+    }
+
+    .section-1__btn{
+      margin-top: 30px !important;
+    } */
+
+    .section-1__work-rule-item>ul{
+      justify-content: center !important;
+    }
+
+    .section-1__work-rule-item>ul>li{
+      width: 25% !important;
+      padding: 0 !important;
+    }
+
+    .section-1__work-rule-item>ul>li>.image{
+      width: 30% !important;
+    }
+
+    /* .section-1__work-rule-item::before{
+      display: none !important;
+    } */
   }
 
 
@@ -794,6 +860,7 @@ a.one-page-link.active{
 
 .section-1__work-rule-item>ul{
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 
 .section-1__work-rule-item>ul>li{
