@@ -97,24 +97,28 @@ require_once "head.php";
                 src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_img-1.png" alt="">
               <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_img-1-white.png" alt=""></div>
             <div class="txt">고객성공과 가치향상을 위해<br>최선을 다하고 신뢰 관계를 구축한다</div>
+            <div class="txt"><span>고객중심</span><span>고객 가치·신뢰</span></div>
           </li>
           <li>
             <div class="image img-box"><img
                 src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_img-2.png" alt="">
               <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_img-2-white.png" alt=""></div>
             <div class="txt">이해관계자와의 동반성장과<br>사회적 책임을 다하기 위해 노력한다</div>
+            <div class="txt"><span>사회적 가치증대</span><span>동반 성장·지속가능경영</span></div>
           </li>
           <li>
             <div class="image img-box"><img
                 src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_img-3.png" alt="">
               <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_img-3-white.png" alt=""></div>
-            <div class="txt">ONLYONE 제품/서비스를 위해 최고의<br>기술과 역량을 확보한다</div>
+            <div class="txt">ONLYONE 제품/서비스를 위해<br>최고의 기술과 역량을 확보한다</div>
+            <div class="txt"><span>전문성 강화</span><span>최고 기술·역량 개발</span></div>
           </li>
           <li>
             <div class="image img-box"><img
                 src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_img-4.png" alt="">
               <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-1_img-4-white.png" alt=""></div>
             <div class="txt">지속적인 혁신, 끊임없는 도전과<br>다양성 추구로 새로운 가치를 창출한다</div>
+            <div class="txt"><span>혁신</span><span>혁신 추구·도전/다양성 중시</span></div>
           </li>
         </ul>
       </nav>
