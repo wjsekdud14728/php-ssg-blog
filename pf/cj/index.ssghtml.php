@@ -433,20 +433,29 @@ require_once "head.php";
       <nav class="section-4__items">
         <ul class="flex">
           <li><a href="#">
-            <div class="icon img-box">
+            <div class="icon icon-white img-box">
               <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__ico-1.png" alt="">
+            </div>
+            <div class="icon icon-black img-box">
+              <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__ico-black-1.png" alt="">
             </div>
             <div class="des">오시는길</div>
           </a></li>
           <li><a href="#">
-          <div class="icon img-box">
+          <div class="icon icon-white img-box">
               <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__ico-2.png" alt="">
+            </div>
+            <div class="icon icon-black img-box">
+              <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__ico-black-2.png" alt="">
             </div>
             <div class="des">문의하기</div>
           </a></li>
           <li><a href="#">
-          <div class="icon img-box">
+          <div class="icon icon-white img-box">
               <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__ico-3.png" alt="">
+            </div>
+            <div class="icon icon-black img-box">
+              <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-4__ico-black-3.png" alt="">
             </div>
             <div class="des">인재채용</div>
           </a></li>

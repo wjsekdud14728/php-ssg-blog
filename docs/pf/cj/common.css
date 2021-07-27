@@ -792,7 +792,9 @@ a.one-page-link.active{
 .section-2__list-items>ul>li>.section-2__slider-box>.swiper-pagination{
   position: absolute;
   bottom: 10%;
-  right: 10%;
+  right: 14%;
+  transform: translateX(50%);
+  transform-origin: center center;
 }
 
 .section-2__list-items>ul>li>.section-2__slider-box>.swiper-pagination > .swiper-pagination-bullet {
@@ -805,7 +807,7 @@ a.one-page-link.active{
   opacity: .5;
 }
 
-.section-2__slider-box>.swiper-pagination > .swiper-pagination-bullet>span{
+.section-2__list-items>ul>li>.section-2__slider-box>.swiper-pagination > .swiper-pagination-bullet>span{
   position: absolute;
   top: 100%;
   left: 50%;
@@ -816,11 +818,11 @@ a.one-page-link.active{
   display: none;
 }
 
-.section-2__slider-box>.swiper-pagination > .swiper-pagination-bullet-active>span{
+.section-2__list-items>ul>li>.section-2__slider-box>.swiper-pagination > .swiper-pagination-bullet-active>span{
   display: block;
 }
 
-.section-2__slider-box>.swiper-pagination>.swiper-pagination-bullet-active{
+.section-2__list-items>ul>li>.section-2__slider-box>.swiper-pagination>.swiper-pagination-bullet-active{
   opacity: 1;
 }
 
@@ -1011,12 +1013,12 @@ a.one-page-link.active{
 
 .section-4-wrap{
   height: 880px;
-  background-image: url("https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/section-5__bg.png");
+  background-color: #f7f7f7;
 }
 
 .section-4{
   position: relative;
-  margin-left: 15%;
+  margin-left: 20%;
   height: 100%;
   z-index: 10;
   padding-top: 150px;
@@ -1026,26 +1028,36 @@ a.one-page-link.active{
 .section-4__title>span{
   display: block;
   font-size: 35px;
-  color: #fff;
+  color: #333;
   text-align: left;
   font-weight: 800;
 }
 
 .section-4__title>span:first-child{
   margin-top: 10px;
-  color: #fff;
 }
 
 .section-4__title>span:last-child{
   margin-top: 30px;
-  font-size: 20px;
-  color: #ffff;
+  font-size: 17px;
   font-weight: 300;
+}
+
+.section-4__items>ul>li{
+  width: 33.333%;
+}
+
+.section-4__items>ul>li>a{
+  display: block;
+}
+
+.section-4__items>ul>li>a>.icon{
+  width: 30%;
 }
 
 /* 푸터 */
 
 #footer{
   height: 150px;
-  background-color: #014f92;
+  background-color: #001323;
 }
