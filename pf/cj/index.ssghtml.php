@@ -150,7 +150,6 @@ require_once "head.php";
     <nav class="section-2__list-items">
       <ul>
         <li class="active">
-
           <div class="section-2__slider-box-1 section-2__slider-box">
             <div class="swiper-container">
               <div class="swiper-wrapper">
