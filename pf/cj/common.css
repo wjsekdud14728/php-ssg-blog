@@ -96,19 +96,7 @@ body{
 }
 
 
-
-
-
-
-/* 데스크탑 */
-
-@media screen and (max-width:1023px) {
-  /* 타블렛 */
-  }
-  
-  @media screen and (max-width:767px) {
-  /* 모바일 */
-  }
+/* 반응형 작업 */
 
   @media(max-width:1600px){
     .header__menu-bar-1>ul>li>a,.header__menu-bar-2>ul>li>a{
@@ -127,12 +115,32 @@ body{
       font-size: 15px !important;
     }
 
+    .section-1{
+      height: 850px !important;
+    }
+
     .section-1__work-rule-item>ul>li{
       padding: 22px !important;
     }
 
     .section-1__work-rule-item>ul>li>.image{
       width: 40% !important;
+    }
+
+    .section-2, .section-2__bg-image{
+      height: 880px !important;
+    }
+
+    .section-2__title-box>.title{
+      font-size: 30px !important;
+    }
+
+    .section-2__title-box>.list>ul>li{
+      font-size: 18px !important;
+    }
+
+    .section-2__title-box>.list>ul>li.active::after{
+      font-size: 1.5rem !important;
     }
   }
 
@@ -158,12 +166,45 @@ body{
       font-size: 12px !important;
     }
 
+    .section-1{
+      height: 800px !important;
+    }
+
+    .my-slider-box-1__title{
+      font-size: 30px !important;
+    }
+
     .section-1__work-rule-item>ul>li{
       padding: 19px !important;
     }
 
     .section-1__work-rule-item>ul>li>.txt{
       font-size: 11.3px !important;
+    }
+
+    .section-2, .section-2__bg-image{
+      height: 850px !important;
+    }
+
+    .section-2__bg-image{
+      width: 40% !important;
+    }
+
+    .section-2__title-box{
+      height: 65% !important;
+    }
+
+    .section-2__title-box>.title{
+      font-size: 28px !important;
+      margin-top: 30px !important;
+    }
+
+    .section-2__title-box>.list{
+      margin-top: 80px !important;
+    }
+
+    .section-2__list-items{
+      width: 60% !important;
     }
   }
 
@@ -202,6 +243,18 @@ body{
     .section-1__btn>a::before{
       width: 34.67px !important;
       height: 34.67px !important;
+    }
+
+    .section-2__bg-image{
+      width: 35% !important;
+    }
+
+    .section-2__list-items{
+      width: 65% !important;
+    }
+
+    .section-2__title-box{
+      width: 60% !important;
     }
   }
 
@@ -244,6 +297,33 @@ body{
 
     .section-1__work-rule-item>ul>li>.txt:nth-of-type(3){
       display: block !important;
+    }
+
+    .section-2, .section-2__bg-image{
+      height: 800px !important;
+    }
+
+    .section-2__title-box{
+      height: 65% !important;
+      width: 65%;
+    }
+
+    .section-2__title-box>.title{
+      font-size: 25px !important;
+      margin-left: 25px !important;
+    }
+
+    .section-2__title-box>.list>ul>li{
+      font-size: 15px !important;
+      padding-left: 25px !important;
+    }
+
+    .section-2__title-box>.list>ul>li.active::after{
+      font-size: 1.3rem;
+    }
+
+    .section-2__list-items{
+      width: 60% !important;
     }
   }
 
@@ -372,10 +452,6 @@ body{
     .section-1__work-rule-item>ul>li:hover>.image>img:last-child{
       display: none !important;
     }
-
-
-
-
 
     .section-1__work-rule-item>ul>li>.txt{
       margin-top: 0px !important;
@@ -966,7 +1042,7 @@ a.one-page-link.active{
 }
 
 .section-1__work-rule-item>ul>li>.image{
-  width: 50%;
+  width: 30%;
   padding: 20px;
   border-radius: 50%;
   background-color: #fff;
