@@ -1,5 +1,5 @@
     <div id="footer">
-      <div class="footer-box con">
+      <div class="footer-box">
       <nav class="footer__menu">
         <ul class="flex flex-jc-sa">
           <li><a href="#">개인정보처리방침</a></li>

@@ -482,77 +482,21 @@ Section2SliderBox2__init();
 Section2SliderBox3__init();
 Section2SliderBox4__init();
 
-// function MySliderBox2__init() {
-//   var swiper = new Swiper('.my-slider-box-2 .swiper-container', {
-//     simulateTouch: false,
-//     effect: 'fade',
-//   navigation: {
-//     nextEl: '.my-slider-box-2>.swiper-nav-2> .swiper-next',
-//     prevEl: '.my-slider-box-2>.swiper-nav-2> .swiper-prev',
-//   },
-//     pagination: {
-//       el: ".section-2__list-items>ul>li>.img>.swiper-pagination-2",
-//       clickable:true,
-//       renderBullet: function (index, className) {
-//         const $currentSlide = $('.my-slider-box-2 .swiper-slide[data-index="' + index + '"]');
-
-//         const bullet = '<span class="' + className + '"><span class="txt">' + $currentSlide.attr('data-title') + '</span></span>';
-//         return bullet;
-//       },
-//     },
-//     slidesPerView:1,
-//     spaceBetween:0,
-//     loop: true,
-//   });
-// }
 
 
+ // 섹션3 메인아티클 영역안에서 스크롤 따라오기
 
 
+const containerBoxBorderTopWidth__2 = parseInt($('.section-3__articles-box').css('border-top-width'));
+const containerBoxBorderBottomWidth__2 = parseInt($('.section-3__articles-box').css('border-bottom-width'));
 
-
-    // 섹션3 메인아티클 영역안에서 스크롤 따라오기
-
-    
-    const containerBoxBorderTopWidth__2 = parseInt($('.section-3__articles-box').css('border-top-width'));
-    const containerBoxBorderBottomWidth__2 = parseInt($('.section-3__articles-box').css('border-bottom-width'));
-    
+ScrollTrigger.matchMedia({
+  "(min-width: 771px)": function() {
     ScrollTrigger.create({
       trigger:'.section-3__articles-box',
       pin:'.section-3__main-article-box',
       start: containerBoxBorderTopWidth__2 + "px 0",
       end: () => "bottom " + ($('.section-3__main-article-box').outerHeight() + containerBoxBorderBottomWidth__2) + "px",
     })
-
-
-    // "(min-width: 770px)": function() {
-
-    //   let tl = ScrollTrigger.create({
-    //     trigger:'.section-3__articles-box',
-    //     pin:'.section-3__main-article-box',
-    //     start: containerBoxBorderTopWidth__2 + "px 0",
-    //     end: () => "bottom " + ($('.section-3__main-article-box').outerHeight() + containerBoxBorderBottomWidth__2) + "px",
-    //   })
-    // }, 
-    
-
-    // $(window).resize(function(){
-    //   if($(window).width()<770){
-    //   }
-    // });
-
-
-
-
-  // slider-box > .swiper-container').each(function(index, node) {
-  //   const $sliderBox = $(node).parent();
-  //   const swiper = new Swiper(node, {
-  //     slidesPerView:3.5,
-  //     spaceBetween:0,
-  //     loop: true,
-  //     navigation: {
-  //       nextEl: $sliderBox.find('.section-3__ip-btn-right').get(0),
-  //       prevEl: $sliderBox.find('.section-3__ip-btn-left').get(0),
-  //     },
-  //   });
-  // });
+  }
+});
