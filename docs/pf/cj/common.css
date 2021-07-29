@@ -150,6 +150,23 @@ body{
     .section-2__btn>a{
       font-size: 15px !important;
     }
+
+    .section-3__title>span{
+      font-size: 30px !important;
+    }
+
+    .section-3__main-article-box .thumb>.box{
+      display: none !important;
+    }
+
+    .section-3__main-article-box .txt{
+      margin-top: 20px !important;
+    }
+
+    .section-3__main-article-box .title{
+      font-size: 20px;
+      letter-spacing: -1px;
+    }
   }
 
   @media(max-width:1300px){
@@ -225,7 +242,7 @@ body{
       display: none;
     }
 
-    .pin-spacer{
+    .one-page-link{
       display: none !important;
     }
 
@@ -1104,7 +1121,6 @@ a.one-page-link{
   color: #fff;
   mix-blend-mode:difference;
   transform: translatey(-50%);
-  /* background-color: red; */
 }
 
 a.one-page-link:nth-child(1){
@@ -1548,8 +1564,8 @@ a.one-page-link.active{
 
 .section-3{
   margin-left: 20%;
-  margin-top: 150px;
-  padding-top: 75px;
+  margin-top: 140px;
+  padding-top: 85px;
 }
 
 .section-3__title>span{
@@ -1559,14 +1575,18 @@ a.one-page-link.active{
   color: #333;
 }
 
-.section-3__articles-box{
+/* .section-3__articles-box{
   padding-top: 100px;
-  margin-top: -30px;
-}
+} */
+
+/* .section-3__articles-box>.pin-spacer{
+} */
+
 
 .section-3__main-article-box{
-  height: 100vh;
   width: 35%;
+  margin-bottom: 50px;
+  margin-top: 70px;
 }
 
 .section-3__main-article-box .thumb{
@@ -1588,6 +1608,7 @@ a.one-page-link.active{
   color: #000;
   margin-top: -60px;
   text-align: left;
+  display: inline-block;
 }
 
 .section-3__main-article-box .category{
@@ -1605,15 +1626,17 @@ a.one-page-link.active{
 
 .section-3__main-article-box .des{
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14.5px;
 }
 
 .section-3__main-article-box .arrow{
   position: relative;
+  display: inline-block;
   width: 100px;
   height: 20px;
-  margin-right: 5%;
+  margin-right: 2px;
   margin-left: auto;
+  margin-bottom: 2px;
   transition: transform .5s .3s;
 }
 
@@ -1663,7 +1686,12 @@ a.one-page-link.active{
 
 .section-3__article-box{
   height: 100%;
-  width: 60%;
+  width: 64%;
+  margin-top: 70px;
+}
+
+.section-3__article-box>ul{
+  height: 100%;
 }
 
 .section-3__article-box>ul>li{

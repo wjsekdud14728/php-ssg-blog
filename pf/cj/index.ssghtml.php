@@ -319,8 +319,8 @@ require_once "head.php";
     <div class="section-3__title">
       <span>Public Relations Center</span>
     </div>
-    <div class="section-3__articles-box flex">
-      <div class="section-3__main-article-box">
+    <div class="section-3__articles-box row">
+      <div class="section-3__main-article-box cell">
         <a href="#">
           <div class="thumb img-box">
             <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/cj/cj.jpg" alt="">
@@ -339,7 +339,7 @@ require_once "head.php";
         </a>
 
       </div>
-      <nav class="section-3__article-box">
+      <nav class="section-3__article-box cell">
         <ul class="flex flex-wrap">
           <li>
             <a href="#">

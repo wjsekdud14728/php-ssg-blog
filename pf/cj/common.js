@@ -513,8 +513,8 @@ Section2SliderBox4__init();
 
     // 섹션3 메인아티클 영역안에서 스크롤 따라오기
 
-    const containerBoxBorderTopWidth__2 = parseInt($('.section-3').css('border-top-width'));
-    const containerBoxBorderBottomWidth__2 = parseInt($('.section-3').css('border-bottom-width'));
+    const containerBoxBorderTopWidth__2 = parseInt($('.section-3__articles-box').css('border-top-width'));
+    const containerBoxBorderBottomWidth__2 = parseInt($('.section-3__articles-box').css('border-bottom-width'));
     
     ScrollTrigger.create({
       trigger:'.section-3__articles-box',
