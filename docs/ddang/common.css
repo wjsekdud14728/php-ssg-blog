@@ -68,6 +68,10 @@ a {
     flex: 1 0 0;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .block {
     display: block;
 }
@@ -299,8 +303,7 @@ body {
 
 .about__right>div>.date{
     color: #91751c;
-    marg
-    in-right: 5px;
+    margin-right: 5px;
 }
 
 .about__right>div:not(:first-child){
@@ -358,11 +361,120 @@ body {
     width: 60%;
 }
 
-.ui-ux{
-    background-color: white;
+.ui-ux>.flex{
+    min-width: 1200px;
+    margin-left: 15%;
     height: 100%;
-    width: 80%;
-    left: auto;
-    right: 0;
+    justify-content: center;
+    align-items: center;
 }
+
+.ui-ux>.flex>li{
+    position: relative;
+    width: 35%;
+    height: 40%;
+}
+
+.ui-ux>.flex>li>a{
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: 60%;
+}
+
+.ui-ux>.flex>li>a{
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.ui-ux>.flex>li:nth-child(1)>a, .ui-ux>.flex>li:nth-child(2)>a{
+    bottom: 0;
+}
+
+.ui-ux>.flex>li>a>div{
+    position: absolute;
+}
+
+.ui-ux>.flex>li>a>.ui-ux__item-img-1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 10;
+    transition: all 1s;
+}
+
+.ui-ux>.flex>.ui-ux__item-1>a>.ui-ux__item-img-1{
+    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ui-ux__item-1.png');
+    background-position: center bottom;
+}
+
+.ui-ux__item-2>a>.ui-ux__item-img-1{
+    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ui-ux__item-2.png');
+}
+
+.ui-ux__item-3>a>.ui-ux__item-img-1{
+    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ui-ux__item-2.png');
+}
+
+.ui-ux__item-4>a>.ui-ux__item-img-1{
+    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ui-ux__item-2.png');
+}
+
+
+.ui-ux>.flex>li>a>.ui-ux__item-img-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: width 1s, height 1s, opacity .7s .3s;
+    animation-name: rollin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+    animation-delay: 0s;
+}
+
+.ui-ux__item-1>a>.ui-ux__item-img-2{
+    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ux-ui__item-sub-1.png');
+}
+
+.ui-ux__item-2>a>.ui-ux__item-img-2{
+    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ux-ui__item-sub-2.png');
+}
+
+  @keyframes rollin {
+    0% {
+      transform: translate(-50%,-50%) rotate(0deg);
+    }
+    
+    0% {
+      transform: translate(-50%,-50%) rotate(360deg);
+    }
+  }
+  
+  .ui-ux>.flex>li>a:hover>.ui-ux__item-img-1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+  }
+  
+  .ui-ux>.flex>li>a:hover>.ui-ux__item-img-2{
+    opacity: .3;
+    width: 200px;
+    height: 200px;
+  }
 /* 커스텀 끝 */

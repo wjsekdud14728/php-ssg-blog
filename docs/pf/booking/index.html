@@ -1,178 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BOOKING-process</title>
-    <!-- gsap 라이브러리 불러오기 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BOOKING-process</title>
+  <!-- gsap 라이브러리 불러오기 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" defer></script>
 
-    <script src="index.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
 
-    <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+
+  <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <div class="section-1">
-        <section class="section-1-background">
-          
-            <ul class="contents img-box">
-              <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_1_top_txt.png" alt=""></li>
-              <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_1_logo.png" alt=""></li>
-              <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_1_line.png" alt=""></li>
-              <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_1_content.png" alt=""></li>
-              <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_1_mockup.png" alt=""></li>
-              <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_1_right_txt.png" alt=""></li>
-              <li><video src='https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/video/booking_main.mp4' autoplay loop muted></video></li>
-            </ul>
-        
-        </section>
-          </div>
-        
-        <section class="section-2">
-          <ul>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_top_txt.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_overview.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_overview_content.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_overview_circle.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_overview_line.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_big_circle.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_logo.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_app_design.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_app_design_content.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_app_design_circle.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_app-design_line.png" alt=""></li>
-          </ul>
-        </section>
-        
-        <section class="section-3">
-          <ul>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_logo.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_logo_line.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_img_1.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_plus.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_img_2.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_equal.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_img_3.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_img_1_content.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_img_2_content.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_img_3_content.png" alt=""></li>
-          </ul>
-        </section>
-        
-        <section class="section-4">
-          <ul>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_design_asset.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_design_asset_line.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_color.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_color_content.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_color_img.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_color_img_content.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_typo.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_typo_content.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_typo_content_1.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_typo_content_2.png" alt=""></li>
-          </ul>
-        </section>
-        
-        <section class="section-5">
-          <ul>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_interface.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_gui_design.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_gui_design_line.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_big_circle.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_splash_mock_up.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_login_mock_up.png" alt=""></li>
-            <li class="three"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_title.png" alt=""></li>
-            <li class="three"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_content.png" alt=""></li>
-            <li class="three"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_content_2.png" alt=""></li>
-          </ul>
-        </section>
-        
-        <section class="section-6">
-          <ul>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_title.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_content.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_bg.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_home_mockup.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_details_1.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_details_2.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_details_3.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_details_4.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_details_5.png" alt=""></li>
-            <li class="three"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_home_mockup_2.png" alt=""></li>
-            <li class="three"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_details_6.png" alt=""></li>
-          </ul>
-        </section>
-        
-        <section class="section-7">
-          <ul>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_title.png" alt=""></li>
-            <li class="three"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_two_circle.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_mockup.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_store_content.png" alt=""></li>
-            <li><video src='https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/video/booking_store.mp4' autoplay loop muted></video></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_circle.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_mockup.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_library_content.png" alt=""></li>
-            <li><video src='https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/video/booking_library.mp4' autoplay loop muted></video></li>
-          </ul>
-        </section>
-        
-        
-        <section class="section-8-background">
-            <ul>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_title.png" alt=""></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_title_line.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_content.png" alt=""></li>
-          </ul>
-          <div class="part">
-            <div class="section">
-              <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_1.png" alt=""></div>
-              <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_2.png" alt=""></div>
-              <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_3.png" alt=""></div>
-              <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_4.png" alt=""></div>
-              <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_5.png" alt=""></div>
-              <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_6.png" alt=""></div>
-              <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_1.png" alt=""></div>
-              <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_2.png" alt=""></div>
-              <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_3.png" alt=""></div>
-              <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_4.png" alt=""></div>
-              <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_5.png" alt=""></div>
-            </div>
-          </div>
-        </section>
-        
-        <section class="section-9">
-          <ul>
-            <li></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_9_title.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_9_content.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_9_mockup.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_9_detail_mockup.png" alt=""></li>
-          </ul>
-        </section>
-        
-        <section class="section-10">
-          <ul>
-            <li></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_title.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_content.png" alt=""></li>
-            <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_mockup.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_details_1.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_details_2.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_details_3.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_details_4.png" alt=""></li>
-            <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_details_5.png" alt=""></li>
-          </ul>
-        </section>
-        
-        <section class="section-11">
-        </section>
-        
-        <section class="section-12">
-          <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_12.png" alt="">
-        </section>
+  <div class="section-1">
+    <section class="section-1-background">
+
+      <ul class="contents img-box">
+        <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_1_top_txt.png" alt=""></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_1_logo.png" alt=""></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_1_line.png" alt=""></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_1_content.png" alt=""></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_1_mockup.png" alt=""></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_1_right_txt.png" alt=""></li>
+        <li><video src='https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/video/booking_main.mp4' autoplay loop
+            muted></video></li>
+      </ul>
+
+    </section>
+  </div>
+
+  <section class="section-2">
+    <ul>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_top_txt.png" alt=""></li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_overview.png"
+          alt=""></li>
+      <li class="one"><img
+          src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_overview_content.png" alt=""></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_overview_circle.png" alt="">
+      </li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_overview_line.png" alt=""></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_big_circle.png" alt=""></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_logo.png" alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_app_design.png"
+          alt=""></li>
+      <li class="two"><img
+          src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_app_design_content.png" alt=""></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_app_design_circle.png" alt="">
+      </li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_2_app-design_line.png" alt="">
+      </li>
+    </ul>
+  </section>
+
+  <section class="section-3">
+    <ul>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_logo.png" alt=""></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_logo_line.png" alt=""></li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_img_1.png" alt="">
+      </li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_plus.png" alt="">
+      </li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_img_2.png" alt="">
+      </li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_equal.png" alt="">
+      </li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_img_3.png" alt="">
+      </li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_img_1_content.png"
+          alt=""></li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_img_2_content.png"
+          alt=""></li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_3_img_3_content.png"
+          alt=""></li>
+    </ul>
+  </section>
+
+  <section class="section-4">
+    <ul>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_design_asset.png" alt=""></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_design_asset_line.png" alt="">
+      </li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_color.png" alt="">
+      </li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_color_content.png"
+          alt=""></li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_color_img.png"
+          alt=""></li>
+      <li class="one"><img
+          src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_color_img_content.png" alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_typo.png" alt="">
+      </li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_typo_content.png"
+          alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_typo_content_1.png"
+          alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_4_typo_content_2.png"
+          alt=""></li>
+    </ul>
+  </section>
+
+  <section class="section-5">
+    <ul>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_interface.png" alt=""></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_gui_design.png" alt=""></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_gui_design_line.png" alt="">
+      </li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_big_circle.png" alt=""></li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_splash_mock_up.png"
+          alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_login_mock_up.png"
+          alt=""></li>
+      <li class="three"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_title.png" alt="">
+      </li>
+      <li class="three"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_content.png"
+          alt=""></li>
+      <li class="three"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_5_content_2.png"
+          alt=""></li>
+    </ul>
+  </section>
+
+  <section class="section-6">
+    <ul>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_title.png" alt="">
+      </li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_content.png" alt="">
+      </li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_bg.png" alt=""></li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_home_mockup.png"
+          alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_details_1.png"
+          alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_details_2.png"
+          alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_details_3.png"
+          alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_details_4.png"
+          alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_details_5.png"
+          alt=""></li>
+      <li class="three"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_home_mockup_2.png"
+          alt=""></li>
+      <li class="three"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_6_details_6.png"
+          alt=""></li>
+    </ul>
+  </section>
+
+  <section class="section-7">
+    <ul>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_title.png" alt="">
+      </li>
+      <li class="three"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_two_circle.png"
+          alt=""></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_mockup.png" alt=""></li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_store_content.png"
+          alt=""></li>
+      <li><video src='https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/video/booking_store.mp4' autoplay loop
+          muted></video></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_circle.png" alt=""></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_mockup.png" alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_7_library_content.png"
+          alt=""></li>
+      <li><video src='https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/video/booking_library.mp4' autoplay loop
+          muted></video></li>
+    </ul>
+  </section>
+
+
+  <section class="section-8-background">
+    <ul>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_title.png" alt="">
+      </li>
+      <li><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_title_line.png" alt=""></li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_content.png" alt="">
+      </li>
+    </ul>
+    <div class="part">
+      <div class="section">
+        <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_1.png" alt=""></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_2.png" alt=""></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_3.png" alt=""></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_4.png" alt=""></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_5.png" alt=""></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_6.png" alt=""></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_1.png" alt=""></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_2.png" alt=""></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_3.png" alt=""></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_4.png" alt=""></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_8_mockup_5.png" alt=""></div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section-9">
+    <ul>
+      <li></li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_9_title.png" alt="">
+      </li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_9_content.png" alt="">
+      </li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_9_mockup.png" alt="">
+      </li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_9_detail_mockup.png"
+          alt=""></li>
+    </ul>
+  </section>
+
+  <section class="section-10">
+    <ul>
+      <li></li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_title.png" alt="">
+      </li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_content.png"
+          alt=""></li>
+      <li class="one"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_mockup.png" alt="">
+      </li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_details_1.png"
+          alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_details_2.png"
+          alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_details_3.png"
+          alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_details_4.png"
+          alt=""></li>
+      <li class="two"><img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_10_details_5.png"
+          alt=""></li>
+    </ul>
+  </section>
+
+  <section class="section-11">
+  </section>
+
+  <section class="section-12">
+    <img src="https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/o/image/section_12.png" alt="">
+  </section>
 </body>
+
 </html>

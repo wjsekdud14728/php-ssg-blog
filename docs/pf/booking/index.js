@@ -164,7 +164,6 @@ gsap.from('.section-7 li.one', {
       trigger:".section-8-background",
       start:"center 90%",
     },
-    y:50,
     opacity:0,
     duration: .8,
     stagger: 0.5
