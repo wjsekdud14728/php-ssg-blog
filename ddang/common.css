@@ -222,7 +222,7 @@ body {
 .home__img-2,.home__img-3 {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     width: 40%;
 }
 
@@ -233,7 +233,7 @@ body {
 .home__img-4 {
     top: 63%;
     left: 50%;
-    transform: translatex(-50%);
+    transform: translate(-50%,-50%);
     opacity: 0;
 }
 
@@ -377,12 +377,12 @@ body {
 
 .ui-ux>.flex>li>a{
     position: absolute;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 80%;
     height: 60%;
-}
-
-.ui-ux>.flex>li>a{
     left: 50%;
     transform: translatex(-50%);
 }
@@ -391,11 +391,8 @@ body {
     bottom: 0;
 }
 
-.ui-ux>.flex>li>a>div{
-    position: absolute;
-}
-
 .ui-ux>.flex>li>a>.ui-ux__item-img-1{
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
