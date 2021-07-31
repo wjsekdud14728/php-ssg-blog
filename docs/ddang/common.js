@@ -146,19 +146,69 @@ function Popup__show(no) {
 
 
 
+//   $('.move-box>article:not(:nth-child(4))').OnLoad(){
+//     if( $(".parsonal").hasClass("on") ){
+//         $(".parsonal").parent().siblings('.popup').removeClass('active')
+//     }
+//   };
+
+function chkCls(){
+ 
+    if( $(".personal").hasClass("on")==false ){
+       alert("hi");
+    }
+    else
+        alert("A 클래스 존재안함");
+}
 
 
 
-  $('html.popup-actived body').on('scroll touchmove mousewheel', function(e){
+    // function popupAutoClose() {
+    //     if( $(".personal").hasClass("on")==false ){
+    //         $(".popup").removeClass("active");
+    //     }
+    //   };
 
-    e.preventDefault();
+//   $('.move-box>article:not(:nth-child(4))').hasClass('on'),{
+//       alert('hi');
+//   };
+
+//   function popupAutoClose(){
+
+//   }
+
+//   $('.section-2__title-box>.list>ul>li').click(function (){
+//     var index = $(this).index();
     
-    e.stopPropagation(); 
+//     $('.section-2__title-box>.list>ul>li.active').removeClass('active');
+//     $('.section-2__title-box>.list>ul>li').eq(index).addClass('active');
     
-    return false;
-    
-    });
+//     var $section = $(this.closest('.section-2'));
+  
+//     $('.section-2__list-items>ul>li.active').removeClass('active');
+//     $('.section-2__list-items>ul>li').eq(index).addClass('active');
+//   });
 
+
+
+
+//   $('html.popup-actived body').on('scroll touchmove mousewheel', function(e){
+
+//     e.preventDefault();
+    
+//     e.stopPropagation(); 
+    
+//     return false;
+    
+//     });
+
+
+//     $('html, body').css({'overflow': 'hidden', 'height': '100%'});
+// $('html.popup-actived body').on('scroll touchmove mousewheel', function(event) {
+//   event.preventDefault();
+//   event.stopPropagation();
+//   return false;
+// });
 
     
     
