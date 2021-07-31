@@ -96,6 +96,73 @@ tl.to(".home__img-2", { duration: 1, opacity:0 })
   .to(".home__img-3", { duration: 2, opacity:1 }, "-=1") 
   .to(".home__img-3", { duration: 1, y:-100 })
   .to(".home__img-4", { duration: 1, opacity:1 });
+
+//   personal 팝업
+
+function Popup__show(no) {
+    $('.popup-' + no).addClass('active');
+    $('html').addClass('popup-actived');
+  }
+  
+  function Popup__close(no) {
+    $('.popup-' + no).removeClass('active');
+    
+    var isLastPopup = $('.popup.active').length == 0;
+    
+    if ( isLastPopup ) {
+      $('html').removeClass('popup-actived');
+    }
+  }
+  
+  function Popup__init(no) {
+    $('.btn-show-pop-' + no).click(function() {
+      Popup__show(no);
+    });
+  
+    $('.popup-' + no + ' .popup__btn-close, .popup-' + no).click(function() {
+      Popup__close(no);
+    });
+    
+    // 부모에게 이벤트 전파 금지
+    // 이유, 팝업의 내용부분을 클릭했을 때 꺼지지 않게하기 위해서
+    /*
+    // v1
+    $('.popup-' + no + ' .popup__main').click(function(e) {
+      e.stopPropagation();
+    });
+    */
+    
+    $('.popup-' + no + ' .popup__main').click(function() {
+      return false;
+    });
+  }
+  
+  Popup__init(1);
+  Popup__init(2);
+  Popup__init(3);
+  Popup__init(4);
+  Popup__init(5);
+  Popup__init(6);
+
+
+
+
+
+
+  $('html.popup-actived body').on('scroll touchmove mousewheel', function(e){
+
+    e.preventDefault();
+    
+    e.stopPropagation(); 
+    
+    return false;
+    
+    });
+
+
+    
+    
+    
     
 });
 
