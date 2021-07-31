@@ -106,33 +106,15 @@ body {
     overflow-x: hidden;
 }
 
-
-
-
-@media (max-width: 1000px) {
-    
-    #header>.top_bar,#header>.menu_bar{
-        display: none;
-    }
-    
-    #header>.mobile_menu_bar{
-        display: block;
-    }
-    
-    #header>.right_side_bar{
-        display: none;
-    }
-    
-    #visual{
-        margin-top: 80px;
-    }
-}
-
 @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
 
 /* header */
 
 /* top_bar */
+#header{
+    position: relative;
+}
+
 #header> .top_bar{
     height: 40px;
 }
@@ -243,9 +225,21 @@ body {
     display: none;
 }
 
-#header>.menu_bar>.gnb>ul>li:last-child>.sub{
+#header>.sub-wrap{
+    position: absolute;
+    display: block;
+    content: "";
+    top: 100%;
     background-color: #fff;
+    height: 170%;
+    width: 100%;
+    z-index: 60;
+    display: none;
 }
+
+/* #header>.menu_bar>.gnb>ul>li:last-child>.sub{
+    background-color: #fff;
+} */
 
 #header>.menu_bar>.gnb>ul>li>.sub>li{
     padding-top: 5px;
@@ -300,15 +294,7 @@ body {
     z-index:50;
 }
 
-#header>.sub-wrap{
-    position: absolute;
-    top: 100%;
-    background-color: #fff;
-    height: 170%;
-    width: 100%;
-    z-index: 60;
-    display: none;
-}
+
 
 /*모바일메뉴바*/
 
@@ -383,13 +369,13 @@ body {
 
 #header>.right_side_bar{
     position: fixed;
-    display: none;
     right: 0;
     width:300px;
     height: 100%;
     background-color: #fff;
     z-index: 3;
     border-left: solid black 3px;
+    display: none;
 }
 /*visual*/
 #visual{
@@ -884,7 +870,7 @@ body {
     position: relative;
     height: 600px;
     width: 100%;
-    background-image: url(/imgs/coffee_academy_background.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/hollys/academy__bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -930,7 +916,7 @@ body {
 #content>.coffee_academy_background>.coffee_academy>.coffee_academy_icon{
     width: 100%;
     margin-top: 80px;
-    background-image: url(/imgs/coffee_academy_block_line.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/hollys/academy__bg-line.png);
     background-position: center top;
     background-size: auto;
     background-repeat: no-repeat;
@@ -969,7 +955,7 @@ body {
 }
 
 #content>.coffee_academy_background>.coffee_academy>.coffee_academy_icon>ul>.icon_1>a{
-    background-image: url(/imgs/coffee_academy_icon_1.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/hollys/academy__ico-1.png);
     background-position: center top;
     background-size: auto;
     background-repeat: no-repeat;
@@ -979,7 +965,7 @@ body {
 
 
 #content>.coffee_academy_background>.coffee_academy>.coffee_academy_icon>ul>.icon_2>a{
-    background-image: url(/imgs/coffee_academy_icon_2.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/hollys/academy__ico-2.png);
     background-position: center top;
     background-size: auto;
     background-repeat: no-repeat;
@@ -988,7 +974,7 @@ body {
 }
 
 #content>.coffee_academy_background>.coffee_academy>.coffee_academy_icon>ul>.icon_3>a{
-    background-image: url(/imgs/coffee_academy_icon_3.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/hollys/academy__ico-3.png);
     background-position: center top;
     background-size: auto;
     background-repeat: no-repeat;
