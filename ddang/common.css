@@ -704,6 +704,10 @@ html.popup-actived > body {
     background-color: #000;
 }
 
+.popup-6 .popup__content>.bottom>.color>.color-1>div:first-child{
+    background-color: #020f59;
+}
+
 .popup__content>.bottom>.color>div>div:nth-child(2){
     margin-left: 10px;
 }
@@ -760,7 +764,7 @@ html.popup-actived > body {
 }
 
 .popup-6 .popup__body>.popup__img>.img:nth-child(1){
-    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ui-ux__item-1.png');
+    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/booking.png');
 }
 
 .popup__btn-close {
@@ -791,4 +795,13 @@ html.popup-actived > body {
 .popup__btn-close::after {
   transform:rotate(-45deg);
 }
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 /* 커스텀 끝 */
