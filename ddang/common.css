@@ -528,7 +528,34 @@ body {
       background-color: red;
       margin: 2vw;
       cursor: pointer;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
   }
+
+  .personal__item-box>li:nth-child(1){
+      background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/personal__img-2.jpg');
+  }
+
+  .personal__item-box>li:nth-child(2){
+    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/personal__img-1.jpg');
+}
+
+.personal__item-box>li:nth-child(3){
+    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/personal__img-3.jpg');
+}
+
+.personal__item-box>li:nth-child(4){
+  background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/personal__img-4.jpg');
+}
+
+.personal__item-box>li:nth-child(5){
+    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/personal__img-5.jpg');
+}
+
+.personal__item-box>li:nth-child(6){
+  background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/personal__img-1.jpg');
+}
 
   .personal__item-box>li:nth-child(1),.personal__item-box>li:nth-child(2),.personal__item-box>li:nth-child(3){
       align-self: flex-end;
@@ -569,7 +596,8 @@ html.popup-actived > body {
 
 .popup__main {
   background-color:white;
-  width: 1200px;
+  min-width: 1200px;
+  max-width: 1400px;
   height: 90vh;
   border-radius: 30px;
   box-sizing:border-box;
@@ -610,7 +638,7 @@ html.popup-actived > body {
 }
 
 .popup__content>.top>.des{
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 .popup__content>.bottom>.color{
@@ -632,23 +660,35 @@ html.popup-actived > body {
     border-radius: 50%;
 }
 
-.popup__content>.bottom>.color>.color-1>div:first-child{
-    background-color: pink;
+.popup-1 .popup__content>.bottom>.color>.color-1>div:first-child{
+    background-color: #f1f1ef;
 }
 
-.popup__content>.bottom>.color>.color-2>div:first-child{
-    background-color: orange;
+.popup-1 .popup__content>.bottom>.color>.color-2>div:first-child{
+    background-color: #5e6c8b;
 }
 
-.popup__content>.bottom>.color>.color-3>div:first-child{
-    background-color: red;
+.popup-2 .popup__content>.bottom>.color>.color-1>div:first-child{
+    background-color: #d0dbf0;
 }
 
-.popup__content>.bottom>.color>div>div:last-child{
+.popup-2 .popup__content>.bottom>.color>.color-2>div:first-child{
+    background-color: #224f67;
+}
+
+.popup-2 .popup__content>.bottom>.color>.color-3>div:first-child{
+    background-color: #f090a0;
+}
+
+.popup__content>.bottom>.color>div>div:nth-child(2){
     margin-left: 10px;
 }
 
-.popup__content>.bottom>.color>div>div:last-child>span{
+.popup__content>.bottom>.color>div>div:last-child{
+    margin-left: 15px;
+}
+
+.popup__content>.bottom>.color>div>div>span{
     display: block;
     font-size: 12px;
 }
@@ -657,10 +697,46 @@ html.popup-actived > body {
     margin: 2px;
 }
 
-.popup__body>div:last-child{
+.popup__body>.popup__img{
+    display: flex;
+    flex-direction: column;
     background-color: blue;
     margin-right: 0px;
     margin-left: 10px;
+}
+
+.popup__body>.popup__img>.img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.popup__body>.popup__img>div{
+    height: 100%;
+}
+
+.popup-1 .popup__body>.popup__img>.img{
+    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/healtime.png');
+}
+
+.popup-2 .popup__body>.popup__img>.img{
+    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/on-and-off.png');
+}
+
+.popup-3 .popup__body>.popup__img>.img{
+    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/healtime.png');
+}
+
+.popup-4 .popup__body>.popup__img>.img{
+    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/healtime.png');
+}
+
+.popup-5 .popup__body>.popup__img>.img{
+    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/healtime.png');
+}
+
+.popup-6 .popup__body>.popup__img>.img:nth-child(1){
+    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/healtime.png');
 }
 
 .popup__btn-close {
