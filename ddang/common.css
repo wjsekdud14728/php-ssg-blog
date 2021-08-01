@@ -243,28 +243,36 @@ body {
 }
 
 .about__left, .about__right{
-    width: 50%;
+    width: 40%;
     box-sizing: border-box;
 }
 
 .about__profile-img{
     width: 45%;
     margin: 0 auto;
-    opacity: 80%;
 }
 
 .about__name{
-    font-size: 30px;
-    margin-top: 30px;
+    width: 90%;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
-.about__name>p:last-child{
-    font-size: 20px;
+.about__name>span{
+    display: block;
 }
 
-.about__name>p, .about__information>p{
-    margin-top: 3px;
+.about__name>span>strong{
+    color: #91751c;
+}
+
+.about__name>span:last-child{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 15px;
+    margin-top: 15px;
 }
 
 .about__information{
@@ -415,7 +423,7 @@ body {
 }
 
 .ui-ux__item-3>a>.ui-ux__item-img-1{
-    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ui-ux__item-2.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ui-ux__item-3.png');
 }
 
 .ui-ux__item-4>a>.ui-ux__item-img-1{
@@ -452,11 +460,11 @@ body {
 }
 
 .ui-ux__item-3>a>.ui-ux__item-img-2{
-    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ux-ui__item-sub-2.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ux-ui__item-sub-3.png');
 }
 
 .ui-ux__item-4>a>.ui-ux__item-img-2{
-    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ux-ui__item-sub-3.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ux-ui__item-sub-4.png');
 }
 
   @keyframes rollin {
