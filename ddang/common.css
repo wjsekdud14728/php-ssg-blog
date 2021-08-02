@@ -803,5 +803,15 @@ html.popup-actived > body {
     flex-direction: column;
 }
 
+.contact__des {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.contact__des>span{
+    display: block;
+}
+
 
 /* 커스텀 끝 */
