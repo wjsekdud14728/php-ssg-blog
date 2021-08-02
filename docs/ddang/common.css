@@ -554,7 +554,7 @@ body {
 }
 
 .personal__item-box>li:nth-child(6){
-  background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/personal__img-1.jpg');
+  background-image: url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ui-ux__item-1.png');
 }
 
   .personal__item-box>li:nth-child(1),.personal__item-box>li:nth-child(2),.personal__item-box>li:nth-child(3){
@@ -680,6 +680,34 @@ html.popup-actived > body {
     background-color: #f090a0;
 }
 
+.popup-3 .popup__content>.bottom>.color>.color-1>div:first-child{
+    background-color: #f2d785;
+}
+
+.popup-3 .popup__content>.bottom>.color>.color-2>div:first-child{
+    background-color: #592411;
+}
+
+.popup-3 .popup__content>.bottom>.color>.color-3>div:first-child{
+    background-color: #f26430;
+}
+
+.popup-4 .popup__content>.bottom>.color>.color-1>div:first-child{
+    background-color: #e8b770;
+}
+
+.popup-4 .popup__content>.bottom>.color>.color-2>div:first-child{
+    background-color: #512618;
+}
+
+.popup-5 .popup__content>.bottom>.color>.color-1>div:first-child{
+    background-color: #000;
+}
+
+.popup-6 .popup__content>.bottom>.color>.color-1>div:first-child{
+    background-color: #020f59;
+}
+
 .popup__content>.bottom>.color>div>div:nth-child(2){
     margin-left: 10px;
 }
@@ -724,19 +752,19 @@ html.popup-actived > body {
 }
 
 .popup-3 .popup__body>.popup__img>.img{
-    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/healtime.png');
+    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/africa festival.png');
 }
 
 .popup-4 .popup__body>.popup__img>.img{
-    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/healtime.png');
+    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/choco.png');
 }
 
 .popup-5 .popup__body>.popup__img>.img{
-    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/healtime.png');
+    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/ilsang.jpg');
 }
 
 .popup-6 .popup__body>.popup__img>.img:nth-child(1){
-    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/healtime.png');
+    background-image:url('https://cdn.jsdelivr.net/gh/wjsekdud14728/web-res/ddang/booking.png');
 }
 
 .popup__btn-close {
@@ -767,4 +795,13 @@ html.popup-actived > body {
 .popup__btn-close::after {
   transform:rotate(-45deg);
 }
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 /* 커스텀 끝 */
