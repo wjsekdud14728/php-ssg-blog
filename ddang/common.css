@@ -123,7 +123,7 @@ html {
 
 body {
     background-color: #fbf8f1;
-    height: 5000vh;
+    height: 30000px;
     font-family: Orbitron;
     letter-spacing: 2px;
 }
@@ -243,35 +243,45 @@ body {
 }
 
 .about__left, .about__right{
-    width: 40%;
     box-sizing: border-box;
 }
 
+.about__left{
+    width: 21%;
+    margin-right: 18%;
+    /* background-color: red; */
+}
+
+.about__right{
+    width: 40%;
+}
+
 .about__profile-img{
-    width: 45%;
+    width: 90%;
     margin: 0 auto;
 }
 
-.about__name{
+.about__name > span:first-child{
     width: 90%;
-    font-size: 20px;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    font-size: 21px;
+    margin-top: 30px;
+    letter-spacing:1px;
+    font-family: 'S-CoreDream-5Medium';
+}
+
+.about__name > span:nth-child(2){
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
 .about__name>span{
     display: block;
+    letter-spacing:0px;
 }
 
-.about__name>span>strong{
-    color: #91751c;
-}
-
-.about__name>span:last-child{
-    font-family: 'S-CoreDream-3Light';
-    font-size: 15px;
+.about__name>span{
+    font-family: 'S-CoreDream-4Light';
+    font-size: 18px;
     margin-top: 15px;
 }
 
@@ -294,7 +304,7 @@ body {
     margin-left: 0px;
 }
 
-.about__right>div>.title{
+.about .title{
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 17px;
@@ -520,9 +530,28 @@ body {
     height: 100%;
     justify-content: center;
     align-items: start;
+    
+}
+
+.personal__item-box>li::after{
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.personal__item-box>li:hover::after{
+    opacity:.5;
 }
 
   .personal__item-box>li{
+      position: relative;
       width: 20vw;
       height: 20vw;
       background-color: red;
@@ -561,6 +590,35 @@ body {
       align-self: flex-end;
   }
 
+  .personal__item-box>li:hover>.txt{
+      opacity: 1;
+  }
+
+  .personal__item-box>li>.txt{
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      transform: translatey(-50%);
+      text-align: center;
+      opacity: 0;
+      transition: opacity .3s;
+      z-index: 10;
+  }
+  
+  .personal__item-box>li>.txt>p{
+      display: block;
+      color: #fff;
+  }
+
+  .personal__item-box>li>.txt>p:first-child{
+      font-size: 30px;
+      margin-bottom: 10px;
+  }
+
+  .personal__item-box>li>.txt>p:last-child{
+      font-size: 15px;
+  }
+
 
 
 
@@ -570,6 +628,12 @@ body {
 html.popup-actived > body {
   overflow-y:hidden;
   touch-action: none;
+} */
+/* html.popup-actived, html.popup-actived>body{
+    width: 100vw;
+    height: 100vh;
+    transform: translatey(7500px) translateZ(-15000px);
+    touch-action: none;
 } */
 
 .popup {
@@ -803,15 +867,25 @@ html.popup-actived > body {
     flex-direction: column;
 }
 
+.contact > .img-box{
+    width: 50%;
+}
+
 .contact__des {
-    text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.contact__des>span{
+.contact__des>.right{
+    display: flex;
+}
+
+.contact__des>.right>.strong>strong{
     display: block;
+    margin-right: 20px;
 }
-
 
 /* 커스텀 끝 */
