@@ -94,7 +94,7 @@ $(document).ready(function(){
     const tl = gsap.timeline();
 tl.to(".home__img-2", { duration: 1, opacity:0 })
   .to(".home__img-3", { duration: 2, opacity:1 }, "-=1") 
-  .to(".home__img-3", { duration: 1, y:-100 })
+  .to(".home__img-3", { duration: 1, y:-250 })
   .to(".home__img-4", { duration: 1, opacity:1 });
 
 //   personal 팝업
